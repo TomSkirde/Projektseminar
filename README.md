@@ -1,2 +1,2 @@
 # Projektseminar
-Entwicklung einer Workflow Engine für PASS
+Entwicklung einer Workflow Engine für PASS.
