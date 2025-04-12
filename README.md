@@ -1,4 +1,4 @@
 # Projektseminar
 Entwicklung einer Workflow Engine für PASS.
-x
+commit von vs
 Bin drin
