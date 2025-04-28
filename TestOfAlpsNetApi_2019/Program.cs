@@ -78,6 +78,19 @@ namespace ConsoleApp1
             foreach ( var subject in subjects){
                 var subj_name = subject.getModelComponentLabelsAsStrings()[0];
                 Console.WriteLine($"Subject Name: {subj_name} " );
+                
+                // get incoming messages
+                foreach( var inmessage in subject.getIncomingMessageExchanges().Values)
+                {
+                    var incomingName = inmessage.getModelComponentLabelsAsStrings().FirstOrDefault() ?? inmessage.getModelComponentID();
+                    Console.WriteLine($"Incoming Message: {incomingName}");
+
+                }
+                foreach(var outmessage in subject.getOutgoingMessageExchanges().Values)
+                {
+                    var outName = outmessage.getModelComponentLabelsAsStrings().FirstOrDefault() ?? outmessage.getModelComponentID();
+                    Console.WriteLine($"Outgoing Message: {outName}");
+                }
                 foreach (var element in processModelElements.Values)
             {
                     if(element is ISubjectBehavior subjectBehavior)
