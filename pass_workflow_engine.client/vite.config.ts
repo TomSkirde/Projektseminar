@@ -21,7 +21,7 @@ const keyFilePath = path.join(baseFolder, `${certificateName}.key`);
 
 /* -----------------------------------------------------------
    2) Zertifikat anlegen, falls nicht vorhanden
-   (.NET 8: --format Pem erzeugt .pem + .key ohne Passwort)
+   (.NET 8: --format Pem erzeugt .pem + .key ohne Passwort)
 ----------------------------------------------------------- */
 
 if (!fs.existsSync(baseFolder)) {
@@ -29,28 +29,26 @@ if (!fs.existsSync(baseFolder)) {
 }
 
 if (!fs.existsSync(certFilePath) || !fs.existsSync(keyFilePath)) {
-    const result = child_process.spawnSync(
-        'dotnet',
-        [
-            'dev-certs',
-            'https',
-            '--export-path',
-            certFilePath,
-            '--format',
-            'Pem',
-            '--no-password'
-        ],
-        { stdio: 'inherit' }
-    );
-
-    if (result.status !== 0) {
-        throw new Error('Could not create development certificate.');
+    if (0 !== child_process.spawnSync('dotnet', [
+        'dev-certs',
+        'https',
+        '--export-path',
+        certFilePath,
+        '--format',
+        'Pem',
+        '--no-password',
+    ], { stdio: 'inherit', }).status) {
+        throw new Error("Could not create certificate.");
     }
 }
 
 /* -----------------------------------------------------------
    3) Vite‑Konfiguration
 ----------------------------------------------------------- */
+
+const target = env.ASPNETCORE_HTTPS_PORT ? `https://localhost:${env.ASPNETCORE_HTTPS_PORT}` :
+    env.ASPNETCORE_URLS ? env.ASPNETCORE_URLS.split(';')[0] : 'https://localhost:7291';
+
 
 export default defineConfig({
     plugins: [react()],
@@ -60,17 +58,7 @@ export default defineConfig({
             '@': fileURLToPath(new URL('./src', import.meta.url))
         }
     },
-
     server: {
-        /* VS‑Standard‑Port — SpaProxy erkennt den Dev‑Server sofort */
-        port: 5173,
-        strictPort: true,
-
-        https: {
-            key: fs.readFileSync(keyFilePath),
-            cert: fs.readFileSync(certFilePath)
-        },
-
         proxy: {
             '^/api': {
                 target,
