@@ -1,0 +1,2783 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [ 
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY abstract-pass-ont "http://www.imi.kit.edu/abstract-pass-ont#" >
+    <!ENTITY standard-pass-ont "http://www.i2pm.net/standard-pass-ont#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns:abstract-pass-ont="http://www.imi.kit.edu/abstract-pass-ont#" xmlns:standard-pass-ont="http://www.i2pm.net/standard-pass-ont#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:Zeichenblatt-1="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#" xmlns="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1">
+	<owl:Ontology rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1">
+		<owl:versionIRI rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1/2025-04-15"></owl:versionIRI>
+		<owl:imports rdf:resource="http://www.imi.kit.edu/abstract-pass-ont"></owl:imports>
+		<owl:imports rdf:resource="http://www.imi.kit.edu/abstract-pass-ont/0.8.0"></owl:imports>
+		<owl:imports rdf:resource="http://www.i2pm.net/standard-pass-ont"></owl:imports>
+		<owl:imports rdf:resource="http://www.i2pm.net/standard-pass-ont/1.1.0"></owl:imports>
+	</owl:Ontology>
+	<owl:Class rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#VisioShapesInternalDataMappingFunction" >
+		<rdfs:subClassOf rdf:resource="http://www.i2pm.net/standard-pass-ont#DataMappingFunction"></rdfs:subClassOf>
+	</owl:Class>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#Erste_Test_Zeichnung" >
+		<rdf:type rdf:resource="&standard-pass-ont;PASSProcessModel" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#Model</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Erste_Test_Zeichnung</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_FullySpecifiedSubject_2" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_FullySpecifiedSubject_49" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#MessageExchangeList_on_SID_1_StandardMessageConnector_99" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_MessageSpecification_103" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_StandardMessageConnector_99_SID_1_MessageSpecification_103" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#MessageExchangeList_on_SID_1_StandardMessageConnector_127" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_MessageSpecification_131" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_StandardMessageConnector_127_SID_1_MessageSpecification_131" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_MessageSpecification_134" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_StandardMessageConnector_127_SID_1_MessageSpecification_134" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_SID_1_FullySpecifiedSubject_2" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SID_1_FullySpecifiedSubject_49" ></standard-pass-ont:contains>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1" >
+		<rdf:type rdf:resource="&abstract-pass-ont;ModelLayer" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SID_1</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >SID_1</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:hasPriorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger" >1</standard-pass-ont:hasPriorityNumber>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_FullySpecifiedSubject_2" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_FullySpecifiedSubject_49" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#MessageExchangeList_on_SID_1_StandardMessageConnector_99" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_MessageSpecification_103" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_StandardMessageConnector_99_SID_1_MessageSpecification_103" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#MessageExchangeList_on_SID_1_StandardMessageConnector_127" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_MessageSpecification_131" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_StandardMessageConnector_127_SID_1_MessageSpecification_131" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_MessageSpecification_134" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_StandardMessageConnector_127_SID_1_MessageSpecification_134" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_SID_1_FullySpecifiedSubject_2" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SID_1_FullySpecifiedSubject_49" ></standard-pass-ont:contains>
+		<abstract-pass-ont:hasSVGRepresentation rdf:parseType="Literal" >
+			<svg width="8.26772in" height="11.6929in" viewBox="0 0 595.276 841.89" xml:space="preserve" color-interpolation-filters="sRGB" class="st16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+	
+
+	<style type="text/css">
+	
+		.st1 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:url(#grad0-21);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st3 {fill:#ffffff;font-family:Calibri;font-size:1.18906em;font-weight:bold}
+		.st4 {fill:url(#grad0-5);stroke:#7f7f7f;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st5 {fill:#000000;font-family:Calibri;font-size:1.5em}
+		.st6 {marker-end:url(#mrkr5-153);stroke:#3c3c3c;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st7 {fill:#3c3c3c;fill-opacity:1;stroke:#3c3c3c;stroke-opacity:1;stroke-width:0.33557046979866}
+		.st8 {stroke:#3c3c3c;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st9 {fill:#ffffff;stroke:#3c3c3c;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st10 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st11 {fill:none}
+		.st12 {stroke:#923931;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75;visibility:hidden}
+		.st13 {fill:#000000;font-family:Symbol;font-size:0.833336em}
+		.st14 {font-size:1em}
+		.st15 {font-family:Calibri;font-size:1em}
+		.st16 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	
+	</style>
+
+	<defs id="Patterns_And_Gradients">
+		<linearGradient id="grad0-5" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(270 0.5 0.5)">
+			<stop offset="0" stop-color="#f0f0f0" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#e6e6e6" stop-opacity="1"></stop>
+		</linearGradient>
+		<linearGradient id="grad0-21" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(225 0.5 0.5)">
+			<stop offset="0.1" stop-color="#33933d" stop-opacity="1"></stop>
+			<stop offset="0.61" stop-color="#1bb43d" stop-opacity="1"></stop>
+		</linearGradient>
+		<pattern id="ptrn4-27" v:fillPattern="4" v:foreground="#f2f2f2" v:background="#7f7f7f" patternUnits="userSpaceOnUse" width="6" height="6" viewBox="0 0 64 64">
+			<image x="0" y="0" width="64" height="64" image-rendering="optimizeSpeed" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA6SURBVChTY3jx4sX/2bNn/6+vr0fBIDGQHAOMgawIWYwBXQBdA1gBsiJ004hTgNcKdAF0DQzokuiKABawupHbuA00AAAAAElFTkSuQmCC"></image>
+		</pattern>
+	</defs>
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"></path>
+		</g>
+		<marker id="mrkr5-153" class="st7" v:arrowType="5" v:arrowSize="4" v:setback="5.215" refX="-5.215" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-2.98,-2.98) "></use>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		
+		<title>SID_1</title>
+		
+		
+		
+		
+		
+		<g id="group2-1" transform="translate(60.9449,-471.968)" v:mID="2" v:groupContext="group" v:layerMember="0">
+			
+			
+			<title>SID_1_FullySpecifiedSubject_2</title>
+			<g id="shape3-2" v:mID="3" v:groupContext="shape" v:layerMember="0" transform="translate(6.54803,-6.66142)">
+				<title>MultiSubjectThird Face</title>
+				
+			</g>
+			<g id="shape4-6" v:mID="4" v:groupContext="shape" v:layerMember="0" transform="translate(3.27402,-3.33071)">
+				<title>MultiSubjectSecondFace</title>
+				
+			</g>
+			<g id="group6-9" transform="translate(65.5453,-111.736)" v:mID="6" v:groupContext="group" v:layerMember="0">
+				
+				<title>StartSubjectSymbol</title>
+				<g id="shape6-10" v:mID="6" v:groupContext="groupContent" v:layerMember="0"></g>
+				<g id="shape7-12" v:mID="7" v:groupContext="shape" v:layerMember="0" transform="translate(6.07521,-3.32909)">
+					<title>Tabelle.7</title>
+				</g>
+			</g>
+			<g id="group8-14" transform="translate(5.66929,-104.995)" v:mID="8" v:groupContext="group" v:layerMember="0">
+				<title>StandardSubjectSymbol</title>
+				<g id="shape8-15" v:mID="8" v:groupContext="groupContent" v:layerMember="0">
+					<rect x="0" y="817.909" width="15.9874" height="23.9811" class="st1"></rect>
+				</g>
+				<g id="group9-17" transform="translate(1.59874,-1.79858)" v:mID="9" v:groupContext="group" v:layerMember="0">
+					<title>Tabelle.9</title>
+					<desc>S</desc>
+					<g id="shape9-18" v:mID="9" v:groupContext="groupContent" v:layerMember="0">
+						<v:textBlock v:margins="rect(4,0,4,0)" v:tabSpace="42.5197"></v:textBlock>
+						<v:textRect cx="6.32934" cy="835.972" width="6.85" height="11.8351"></v:textRect>
+						<path d="M10.22 825.07 A3.82439 3.56138 -180 1 0 2.57 825.07 A3.82439 3.56138 -180 1 0 10.22 825.07 ZM4.31&#xA;									 828.45 L0 840.06 A11.4997 10.8516 -180 0 0 12.79 840.06 L8.51 828.31 A9.66945 9.12452 0 0 1&#xA;									 4.31 828.45 Z" class="st2"></path>
+						<text x="2.96" y="840.25" class="st3" v:langID="1031">S</text>					</g>
+				</g>
+			</g>
+			<g id="group10-23" transform="translate(5.66929,-128.976)" v:mID="10" v:groupContext="group" v:layerMember="0">
+				<title>AbstractSubjectSymbol</title>
+				<g id="shape10-24" v:mID="10" v:groupContext="groupContent" v:layerMember="0"></g>
+				<g id="shape11-28" v:mID="11" v:groupContext="shape" v:layerMember="0">
+					<title>Tabelle.11</title>
+				</g>
+			</g>
+			<g id="group12-29" transform="translate(5.66929,-128.976)" v:mID="12" v:groupContext="group">
+				<title>LinearBehaviorIcon</title>
+				<g id="shape12-30" v:mID="12" v:groupContext="groupContent"></g>
+				<g id="shape13-31" v:mID="13" v:groupContext="shape">
+					<title>Chevron</title>
+					
+				</g>
+				<g id="shape14-32" v:mID="14" v:groupContext="shape">
+					<title>Chevron.1220</title>
+					
+				</g>
+				<g id="shape15-33" v:mID="15" v:groupContext="shape">
+					<title>Chevron.1221</title>
+					
+				</g>
+			</g>
+			<g id="group16-34" transform="translate(5.66929,-128.976)" v:mID="16" v:groupContext="group">
+				<title>CyclicBehaviorIcon</title>
+				<g id="shape16-35" v:mID="16" v:groupContext="groupContent"></g>
+				<g id="group17-36" v:mID="17" v:groupContext="group">
+					
+					
+					<title>InteractionArrow</title>
+					<g id="shape18-37" v:mID="18" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+						<title>Tabelle.18</title>
+					</g>
+					<g id="shape19-38" v:mID="19" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+						<title>Tabelle.19</title>
+					</g>
+					<g id="shape20-39" v:mID="20" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+						<title>Tabelle.20</title>
+					</g>
+					<g id="shape21-40" v:mID="21" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+						<title>Tabelle.21</title>
+					</g>
+					<g id="shape22-41" v:mID="22" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+						<title>Tabelle.22</title>
+					</g>
+					<g id="shape23-42" v:mID="23" v:groupContext="shape" transform="translate(644.925,300.733) rotate(50)">
+						<title>Tabelle.23</title>
+					</g>
+					<g id="shape24-43" v:mID="24" v:groupContext="shape" transform="translate(-278.257,47.3134) rotate(-19.3)">
+						<title>Tabelle.24</title>
+					</g>
+					<g id="shape25-44" v:mID="25" v:groupContext="shape" transform="translate(-88.0014,4.61196) rotate(-6)">
+						<title>Tabelle.25</title>
+					</g>
+					<g id="shape26-45" v:mID="26" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+						<title>Tabelle.26</title>
+					</g>
+					<g id="shape27-46" v:mID="27" v:groupContext="shape">
+						<title>Tabelle.27</title>
+					</g>
+					<g id="shape28-47" v:mID="28" v:groupContext="shape">
+						<title>Tabelle.28</title>
+					</g>
+					<g id="shape29-48" v:mID="29" v:groupContext="shape">
+						<title>Tabelle.29</title>
+					</g>
+					<g id="shape30-49" v:mID="30" v:groupContext="shape">
+						<title>Tabelle.30</title>
+					</g>
+				</g>
+			</g>
+			<g id="group31-50" transform="translate(5.66929,-128.976)" v:mID="31" v:groupContext="group">
+				<title>MixBehaviorIcon</title>
+				<g id="shape31-51" v:mID="31" v:groupContext="groupContent"></g>
+				<g id="shape32-52" v:mID="32" v:groupContext="shape">
+					<title>Chevron.1220</title>
+					
+				</g>
+				<g id="shape33-53" v:mID="33" v:groupContext="shape">
+					<title>Chevron.1221</title>
+					
+				</g>
+				<g id="group34-54" v:mID="34" v:groupContext="group">
+					<title>Tabelle.34</title>
+					<g id="shape34-55" v:mID="34" v:groupContext="groupContent"></g>
+					<g id="group35-56" v:mID="35" v:groupContext="group">
+						
+						
+						<title>InteractionArrow</title>
+						<g id="shape36-57" v:mID="36" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+							<title>Tabelle.36</title>
+						</g>
+						<g id="shape37-58" v:mID="37" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+							<title>Tabelle.37</title>
+						</g>
+						<g id="shape38-59" v:mID="38" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+							<title>Tabelle.38</title>
+						</g>
+						<g id="shape39-60" v:mID="39" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+							<title>Tabelle.39</title>
+						</g>
+						<g id="shape40-61" v:mID="40" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+							<title>Tabelle.40</title>
+						</g>
+						<g id="shape41-62" v:mID="41" v:groupContext="shape" transform="translate(644.925,300.733) rotate(50)">
+							<title>Tabelle.41</title>
+						</g>
+						<g id="shape42-63" v:mID="42" v:groupContext="shape" transform="translate(-278.257,47.3134) rotate(-19.3)">
+							<title>Tabelle.42</title>
+						</g>
+						<g id="shape43-64" v:mID="43" v:groupContext="shape" transform="translate(-88.0014,4.61196) rotate(-6)">
+							<title>Tabelle.43</title>
+						</g>
+						<g id="shape44-65" v:mID="44" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+							<title>Tabelle.44</title>
+						</g>
+						<g id="shape45-66" v:mID="45" v:groupContext="shape">
+							<title>Tabelle.45</title>
+						</g>
+						<g id="shape46-67" v:mID="46" v:groupContext="shape">
+							<title>Tabelle.46</title>
+						</g>
+						<g id="shape47-68" v:mID="47" v:groupContext="shape">
+							<title>Tabelle.47</title>
+						</g>
+						<g id="shape48-69" v:mID="48" v:groupContext="shape">
+							<title>Tabelle.48</title>
+						</g>
+					</g>
+				</g>
+			</g>
+			<g id="group106-70" v:mID="106" v:groupContext="group">
+				<title>Tabelle.106</title>
+				<g id="shape5-71" v:mID="5" v:groupContext="shape" v:layerMember="0">
+					<title>SubjectMainFace</title>
+					
+					<path d="M106.87 841.89 A2.26773 2.26773 -180 0 0 109.13 839.62 L109.13 710.93 A2.26773 2.26773 -180 0 0 106.87&#xA;								 708.66 L2.27 708.66 A2.26773 2.26773 -180 0 0 0 710.93 L0 839.62 A2.26773 2.26773 -180 0 0 2.27&#xA;								 841.89 L106.87 841.89 Z" class="st4"></path>
+				</g>
+			</g>
+			<g id="shape2-74" v:mID="2" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="54.5669" cy="775.276" width="109.14" height="133.228"></v:textRect>
+				<text x="12.44" y="780.68" class="st5" v:langID="1031">Mitarbeiter</text>			</g>
+		</g>
+		<g id="group49-76" transform="translate(325.984,-471.968)" v:mID="49" v:groupContext="group" v:layerMember="0">
+			
+			
+			<title>SID_1_FullySpecifiedSubject_49</title>
+			<g id="shape50-77" v:mID="50" v:groupContext="shape" v:layerMember="0" transform="translate(6.54803,-6.66142)">
+				<title>MultiSubjectThird Face</title>
+				
+			</g>
+			<g id="shape51-80" v:mID="51" v:groupContext="shape" v:layerMember="0" transform="translate(3.27402,-3.33071)">
+				<title>MultiSubjectSecondFace</title>
+				
+			</g>
+			<g id="shape52-83" v:mID="52" v:groupContext="shape" v:layerMember="0">
+				<title>SubjectMainFace</title>
+				
+				<path d="M106.87 841.89 A2.26773 2.26773 -180 0 0 109.13 839.62 L109.13 710.93 A2.26773 2.26773 -180 0 0 106.87 708.66&#xA;							 L2.27 708.66 A2.26773 2.26773 -180 0 0 0 710.93 L0 839.62 A2.26773 2.26773 -180 0 0 2.27 841.89 L106.87&#xA;							 841.89 Z" class="st4"></path>
+			</g>
+			<g id="group53-86" transform="translate(89.6398,-111.736)" v:mID="53" v:groupContext="group" v:layerMember="0">
+				
+				<title>StartSubjectSymbol</title>
+				<g id="shape53-87" v:mID="53" v:groupContext="groupContent" v:layerMember="0"></g>
+				<g id="shape54-89" v:mID="54" v:groupContext="shape" v:layerMember="0" transform="translate(6.07521,-3.32909)">
+					<title>Tabelle.54</title>
+				</g>
+			</g>
+			<g id="group55-91" transform="translate(5.66929,-104.995)" v:mID="55" v:groupContext="group" v:layerMember="0">
+				<title>StandardSubjectSymbol</title>
+				<g id="shape55-92" v:mID="55" v:groupContext="groupContent" v:layerMember="0">
+					<rect x="0" y="817.909" width="15.9874" height="23.9811" class="st1"></rect>
+				</g>
+				<g id="group56-94" transform="translate(1.59874,-1.79858)" v:mID="56" v:groupContext="group" v:layerMember="0">
+					<title>Tabelle.56</title>
+					<desc>S</desc>
+					<g id="shape56-95" v:mID="56" v:groupContext="groupContent" v:layerMember="0">
+						<v:textBlock v:margins="rect(4,0,4,0)" v:tabSpace="42.5197"></v:textBlock>
+						<v:textRect cx="6.32934" cy="835.972" width="6.85" height="11.8351"></v:textRect>
+						<path d="M10.22 825.07 A3.82439 3.56138 -180 1 0 2.57 825.07 A3.82439 3.56138 -180 1 0 10.22 825.07 ZM4.31&#xA;									 828.45 L0 840.06 A11.4997 10.8516 -180 0 0 12.79 840.06 L8.51 828.31 A9.66945 9.12452 0 0 1&#xA;									 4.31 828.45 Z" class="st2"></path>
+						<text x="2.96" y="840.25" class="st3" v:langID="1031">S</text>					</g>
+				</g>
+			</g>
+			<g id="group57-99" transform="translate(5.66929,-128.976)" v:mID="57" v:groupContext="group" v:layerMember="0">
+				<title>AbstractSubjectSymbol</title>
+				<g id="shape57-100" v:mID="57" v:groupContext="groupContent" v:layerMember="0"></g>
+				<g id="shape58-103" v:mID="58" v:groupContext="shape" v:layerMember="0">
+					<title>Tabelle.58</title>
+				</g>
+			</g>
+			<g id="group59-104" transform="translate(5.66929,-128.976)" v:mID="59" v:groupContext="group">
+				<title>LinearBehaviorIcon</title>
+				<g id="shape59-105" v:mID="59" v:groupContext="groupContent"></g>
+				<g id="shape60-106" v:mID="60" v:groupContext="shape">
+					<title>Chevron</title>
+					
+				</g>
+				<g id="shape61-107" v:mID="61" v:groupContext="shape">
+					<title>Chevron.1220</title>
+					
+				</g>
+				<g id="shape62-108" v:mID="62" v:groupContext="shape">
+					<title>Chevron.1221</title>
+					
+				</g>
+			</g>
+			<g id="group63-109" transform="translate(5.66929,-128.976)" v:mID="63" v:groupContext="group">
+				<title>CyclicBehaviorIcon</title>
+				<g id="shape63-110" v:mID="63" v:groupContext="groupContent"></g>
+				<g id="group64-111" v:mID="64" v:groupContext="group">
+					
+					
+					<title>InteractionArrow</title>
+					<g id="shape65-112" v:mID="65" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+						<title>Tabelle.65</title>
+					</g>
+					<g id="shape66-113" v:mID="66" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+						<title>Tabelle.66</title>
+					</g>
+					<g id="shape67-114" v:mID="67" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+						<title>Tabelle.67</title>
+					</g>
+					<g id="shape68-115" v:mID="68" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+						<title>Tabelle.68</title>
+					</g>
+					<g id="shape69-116" v:mID="69" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+						<title>Tabelle.69</title>
+					</g>
+					<g id="shape70-117" v:mID="70" v:groupContext="shape" transform="translate(644.925,300.733) rotate(50)">
+						<title>Tabelle.70</title>
+					</g>
+					<g id="shape71-118" v:mID="71" v:groupContext="shape" transform="translate(-278.257,47.3134) rotate(-19.3)">
+						<title>Tabelle.71</title>
+					</g>
+					<g id="shape72-119" v:mID="72" v:groupContext="shape" transform="translate(-88.0014,4.61196) rotate(-6)">
+						<title>Tabelle.72</title>
+					</g>
+					<g id="shape73-120" v:mID="73" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+						<title>Tabelle.73</title>
+					</g>
+					<g id="shape74-121" v:mID="74" v:groupContext="shape">
+						<title>Tabelle.74</title>
+					</g>
+					<g id="shape75-122" v:mID="75" v:groupContext="shape">
+						<title>Tabelle.75</title>
+					</g>
+					<g id="shape76-123" v:mID="76" v:groupContext="shape">
+						<title>Tabelle.76</title>
+					</g>
+					<g id="shape77-124" v:mID="77" v:groupContext="shape">
+						<title>Tabelle.77</title>
+					</g>
+				</g>
+			</g>
+			<g id="group78-125" transform="translate(5.66929,-128.976)" v:mID="78" v:groupContext="group">
+				<title>MixBehaviorIcon</title>
+				<g id="shape78-126" v:mID="78" v:groupContext="groupContent"></g>
+				<g id="shape79-127" v:mID="79" v:groupContext="shape">
+					<title>Chevron.1220</title>
+					
+				</g>
+				<g id="shape80-128" v:mID="80" v:groupContext="shape">
+					<title>Chevron.1221</title>
+					
+				</g>
+				<g id="group81-129" v:mID="81" v:groupContext="group">
+					<title>Tabelle.81</title>
+					<g id="shape81-130" v:mID="81" v:groupContext="groupContent"></g>
+					<g id="group82-131" v:mID="82" v:groupContext="group">
+						
+						
+						<title>InteractionArrow</title>
+						<g id="shape83-132" v:mID="83" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+							<title>Tabelle.83</title>
+						</g>
+						<g id="shape84-133" v:mID="84" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+							<title>Tabelle.84</title>
+						</g>
+						<g id="shape85-134" v:mID="85" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+							<title>Tabelle.85</title>
+						</g>
+						<g id="shape86-135" v:mID="86" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+							<title>Tabelle.86</title>
+						</g>
+						<g id="shape87-136" v:mID="87" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+							<title>Tabelle.87</title>
+						</g>
+						<g id="shape88-137" v:mID="88" v:groupContext="shape" transform="translate(644.925,300.733) rotate(50)">
+							<title>Tabelle.88</title>
+						</g>
+						<g id="shape89-138" v:mID="89" v:groupContext="shape" transform="translate(-278.257,47.3134) rotate(-19.3)">
+							<title>Tabelle.89</title>
+						</g>
+						<g id="shape90-139" v:mID="90" v:groupContext="shape" transform="translate(-88.0014,4.61196) rotate(-6)">
+							<title>Tabelle.90</title>
+						</g>
+						<g id="shape91-140" v:mID="91" v:groupContext="shape" transform="translate(287.943,50.7722) rotate(20)">
+							<title>Tabelle.91</title>
+						</g>
+						<g id="shape92-141" v:mID="92" v:groupContext="shape">
+							<title>Tabelle.92</title>
+						</g>
+						<g id="shape93-142" v:mID="93" v:groupContext="shape">
+							<title>Tabelle.93</title>
+						</g>
+						<g id="shape94-143" v:mID="94" v:groupContext="shape">
+							<title>Tabelle.94</title>
+						</g>
+						<g id="shape95-144" v:mID="95" v:groupContext="shape">
+							<title>Tabelle.95</title>
+						</g>
+					</g>
+				</g>
+			</g>
+			<g id="shape49-145" v:mID="49" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="54.5669" cy="775.276" width="109.14" height="133.228"></v:textRect>
+				<text x="7.66" y="780.68" class="st5" v:langID="1031">Vorgesetzter</text>			</g>
+		</g>
+		<g id="group99-147" transform="translate(170.079,-531.496)" v:mID="99" v:groupContext="group" v:layerMember="2;3">
+			
+			
+			<title>SID_1_StandardMessageConnector_99</title>
+			<g id="shape99-148" v:mID="99" v:groupContext="groupContent" v:layerMember="2;3">
+				<path d="M0 834.8 L79.48 834.8 L145.48 834.8" class="st6"></path>
+			</g>
+			<g id="shape100-154" v:mID="100" v:groupContext="shape" v:layerMember="2;3" transform="translate(921.26,805.448) rotate(90)">
+				<title>Link</title>
+				<path d="M0 841.89 L29.36 841.89" class="st8"></path>
+			</g>
+		</g>
+		<g id="group101-157" transform="translate(194.882,-566.113)" v:mID="101" v:groupContext="group" v:layerMember="3">
+			
+			
+			<title>messageBox_101</title>
+			<g id="shape101-158" v:mID="101" v:groupContext="groupContent" v:layerMember="3">
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"></v:textBlock>
+				<v:textRect cx="65.5669" cy="826.267" width="87.14" height="4.40371"></v:textRect>
+				<rect x="0" y="824.066" width="109.134" height="17.8242" class="st9"></rect>
+			</g>
+			<g id="shape102-160" v:mID="102" v:groupContext="shape" v:layerMember="3" transform="translate(2.83465,-2.98956)">
+				<title>Envalope</title>
+				<rect v:rectContext="foreign" x="0" y="829.89" width="18" height="12" class="st10"></rect>
+				<switch>
+					<foreignObject x="0" y="829.89" width="18" height="12" requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+						
+					</foreignObject>
+					<svg viewBox="0 0 27.603 20.149" height="12" preserveAspectRatio="none" width="18" x="0" y="829.89">
+						<clipPath id="mfid1">
+							<rect width="27.603" height="20.149" id="mfid2"></rect>
+						</clipPath>
+						<g clip-path="url(#mfid1)">
+							<!-- GetDC -->
+							<!-- Released DC -->
+							<defs>
+								<path id="mfid3" d="M1.5,18.635 L26.094,18.635 L26.094,1.5 L1.5,1.5 L1.5,18.635 Z"></path>
+							</defs>
+							<mask id="mfid4">
+								<use xlink:href="#mfid3" fill-rule="evenodd" fill="white" stroke="none"></use>
+							</mask>
+							<mask id="mfid5" fill="white" stroke="none">
+								<g>
+									<g mask="url(#mfid4)">
+										<use xlink:href="#mfid2"></use>
+									</g>
+								</g>
+							</mask>
+							<defs>
+								<svg viewBox="0 0 27.52 20.08" height="20" id="mfid6" width="27">
+									<clipPath id="mfid7">
+										<rect width="27.52" height="20.08" id="mfid8"></rect>
+									</clipPath>
+									<g clip-path="url(#mfid7)">
+										<!-- GetDC -->
+										<!-- Released DC -->
+										<defs>
+											<path id="mfid9" d="M1.767,1.75 L25.741,1.775 L25.66,18.259 L1.767,18.287 L1.767,1.75 Z"></path>
+										</defs>
+										<mask id="mfid10">
+											<use xlink:href="#mfid9" fill-rule="evenodd" fill="white" stroke="none"></use>
+										</mask>
+										<mask id="mfid11" fill="white" stroke="none">
+											<g>
+												<g mask="url(#mfid10)">
+													<use xlink:href="#mfid8"></use>
+												</g>
+											</g>
+										</mask>
+										<defs>
+											<path id="mfid12" d="M-0.010417,-0.010417 L0.26015,-0.010417 L0.26015,0.18268 L-0.010417,0.18268 Z"></path>
+										</defs>
+										<radialGradient id="mfid13">
+											<stop offset="0" stop-color="#f9e79b"></stop>
+											<stop offset="1" stop-color="#efd568"></stop>
+										</radialGradient>
+										<g mask="url(#mfid11)">
+											<g text-rendering="geometricPrecision">
+												<g transform="matrix(96, 0, 0, -96, 1.767, 18.287)">
+													<g fill="white">
+														<mask id="mfid14" x="-0.010417" y="-0.010417" width="0.27056" height="0.19309" maskUnits="userSpaceOnUse">
+															<rect x="-0.010417" y="-0.010417" width="0.27056" height="0.19309" stroke="none"></rect>
+														</mask>
+														<use xlink:href="#mfid12" stroke="none" mask="url(#mfid14)" fill="url(#mfid13)"></use>
+														<defs>
+															<path id="mfid15" d="M1.767,15.714 L9.779,9.395 L10.125,9.652 L1.75,16.361 L1.75,15.728 L1.767,15.714 Z"></path>
+														</defs>
+													</g>
+												</g>
+											</g>
+										</g>
+										<g>
+											<g text-rendering="geometricPrecision">
+												<g fill="#dbb24b">
+													<use xlink:href="#mfid15" fill-rule="evenodd" stroke="none"></use>
+													<defs>
+														<path id="mfid16" d="M16.917,9.527 L25.75,15.947 L25.75,15.443 L17.167,9.194 L16.875,9.527 L16.917,9.527 Z"></path>
+													</defs>
+													<use xlink:href="#mfid16" fill-rule="evenodd" stroke="none"></use>
+													<defs>
+														<path id="mfid17" d="M1.768,4.283 L13.119,11.183 L25.702,4.214 L25.718,4.708 L13.119,11.632 L1.768,4.732 L1.768,4.283 Z"></path>
+													</defs>
+													<use xlink:href="#mfid17" fill-rule="evenodd" stroke="none"></use>
+													<defs>
+														<path id="mfid18" d="M25.688,12.476 L25.75,4.165 L25.729,4.177 L25.741,1.775 L1.767,1.75 L1.767,3.916 L1.75,3.903 L1.75,15.728 L1.767,15.714 L1.767,18.287 L4.445,18.285 L4.4,18.32 L14.462,18.273 L25.66,18.259 L25.688,12.476 Z"></path>
+													</defs>
+												</g>
+												<g fill="#dbb24b" stroke-width="0.5" stroke="#dbb24b" stroke-miterlimit="2">
+													<use xlink:href="#mfid18" fill="none"></use>
+												</g>
+											</g>
+										</g>
+									</g>
+								</svg>
+							</defs>
+							<g mask="url(#mfid5)">
+								<g text-rendering="geometricPrecision">
+									<clipPath id="mfid19">
+										<rect width="28.52" height="21.08"></rect>
+									</clipPath>
+									<use xlink:href="#mfid6" clip-path="url(#mfid19)" transform="matrix(0.96733, 0, 0, 0.95493, 0.002772, 0.002772)"></use>
+								</g>
+							</g>
+						</g>
+					</svg>
+				</switch>
+				<rect v:rectContext="foreign" x="0" y="829.89" width="18" height="12" class="st10"></rect>
+			</g>
+		</g>
+		<g id="group103-163" transform="translate(197.717,-568.947)" v:mID="103" v:groupContext="group" v:layerMember="1">
+			
+			
+			<title>SID_1_MessageSpecification_103</title>
+			<g id="shape103-164" v:mID="103" v:groupContext="groupContent" v:layerMember="1">
+				<v:textBlock v:margins="rect(0,0,0,8.50394)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="51.7323" cy="835.622" width="103.47" height="10.8183"></v:textRect>
+				<rect x="0" y="829.735" width="103.465" height="12.1549" class="st11"></rect>
+				<rect x="0" y="829.735" width="103.465" height="12.1549" class="st12"></rect>
+				<text x="17.51" y="838.66" class="st13" v:langID="1031">
+<tspan class="st14" v:isBullet="true">·</tspan> <tspan class="st15">Antrag</tspan>
+</text>			</g>
+			<g id="shape104-170" v:mID="104" v:groupContext="shape" v:layerMember="1" transform="translate(2,-10.1549)">
+				<title>Tabelle.104</title>
+				<switch>
+					<foreignObject x="0" y="841.89" width="0" height="0" requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+						
+					</foreignObject>
+					<svg viewBox="0 0 27.603 20.149" height="0" preserveAspectRatio="none" width="0" x="0" y="841.89">
+						<clipPath id="mfid20">
+							<rect width="27.603" height="20.149" id="mfid21"></rect>
+						</clipPath>
+						<g clip-path="url(#mfid20)">
+							<!-- GetDC -->
+							<!-- Released DC -->
+							<defs>
+								<path id="mfid22" d="M1.5,18.635 L26.094,18.635 L26.094,1.5 L1.5,1.5 L1.5,18.635 Z"></path>
+							</defs>
+							<mask id="mfid23">
+								<use xlink:href="#mfid22" fill-rule="evenodd" fill="white" stroke="none"></use>
+							</mask>
+							<mask id="mfid24" fill="white" stroke="none">
+								<g>
+									<g mask="url(#mfid23)">
+										<use xlink:href="#mfid21"></use>
+									</g>
+								</g>
+							</mask>
+							<defs>
+								<svg viewBox="0 0 27.52 20.08" height="20" id="mfid25" width="27">
+									<clipPath id="mfid26">
+										<rect width="27.52" height="20.08" id="mfid27"></rect>
+									</clipPath>
+									<g clip-path="url(#mfid26)">
+										<!-- GetDC -->
+										<!-- Released DC -->
+										<defs>
+											<path id="mfid28" d="M1.767,1.75 L25.741,1.775 L25.66,18.259 L1.767,18.287 L1.767,1.75 Z"></path>
+										</defs>
+										<mask id="mfid29">
+											<use xlink:href="#mfid28" fill-rule="evenodd" fill="white" stroke="none"></use>
+										</mask>
+										<mask id="mfid30" fill="white" stroke="none">
+											<g>
+												<g mask="url(#mfid29)">
+													<use xlink:href="#mfid27"></use>
+												</g>
+											</g>
+										</mask>
+										<defs>
+											<path id="mfid31" d="M-0.010417,-0.010417 L0.26015,-0.010417 L0.26015,0.18268 L-0.010417,0.18268 Z"></path>
+										</defs>
+										<radialGradient id="mfid32">
+											<stop offset="0" stop-color="#f9e79b"></stop>
+											<stop offset="1" stop-color="#efd568"></stop>
+										</radialGradient>
+										<g mask="url(#mfid30)">
+											<g text-rendering="geometricPrecision">
+												<g transform="matrix(96, 0, 0, -96, 1.767, 18.287)">
+													<g fill="white">
+														<mask id="mfid33" x="-0.010417" y="-0.010417" width="0.27056" height="0.19309" maskUnits="userSpaceOnUse">
+															<rect x="-0.010417" y="-0.010417" width="0.27056" height="0.19309" stroke="none"></rect>
+														</mask>
+														<use xlink:href="#mfid31" stroke="none" mask="url(#mfid33)" fill="url(#mfid32)"></use>
+														<defs>
+															<path id="mfid34" d="M1.767,15.714 L9.779,9.395 L10.125,9.652 L1.75,16.361 L1.75,15.728 L1.767,15.714 Z"></path>
+														</defs>
+													</g>
+												</g>
+											</g>
+										</g>
+										<g>
+											<g text-rendering="geometricPrecision">
+												<g fill="#dbb24b">
+													<use xlink:href="#mfid34" fill-rule="evenodd" stroke="none"></use>
+													<defs>
+														<path id="mfid35" d="M16.917,9.527 L25.75,15.947 L25.75,15.443 L17.167,9.194 L16.875,9.527 L16.917,9.527 Z"></path>
+													</defs>
+													<use xlink:href="#mfid35" fill-rule="evenodd" stroke="none"></use>
+													<defs>
+														<path id="mfid36" d="M1.768,4.283 L13.119,11.183 L25.702,4.214 L25.718,4.708 L13.119,11.632 L1.768,4.732 L1.768,4.283 Z"></path>
+													</defs>
+													<use xlink:href="#mfid36" fill-rule="evenodd" stroke="none"></use>
+													<defs>
+														<path id="mfid37" d="M25.688,12.476 L25.75,4.165 L25.729,4.177 L25.741,1.775 L1.767,1.75 L1.767,3.916 L1.75,3.903 L1.75,15.728 L1.767,15.714 L1.767,18.287 L4.445,18.285 L4.4,18.32 L14.462,18.273 L25.66,18.259 L25.688,12.476 Z"></path>
+													</defs>
+												</g>
+												<g fill="#dbb24b" stroke-width="0.5" stroke="#dbb24b" stroke-miterlimit="2">
+													<use xlink:href="#mfid37" fill="none"></use>
+												</g>
+											</g>
+										</g>
+									</g>
+								</svg>
+							</defs>
+							<g mask="url(#mfid24)">
+								<g text-rendering="geometricPrecision">
+									<clipPath id="mfid38">
+										<rect width="28.52" height="21.08"></rect>
+									</clipPath>
+									<use xlink:href="#mfid25" clip-path="url(#mfid38)" transform="matrix(0.96733, 0, 0, 0.95493, 0.002772, 0.002772)"></use>
+								</g>
+							</g>
+						</g>
+					</svg>
+				</switch>
+			</g>
+			<g id="shape105-171" v:mID="105" v:groupContext="shape" transform="translate(102.465,-11.1549)">
+				<title>Kreis.123</title>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+			</g>
+		</g>
+		<g id="group127-172" transform="translate(325.984,-498.189)" v:mID="127" v:groupContext="group" v:layerMember="2;3">
+			
+			
+			<title>SID_1_StandardMessageConnector_127</title>
+			<g id="shape127-173" v:mID="127" v:groupContext="groupContent" v:layerMember="2;3">
+				<path d="M0 834.8 L-79.26 834.8 L-145.48 834.8" class="st6"></path>
+			</g>
+			<g id="shape128-178" v:mID="128" v:groupContext="shape" v:layerMember="2;3" transform="translate(-919.843,880.265) rotate(-90)">
+				<title>Link</title>
+				<path d="M0 841.89 L45.46 841.89" class="st8"></path>
+			</g>
+		</g>
+		<g id="group129-181" transform="translate(193.465,-451.911)" v:mID="129" v:groupContext="group" v:layerMember="3">
+			
+			
+			<title>messageBox_129</title>
+			<g id="shape129-182" v:mID="129" v:groupContext="groupContent" v:layerMember="3">
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"></v:textBlock>
+				<v:textRect cx="65.5669" cy="814.112" width="87.14" height="4.40371"></v:textRect>
+				<rect x="0" y="811.911" width="109.134" height="29.9791" class="st9"></rect>
+			</g>
+			<g id="shape130-184" v:mID="130" v:groupContext="shape" v:layerMember="3" transform="translate(2.83465,-15.1445)">
+				<title>Envalope</title>
+				<rect v:rectContext="foreign" x="0" y="829.89" width="18" height="12" class="st10"></rect>
+				<switch>
+					<foreignObject x="0" y="829.89" width="18" height="12" requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+						
+					</foreignObject>
+					<svg viewBox="0 0 27.603 20.149" height="12" preserveAspectRatio="none" width="18" x="0" y="829.89">
+						<clipPath id="mfid39">
+							<rect width="27.603" height="20.149" id="mfid40"></rect>
+						</clipPath>
+						<g clip-path="url(#mfid39)">
+							<!-- GetDC -->
+							<!-- Released DC -->
+							<defs>
+								<path id="mfid41" d="M1.5,18.635 L26.094,18.635 L26.094,1.5 L1.5,1.5 L1.5,18.635 Z"></path>
+							</defs>
+							<mask id="mfid42">
+								<use xlink:href="#mfid41" fill-rule="evenodd" fill="white" stroke="none"></use>
+							</mask>
+							<mask id="mfid43" fill="white" stroke="none">
+								<g>
+									<g mask="url(#mfid42)">
+										<use xlink:href="#mfid40"></use>
+									</g>
+								</g>
+							</mask>
+							<defs>
+								<svg viewBox="0 0 27.52 20.08" height="20" id="mfid44" width="27">
+									<clipPath id="mfid45">
+										<rect width="27.52" height="20.08" id="mfid46"></rect>
+									</clipPath>
+									<g clip-path="url(#mfid45)">
+										<!-- GetDC -->
+										<!-- Released DC -->
+										<defs>
+											<path id="mfid47" d="M1.767,1.75 L25.741,1.775 L25.66,18.259 L1.767,18.287 L1.767,1.75 Z"></path>
+										</defs>
+										<mask id="mfid48">
+											<use xlink:href="#mfid47" fill-rule="evenodd" fill="white" stroke="none"></use>
+										</mask>
+										<mask id="mfid49" fill="white" stroke="none">
+											<g>
+												<g mask="url(#mfid48)">
+													<use xlink:href="#mfid46"></use>
+												</g>
+											</g>
+										</mask>
+										<defs>
+											<path id="mfid50" d="M-0.010417,-0.010417 L0.26015,-0.010417 L0.26015,0.18268 L-0.010417,0.18268 Z"></path>
+										</defs>
+										<radialGradient id="mfid51">
+											<stop offset="0" stop-color="#f9e79b"></stop>
+											<stop offset="1" stop-color="#efd568"></stop>
+										</radialGradient>
+										<g mask="url(#mfid49)">
+											<g text-rendering="geometricPrecision">
+												<g transform="matrix(96, 0, 0, -96, 1.767, 18.287)">
+													<g fill="white">
+														<mask id="mfid52" x="-0.010417" y="-0.010417" width="0.27056" height="0.19309" maskUnits="userSpaceOnUse">
+															<rect x="-0.010417" y="-0.010417" width="0.27056" height="0.19309" stroke="none"></rect>
+														</mask>
+														<use xlink:href="#mfid50" stroke="none" mask="url(#mfid52)" fill="url(#mfid51)"></use>
+														<defs>
+															<path id="mfid53" d="M1.767,15.714 L9.779,9.395 L10.125,9.652 L1.75,16.361 L1.75,15.728 L1.767,15.714 Z"></path>
+														</defs>
+													</g>
+												</g>
+											</g>
+										</g>
+										<g>
+											<g text-rendering="geometricPrecision">
+												<g fill="#dbb24b">
+													<use xlink:href="#mfid53" fill-rule="evenodd" stroke="none"></use>
+													<defs>
+														<path id="mfid54" d="M16.917,9.527 L25.75,15.947 L25.75,15.443 L17.167,9.194 L16.875,9.527 L16.917,9.527 Z"></path>
+													</defs>
+													<use xlink:href="#mfid54" fill-rule="evenodd" stroke="none"></use>
+													<defs>
+														<path id="mfid55" d="M1.768,4.283 L13.119,11.183 L25.702,4.214 L25.718,4.708 L13.119,11.632 L1.768,4.732 L1.768,4.283 Z"></path>
+													</defs>
+													<use xlink:href="#mfid55" fill-rule="evenodd" stroke="none"></use>
+													<defs>
+														<path id="mfid56" d="M25.688,12.476 L25.75,4.165 L25.729,4.177 L25.741,1.775 L1.767,1.75 L1.767,3.916 L1.75,3.903 L1.75,15.728 L1.767,15.714 L1.767,18.287 L4.445,18.285 L4.4,18.32 L14.462,18.273 L25.66,18.259 L25.688,12.476 Z"></path>
+													</defs>
+												</g>
+												<g fill="#dbb24b" stroke-width="0.5" stroke="#dbb24b" stroke-miterlimit="2">
+													<use xlink:href="#mfid56" fill="none"></use>
+												</g>
+											</g>
+										</g>
+									</g>
+								</svg>
+							</defs>
+							<g mask="url(#mfid43)">
+								<g text-rendering="geometricPrecision">
+									<clipPath id="mfid57">
+										<rect width="28.52" height="21.08"></rect>
+									</clipPath>
+									<use xlink:href="#mfid44" clip-path="url(#mfid57)" transform="matrix(0.96733, 0, 0, 0.95493, 0.002772, 0.002772)"></use>
+								</g>
+							</g>
+						</g>
+					</svg>
+				</switch>
+				<rect v:rectContext="foreign" x="0" y="829.89" width="18" height="12" class="st10"></rect>
+			</g>
+		</g>
+		<g id="group131-187" transform="translate(196.299,-466.9)" v:mID="131" v:groupContext="group" v:layerMember="1">
+			
+			
+			<title>SID_1_MessageSpecification_131</title>
+			<g id="shape131-188" v:mID="131" v:groupContext="groupContent" v:layerMember="1">
+				<v:textBlock v:margins="rect(0,0,0,8.50394)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="51.7323" cy="835.622" width="103.47" height="10.8183"></v:textRect>
+				<rect x="0" y="829.735" width="103.465" height="12.1549" class="st11"></rect>
+				<rect x="0" y="829.735" width="103.465" height="12.1549" class="st12"></rect>
+				<text x="17.51" y="838.66" class="st13" v:langID="1031">
+<tspan class="st14" v:isBullet="true">·</tspan> <tspan class="st15">Annahme</tspan>
+</text>			</g>
+			<g id="shape132-194" v:mID="132" v:groupContext="shape" v:layerMember="1" transform="translate(2,-10.1549)">
+				<title>Tabelle.132</title>
+				<switch>
+					<foreignObject x="0" y="841.89" width="0" height="0" requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+						
+					</foreignObject>
+					<svg viewBox="0 0 27.603 20.149" height="0" preserveAspectRatio="none" width="0" x="0" y="841.89">
+						<clipPath id="mfid58">
+							<rect width="27.603" height="20.149" id="mfid59"></rect>
+						</clipPath>
+						<g clip-path="url(#mfid58)">
+							<!-- GetDC -->
+							<!-- Released DC -->
+							<defs>
+								<path id="mfid60" d="M1.5,18.635 L26.094,18.635 L26.094,1.5 L1.5,1.5 L1.5,18.635 Z"></path>
+							</defs>
+							<mask id="mfid61">
+								<use xlink:href="#mfid60" fill-rule="evenodd" fill="white" stroke="none"></use>
+							</mask>
+							<mask id="mfid62" fill="white" stroke="none">
+								<g>
+									<g mask="url(#mfid61)">
+										<use xlink:href="#mfid59"></use>
+									</g>
+								</g>
+							</mask>
+							<defs>
+								<svg viewBox="0 0 27.52 20.08" height="20" id="mfid63" width="27">
+									<clipPath id="mfid64">
+										<rect width="27.52" height="20.08" id="mfid65"></rect>
+									</clipPath>
+									<g clip-path="url(#mfid64)">
+										<!-- GetDC -->
+										<!-- Released DC -->
+										<defs>
+											<path id="mfid66" d="M1.767,1.75 L25.741,1.775 L25.66,18.259 L1.767,18.287 L1.767,1.75 Z"></path>
+										</defs>
+										<mask id="mfid67">
+											<use xlink:href="#mfid66" fill-rule="evenodd" fill="white" stroke="none"></use>
+										</mask>
+										<mask id="mfid68" fill="white" stroke="none">
+											<g>
+												<g mask="url(#mfid67)">
+													<use xlink:href="#mfid65"></use>
+												</g>
+											</g>
+										</mask>
+										<defs>
+											<path id="mfid69" d="M-0.010417,-0.010417 L0.26015,-0.010417 L0.26015,0.18268 L-0.010417,0.18268 Z"></path>
+										</defs>
+										<radialGradient id="mfid70">
+											<stop offset="0" stop-color="#f9e79b"></stop>
+											<stop offset="1" stop-color="#efd568"></stop>
+										</radialGradient>
+										<g mask="url(#mfid68)">
+											<g text-rendering="geometricPrecision">
+												<g transform="matrix(96, 0, 0, -96, 1.767, 18.287)">
+													<g fill="white">
+														<mask id="mfid71" x="-0.010417" y="-0.010417" width="0.27056" height="0.19309" maskUnits="userSpaceOnUse">
+															<rect x="-0.010417" y="-0.010417" width="0.27056" height="0.19309" stroke="none"></rect>
+														</mask>
+														<use xlink:href="#mfid69" stroke="none" mask="url(#mfid71)" fill="url(#mfid70)"></use>
+														<defs>
+															<path id="mfid72" d="M1.767,15.714 L9.779,9.395 L10.125,9.652 L1.75,16.361 L1.75,15.728 L1.767,15.714 Z"></path>
+														</defs>
+													</g>
+												</g>
+											</g>
+										</g>
+										<g>
+											<g text-rendering="geometricPrecision">
+												<g fill="#dbb24b">
+													<use xlink:href="#mfid72" fill-rule="evenodd" stroke="none"></use>
+													<defs>
+														<path id="mfid73" d="M16.917,9.527 L25.75,15.947 L25.75,15.443 L17.167,9.194 L16.875,9.527 L16.917,9.527 Z"></path>
+													</defs>
+													<use xlink:href="#mfid73" fill-rule="evenodd" stroke="none"></use>
+													<defs>
+														<path id="mfid74" d="M1.768,4.283 L13.119,11.183 L25.702,4.214 L25.718,4.708 L13.119,11.632 L1.768,4.732 L1.768,4.283 Z"></path>
+													</defs>
+													<use xlink:href="#mfid74" fill-rule="evenodd" stroke="none"></use>
+													<defs>
+														<path id="mfid75" d="M25.688,12.476 L25.75,4.165 L25.729,4.177 L25.741,1.775 L1.767,1.75 L1.767,3.916 L1.75,3.903 L1.75,15.728 L1.767,15.714 L1.767,18.287 L4.445,18.285 L4.4,18.32 L14.462,18.273 L25.66,18.259 L25.688,12.476 Z"></path>
+													</defs>
+												</g>
+												<g fill="#dbb24b" stroke-width="0.5" stroke="#dbb24b" stroke-miterlimit="2">
+													<use xlink:href="#mfid75" fill="none"></use>
+												</g>
+											</g>
+										</g>
+									</g>
+								</svg>
+							</defs>
+							<g mask="url(#mfid62)">
+								<g text-rendering="geometricPrecision">
+									<clipPath id="mfid76">
+										<rect width="28.52" height="21.08"></rect>
+									</clipPath>
+									<use xlink:href="#mfid63" clip-path="url(#mfid76)" transform="matrix(0.96733, 0, 0, 0.95493, 0.002772, 0.002772)"></use>
+								</g>
+							</g>
+						</g>
+					</svg>
+				</switch>
+			</g>
+			<g id="shape133-195" v:mID="133" v:groupContext="shape" transform="translate(102.465,-11.1549)">
+				<title>Kreis.123</title>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+			</g>
+		</g>
+		<g id="group134-196" transform="translate(196.299,-454.745)" v:mID="134" v:groupContext="group" v:layerMember="1">
+			
+			
+			<title>SID_1_MessageSpecification_134</title>
+			<g id="shape134-197" v:mID="134" v:groupContext="groupContent" v:layerMember="1">
+				<v:textBlock v:margins="rect(0,0,0,8.50394)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="51.7323" cy="835.622" width="103.47" height="10.8183"></v:textRect>
+				<rect x="0" y="829.735" width="103.465" height="12.1549" class="st11"></rect>
+				<rect x="0" y="829.735" width="103.465" height="12.1549" class="st12"></rect>
+				<text x="17.51" y="838.66" class="st13" v:langID="1031">
+<tspan class="st14" v:isBullet="true">·</tspan> <tspan class="st15">Ablehnung</tspan>
+</text>			</g>
+			<g id="shape135-203" v:mID="135" v:groupContext="shape" v:layerMember="1" transform="translate(2,-10.1549)">
+				<title>Tabelle.135</title>
+				<switch>
+					<foreignObject x="0" y="841.89" width="0" height="0" requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+						
+					</foreignObject>
+					<svg viewBox="0 0 27.603 20.149" height="0" preserveAspectRatio="none" width="0" x="0" y="841.89">
+						<clipPath id="mfid77">
+							<rect width="27.603" height="20.149" id="mfid78"></rect>
+						</clipPath>
+						<g clip-path="url(#mfid77)">
+							<!-- GetDC -->
+							<!-- Released DC -->
+							<defs>
+								<path id="mfid79" d="M1.5,18.635 L26.094,18.635 L26.094,1.5 L1.5,1.5 L1.5,18.635 Z"></path>
+							</defs>
+							<mask id="mfid80">
+								<use xlink:href="#mfid79" fill-rule="evenodd" fill="white" stroke="none"></use>
+							</mask>
+							<mask id="mfid81" fill="white" stroke="none">
+								<g>
+									<g mask="url(#mfid80)">
+										<use xlink:href="#mfid78"></use>
+									</g>
+								</g>
+							</mask>
+							<defs>
+								<svg viewBox="0 0 27.52 20.08" height="20" id="mfid82" width="27">
+									<clipPath id="mfid83">
+										<rect width="27.52" height="20.08" id="mfid84"></rect>
+									</clipPath>
+									<g clip-path="url(#mfid83)">
+										<!-- GetDC -->
+										<!-- Released DC -->
+										<defs>
+											<path id="mfid85" d="M1.767,1.75 L25.741,1.775 L25.66,18.259 L1.767,18.287 L1.767,1.75 Z"></path>
+										</defs>
+										<mask id="mfid86">
+											<use xlink:href="#mfid85" fill-rule="evenodd" fill="white" stroke="none"></use>
+										</mask>
+										<mask id="mfid87" fill="white" stroke="none">
+											<g>
+												<g mask="url(#mfid86)">
+													<use xlink:href="#mfid84"></use>
+												</g>
+											</g>
+										</mask>
+										<defs>
+											<path id="mfid88" d="M-0.010417,-0.010417 L0.26015,-0.010417 L0.26015,0.18268 L-0.010417,0.18268 Z"></path>
+										</defs>
+										<radialGradient id="mfid89">
+											<stop offset="0" stop-color="#f9e79b"></stop>
+											<stop offset="1" stop-color="#efd568"></stop>
+										</radialGradient>
+										<g mask="url(#mfid87)">
+											<g text-rendering="geometricPrecision">
+												<g transform="matrix(96, 0, 0, -96, 1.767, 18.287)">
+													<g fill="white">
+														<mask id="mfid90" x="-0.010417" y="-0.010417" width="0.27056" height="0.19309" maskUnits="userSpaceOnUse">
+															<rect x="-0.010417" y="-0.010417" width="0.27056" height="0.19309" stroke="none"></rect>
+														</mask>
+														<use xlink:href="#mfid88" stroke="none" mask="url(#mfid90)" fill="url(#mfid89)"></use>
+														<defs>
+															<path id="mfid91" d="M1.767,15.714 L9.779,9.395 L10.125,9.652 L1.75,16.361 L1.75,15.728 L1.767,15.714 Z"></path>
+														</defs>
+													</g>
+												</g>
+											</g>
+										</g>
+										<g>
+											<g text-rendering="geometricPrecision">
+												<g fill="#dbb24b">
+													<use xlink:href="#mfid91" fill-rule="evenodd" stroke="none"></use>
+													<defs>
+														<path id="mfid92" d="M16.917,9.527 L25.75,15.947 L25.75,15.443 L17.167,9.194 L16.875,9.527 L16.917,9.527 Z"></path>
+													</defs>
+													<use xlink:href="#mfid92" fill-rule="evenodd" stroke="none"></use>
+													<defs>
+														<path id="mfid93" d="M1.768,4.283 L13.119,11.183 L25.702,4.214 L25.718,4.708 L13.119,11.632 L1.768,4.732 L1.768,4.283 Z"></path>
+													</defs>
+													<use xlink:href="#mfid93" fill-rule="evenodd" stroke="none"></use>
+													<defs>
+														<path id="mfid94" d="M25.688,12.476 L25.75,4.165 L25.729,4.177 L25.741,1.775 L1.767,1.75 L1.767,3.916 L1.75,3.903 L1.75,15.728 L1.767,15.714 L1.767,18.287 L4.445,18.285 L4.4,18.32 L14.462,18.273 L25.66,18.259 L25.688,12.476 Z"></path>
+													</defs>
+												</g>
+												<g fill="#dbb24b" stroke-width="0.5" stroke="#dbb24b" stroke-miterlimit="2">
+													<use xlink:href="#mfid94" fill="none"></use>
+												</g>
+											</g>
+										</g>
+									</g>
+								</svg>
+							</defs>
+							<g mask="url(#mfid81)">
+								<g text-rendering="geometricPrecision">
+									<clipPath id="mfid95">
+										<rect width="28.52" height="21.08"></rect>
+									</clipPath>
+									<use xlink:href="#mfid82" clip-path="url(#mfid95)" transform="matrix(0.96733, 0, 0, 0.95493, 0.002772, 0.002772)"></use>
+								</g>
+							</g>
+						</g>
+					</svg>
+				</switch>
+			</g>
+			<g id="shape136-204" v:mID="136" v:groupContext="shape" transform="translate(102.465,-11.1549)">
+				<title>Kreis.123</title>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+			</g>
+		</g>
+	</g>
+</svg>
+		</abstract-pass-ont:hasSVGRepresentation>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_FullySpecifiedSubject_2" >
+		<rdf:type rdf:resource="&standard-pass-ont;FullySpecifiedSubject" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SID_1_FullySpecifiedSubject_2</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Mitarbeiter</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:containsBehavior rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_SID_1_FullySpecifiedSubject_2" ></standard-pass-ont:containsBehavior>
+		<standard-pass-ont:containsBaseBehavior rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_SID_1_FullySpecifiedSubject_2" ></standard-pass-ont:containsBaseBehavior>
+		<standard-pass-ont:hasMaximumSubjectInstanceRestriction rdf:datatype="http://www.w3.org/2001/XMLSchema#integer" >1</standard-pass-ont:hasMaximumSubjectInstanceRestriction>
+		<abstract-pass-ont:hasExecutionCostPerHour rdf:datatype="&xsd;double" >0</abstract-pass-ont:hasExecutionCostPerHour>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_FullySpecifiedSubject_49" >
+		<rdf:type rdf:resource="&standard-pass-ont;FullySpecifiedSubject" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SID_1_FullySpecifiedSubject_49</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Vorgesetzter</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:containsBehavior rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SID_1_FullySpecifiedSubject_49" ></standard-pass-ont:containsBehavior>
+		<standard-pass-ont:containsBaseBehavior rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SID_1_FullySpecifiedSubject_49" ></standard-pass-ont:containsBaseBehavior>
+		<standard-pass-ont:hasMaximumSubjectInstanceRestriction rdf:datatype="http://www.w3.org/2001/XMLSchema#integer" >1</standard-pass-ont:hasMaximumSubjectInstanceRestriction>
+		<abstract-pass-ont:hasExecutionCostPerHour rdf:datatype="&xsd;double" >0</abstract-pass-ont:hasExecutionCostPerHour>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#MessageExchangeList_on_SID_1_StandardMessageConnector_99" >
+		<rdf:type rdf:resource="&standard-pass-ont;MessageExchangeList" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >MessageExchangeList_on_SID_1_StandardMessageConnector_99</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >SID_1_StandardMessageConnector_99</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_StandardMessageConnector_99_SID_1_MessageSpecification_103" ></standard-pass-ont:contains>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_MessageSpecification_103" >
+		<rdf:type rdf:resource="&standard-pass-ont;MessageSpecification" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SID_1_MessageSpecification_103</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Antrag</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:containsPayloadDescription rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#PayloadDefinition_of_SID_1_MessageSpecification_103" ></standard-pass-ont:containsPayloadDescription>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#PayloadDefinition_of_SID_1_MessageSpecification_103" >
+		<rdf:type rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#PayloadDefinition_of_SID_1_MessageSpecification_103" ></rdf:type>
+	</owl:NamedIndividual>
+	<owl:DatatypeProperty rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#DataElement_SID_1_DE3" >
+		<rdfs:label xml:lang="en" >DataElement_SID_1_DE3</rdfs:label>
+		<rdfs:subPropertyOf rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#ModelInternalDataProperty" ></rdfs:subPropertyOf>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer" ></rdfs:range>
+	</owl:DatatypeProperty>
+	<owl:Class rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#PayloadDefinition_of_SID_1_MessageSpecification_103" >
+		<rdfs:subClassOf rdf:resource="http://www.i2pm.net/standard-pass-ont#PayloadDataObjectDefinition"></rdfs:subClassOf>
+		<owl:equivalentClass>
+			<owl:Class>
+				<owl:oneOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#PayloadDefinition_of_SID_1_MessageSpecification_103" ></rdf:Description>
+				</owl:oneOf>
+			</owl:Class>
+		</owl:equivalentClass>
+		<rdfs:subClassOf >
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#DataElement_SID_1_DE3"></owl:onProperty>
+				<owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"></owl:onDataRange>
+				<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_StandardMessageConnector_99_SID_1_MessageSpecification_103" >
+		<rdf:type rdf:resource="&standard-pass-ont;MessageExchange" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SID_1_StandardMessageConnector_99_SID_1_MessageSpecification_103</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Message: Antrag From: Mitarbeiter To: Vorgesetzter</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:hasSender rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_FullySpecifiedSubject_2" ></standard-pass-ont:hasSender>
+		<standard-pass-ont:hasReceiver rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_FullySpecifiedSubject_49" ></standard-pass-ont:hasReceiver>
+		<standard-pass-ont:hasMessageType rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_MessageSpecification_103" ></standard-pass-ont:hasMessageType>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#MessageExchangeList_on_SID_1_StandardMessageConnector_127" >
+		<rdf:type rdf:resource="&standard-pass-ont;MessageExchangeList" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >MessageExchangeList_on_SID_1_StandardMessageConnector_127</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >SID_1_StandardMessageConnector_127</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_StandardMessageConnector_127_SID_1_MessageSpecification_131" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_StandardMessageConnector_127_SID_1_MessageSpecification_134" ></standard-pass-ont:contains>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_MessageSpecification_131" >
+		<rdf:type rdf:resource="&standard-pass-ont;MessageSpecification" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SID_1_MessageSpecification_131</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Annahme</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:containsPayloadDescription rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#PayloadDefinition_of_SID_1_MessageSpecification_131" ></standard-pass-ont:containsPayloadDescription>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#PayloadDefinition_of_SID_1_MessageSpecification_131" >
+		<rdf:type rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#PayloadDefinition_of_SID_1_MessageSpecification_131" ></rdf:type>
+	</owl:NamedIndividual>
+	<owl:DatatypeProperty rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#DataElement_SID_1_DE10" >
+		<rdfs:label xml:lang="en" >DataElement_SID_1_DE10</rdfs:label>
+		<rdfs:subPropertyOf rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#ModelInternalDataProperty" ></rdfs:subPropertyOf>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer" ></rdfs:range>
+	</owl:DatatypeProperty>
+	<owl:Class rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#PayloadDefinition_of_SID_1_MessageSpecification_131" >
+		<rdfs:subClassOf rdf:resource="http://www.i2pm.net/standard-pass-ont#PayloadDataObjectDefinition"></rdfs:subClassOf>
+		<owl:equivalentClass>
+			<owl:Class>
+				<owl:oneOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#PayloadDefinition_of_SID_1_MessageSpecification_131" ></rdf:Description>
+				</owl:oneOf>
+			</owl:Class>
+		</owl:equivalentClass>
+		<rdfs:subClassOf >
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#DataElement_SID_1_DE10"></owl:onProperty>
+				<owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"></owl:onDataRange>
+				<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_StandardMessageConnector_127_SID_1_MessageSpecification_131" >
+		<rdf:type rdf:resource="&standard-pass-ont;MessageExchange" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SID_1_StandardMessageConnector_127_SID_1_MessageSpecification_131</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Message: Annahme From: Vorgesetzter To: Mitarbeiter</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:hasSender rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_FullySpecifiedSubject_49" ></standard-pass-ont:hasSender>
+		<standard-pass-ont:hasReceiver rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_FullySpecifiedSubject_2" ></standard-pass-ont:hasReceiver>
+		<standard-pass-ont:hasMessageType rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_MessageSpecification_131" ></standard-pass-ont:hasMessageType>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_MessageSpecification_134" >
+		<rdf:type rdf:resource="&standard-pass-ont;MessageSpecification" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SID_1_MessageSpecification_134</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Ablehnung</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:containsPayloadDescription rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#PayloadDefinition_of_SID_1_MessageSpecification_134" ></standard-pass-ont:containsPayloadDescription>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#PayloadDefinition_of_SID_1_MessageSpecification_134" >
+		<rdf:type rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#PayloadDefinition_of_SID_1_MessageSpecification_134" ></rdf:type>
+	</owl:NamedIndividual>
+	<owl:DatatypeProperty rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#DataElement_SID_1_DE16" >
+		<rdfs:label xml:lang="en" >DataElement_SID_1_DE16</rdfs:label>
+		<rdfs:subPropertyOf rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#ModelInternalDataProperty" ></rdfs:subPropertyOf>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer" ></rdfs:range>
+	</owl:DatatypeProperty>
+	<owl:Class rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#PayloadDefinition_of_SID_1_MessageSpecification_134" >
+		<rdfs:subClassOf rdf:resource="http://www.i2pm.net/standard-pass-ont#PayloadDataObjectDefinition"></rdfs:subClassOf>
+		<owl:equivalentClass>
+			<owl:Class>
+				<owl:oneOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#PayloadDefinition_of_SID_1_MessageSpecification_134" ></rdf:Description>
+				</owl:oneOf>
+			</owl:Class>
+		</owl:equivalentClass>
+		<rdfs:subClassOf >
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#DataElement_SID_1_DE16"></owl:onProperty>
+				<owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"></owl:onDataRange>
+				<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_StandardMessageConnector_127_SID_1_MessageSpecification_134" >
+		<rdf:type rdf:resource="&standard-pass-ont;MessageExchange" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SID_1_StandardMessageConnector_127_SID_1_MessageSpecification_134</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Message: Ablehnung From: Vorgesetzter To: Mitarbeiter</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:hasSender rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_FullySpecifiedSubject_49" ></standard-pass-ont:hasSender>
+		<standard-pass-ont:hasReceiver rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_FullySpecifiedSubject_2" ></standard-pass-ont:hasReceiver>
+		<standard-pass-ont:hasMessageType rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_MessageSpecification_134" ></standard-pass-ont:hasMessageType>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_SID_1_FullySpecifiedSubject_2" >
+		<rdf:type rdf:resource="&standard-pass-ont;SubjectBehavior" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_4_SID_1_FullySpecifiedSubject_2</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >SBD: Mitarbeiter</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:hasPriorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger" >1</standard-pass-ont:hasPriorityNumber>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_SendState_22" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_4_SendState_22" ></standard-pass-ont:contains>
+		<standard-pass-ont:hasInitialState rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_DoState_64" ></standard-pass-ont:hasInitialState>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_DoState_64" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_4_DoState_64" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_SendTransition_97" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_SendTransition_97_sendTransitionCondition" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_ReceiveState_103" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_4_ReceiveState_103" ></standard-pass-ont:contains>
+		<standard-pass-ont:hasEndState rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_DoState_117" ></standard-pass-ont:hasEndState>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_DoState_117" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_4_DoState_117" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_ReceiveTransition_132" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_ReceiveTransition_132_receiveTransitionCondition" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_ReceiveState_137" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_4_ReceiveState_137" ></standard-pass-ont:contains>
+		<standard-pass-ont:hasEndState rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_DoState_151" ></standard-pass-ont:hasEndState>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_DoState_151" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_4_DoState_151" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_ReceiveTransition_166" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_ReceiveTransition_166_receiveTransitionCondition" ></standard-pass-ont:contains>
+		<abstract-pass-ont:hasSVGRepresentation rdf:parseType="Literal" >
+			<svg width="8.26772in" height="11.6929in" viewBox="0 0 595.276 841.89" xml:space="preserve" color-interpolation-filters="sRGB" class="st25" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+	
+
+	<style type="text/css">
+	
+		.st1 {fill:url(#grad0-5);stroke:#3c3c3c;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#000000;font-family:Calibri;font-size:0.833336em}
+		.st3 {fill:#000000;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75;visibility:hidden}
+		.st4 {fill:#dbeef3;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st5 {fill:#000000;font-family:Calibri;font-size:0.0833359em;font-weight:bold;opacity:0}
+		.st6 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st7 {fill:#000000;font-family:Calibri;font-size:0.674652em;font-weight:bold}
+		.st8 {fill:#ff6666;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st9 {fill:url(#grad0-37);stroke:#3c3c3c;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st10 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st11 {fill:#000000;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st12 {fill:url(#grad3-53);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.3}
+		.st13 {fill:#000000;font-family:Calibri;font-size:0.797241em;font-weight:bold}
+		.st14 {fill:#262626;font-family:Calibri;font-size:0.0833359em;font-weight:bold;opacity:0}
+		.st15 {font-size:1em}
+		.st16 {marker-end:url(#mrkr5-75);stroke:#282828;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st17 {fill:#282828;fill-opacity:1;stroke:#282828;stroke-opacity:1;stroke-width:0.33557046979866}
+		.st18 {stroke:#282828;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st19 {fill:#ffffff;stroke:#282828;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st20 {fill:#000000;font-family:Calibri;font-size:0.75em}
+		.st21 {fill:url(#grad0-93);stroke:#3c3c3c;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st22 {fill:#000000;font-family:Calibri;font-size:0.831367em;font-weight:bold}
+		.st23 {fill:#c4d6a0;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st24 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st25 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	
+	</style>
+
+	<defs id="Patterns_And_Gradients">
+		<linearGradient id="grad0-5" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(270 0.5 0.5)">
+			<stop offset="0" stop-color="#c3d7a0" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#d7ebb4" stop-opacity="1"></stop>
+		</linearGradient>
+		<linearGradient id="grad0-37" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(270 0.5 0.5)">
+			<stop offset="0" stop-color="#ffff64" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#ffff64" stop-opacity="1"></stop>
+		</linearGradient>
+		<radialGradient id="grad3-53" cx="0.5" cy="0.5" r="0.73">
+			<stop offset="0" stop-color="#fbf6f5" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#ffff00" stop-opacity="1"></stop>
+		</radialGradient>
+		<linearGradient id="grad0-93" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(270 0.5 0.5)">
+			<stop offset="0" stop-color="#d99690" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#e3b3ae" stop-opacity="1"></stop>
+		</linearGradient>
+	</defs>
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"></path>
+		</g>
+		<marker id="mrkr5-75" class="st17" v:arrowType="5" v:arrowSize="4" v:setback="5.215" refX="-5.215" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-2.98,-2.98) "></use>
+		</marker>
+	</defs>
+	<g v:mID="4" v:index="2" v:groupContext="foregroundPage">
+		
+		<title>SBD: Mitarbeiter</title>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<g id="group22-1" transform="translate(361.417,-510.236)" v:mID="22" v:groupContext="group" v:layerMember="1">
+			
+			
+			<title>Send</title>
+			<g id="shape22-2" v:mID="22" v:groupContext="groupContent" v:layerMember="1">
+				<v:textBlock v:margins="rect(1,2,2,2)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="49.6063" cy="828.008" width="99.22" height="27.7638"></v:textRect>
+				<path d="M96.94 841.89 A2.26773 2.26773 -180 0 0 99.21 839.62 L99.21 801.64 A2.26773 2.26773 -180 0 0 96.94 799.37&#xA;							 L2.27 799.37 A2.26773 2.26773 -180 0 0 0 801.64 L0 839.62 A2.26773 2.26773 -180 0 0 2.27 841.89 L96.94&#xA;							 841.89 Z" class="st1"></path>
+				<text x="35.92" y="830.51" class="st2" v:langID="1031">Antrag</text>			</g>
+			<g id="group23-7" transform="translate(85.4731,-28.7802)" v:mID="23" v:groupContext="group" v:layerMember="1">
+				<title>EndSymbol</title>
+				<g id="shape24-8" v:mID="24" v:groupContext="shape" v:layerMember="1">
+					<title>Kreis.54</title>
+					
+				</g>
+				<g id="shape25-10" v:mID="25" v:groupContext="shape" v:layerMember="1" transform="translate(3.44409,-3.44409)">
+					<title>Quadrat.62</title>
+					
+					<rect x="0" y="836.022" width="5.86772" height="5.86772" class="st3"></rect>
+				</g>
+				<g id="shape23-12" v:mID="23" v:groupContext="groupContent" v:layerMember="1"></g>
+			</g>
+			<g id="group26-13" transform="translate(71.7336,-28.7802)" v:mID="26" v:groupContext="group" v:layerMember="1">
+				
+				<title>StartSymbol</title>
+				<g id="shape26-14" v:mID="26" v:groupContext="groupContent" v:layerMember="1"></g>
+				<g id="shape27-16" v:mID="27" v:groupContext="shape" v:layerMember="1" transform="translate(4.84724,-2.65619)">
+					<title>Tabelle.27</title>
+				</g>
+			</g>
+			<g id="shape28-18" v:mID="28" v:groupContext="shape" v:layerMember="1" transform="translate(9.18934,-23.6889)">
+				<title>LoopBox</title>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="15.9565" cy="835.122" width="31.92" height="13.5365"></v:textRect>
+			</g>
+			<g id="shape29-20" v:mID="29" v:groupContext="shape" transform="translate(71.7008,-42.5197)">
+				<title>MakroSymbol</title>
+				<desc>M</desc>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+				<ellipse cx="0" cy="841.89" rx="0" ry="0" class="st4"></ellipse>
+				<text x="0" y="842.19" class="st5" v:langID="1031">M</text>			</g>
+			<g id="group30-23" transform="translate(72.7008,-42.5197)" v:mID="30" v:groupContext="group">
+				<title>FunctionCallCog</title>
+				<g id="shape31-24" v:mID="31" v:groupContext="shape">
+					<title>Tabelle.31</title>
+				</g>
+				<g id="shape32-25" v:mID="32" v:groupContext="shape">
+					<title>Tabelle.32</title>
+				</g>
+				<g id="shape33-26" v:mID="33" v:groupContext="shape">
+					<title>Tabelle.33</title>
+				</g>
+			</g>
+			<g id="group34-27" transform="translate(11.3386,-28.6142)" v:mID="34" v:groupContext="group">
+				<title>StateSymbol.20</title>
+				<desc>S</desc>
+				<g id="shape34-28" v:mID="34" v:groupContext="groupContent">
+					<v:textBlock v:margins="rect(0,2,0,1)" v:tabSpace="42.5197"></v:textBlock>
+					<v:textRect cx="7.44094" cy="833.76" width="14.89" height="9.22028"></v:textRect>
+					<rect x="0" y="829.984" width="14.8819" height="8.87316" class="st6"></rect>
+					<text x="9.06" y="836.19" class="st7" v:langID="1031">S</text>				</g>
+				<g id="shape35-31" v:mID="35" v:groupContext="shape" transform="translate(0.53785,0.904701)">
+					<title>Tabelle.35</title>
+					<path d="M0 835.88 L6.76 841.89 L13.53 835.88 L0 835.88 L0 835.88 Z" class="st8"></path>
+				</g>
+			</g>
+		</g>
+		<g id="group64-33" transform="translate(134.646,-510.236)" v:mID="64" v:groupContext="group" v:layerMember="4">
+			
+			
+			<title>Do</title>
+			<g id="shape64-34" v:mID="64" v:groupContext="groupContent" v:layerMember="4">
+				<v:textBlock v:margins="rect(1,2,2,2)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="49.6063" cy="827.508" width="99.22" height="28.7638"></v:textRect>
+				<path d="M96.94 841.89 A2.26773 2.26773 -180 0 0 99.21 839.62 L99.21 801.64 A2.26773 2.26773 -180 0 0 96.94 799.37&#xA;							 L2.27 799.37 A2.26773 2.26773 -180 0 0 -0 801.64 L0 839.62 A2.26773 2.26773 -180 0 0 2.27 841.89 L96.94&#xA;							 841.89 Z" class="st9"></path>
+				<text x="30.57" y="830.01" class="st2" v:langID="1031">Ausfüllen</text>			</g>
+			<g id="group65-39" transform="translate(85.6234,-28.9304)" v:mID="65" v:groupContext="group" v:layerMember="4">
+				<title>EndSymbol</title>
+				<g id="shape66-40" v:mID="66" v:groupContext="shape" v:layerMember="4">
+					<title>Kreis.54</title>
+					
+				</g>
+				<g id="shape67-42" v:mID="67" v:groupContext="shape" v:layerMember="4" transform="translate(3.44409,-3.44409)">
+					<title>Quadrat.62</title>
+					
+					<rect x="0" y="836.022" width="5.86772" height="5.86772" class="st3"></rect>
+				</g>
+				<g id="shape65-44" v:mID="65" v:groupContext="groupContent" v:layerMember="4"></g>
+			</g>
+			<g id="group68-45" transform="translate(72.0341,-28.9304)" v:mID="68" v:groupContext="group" v:layerMember="4">
+				
+				<title>StartSymbol</title>
+				<g id="shape68-46" v:mID="68" v:groupContext="groupContent" v:layerMember="4">
+					<path d="M0 835.51 A6.37795 6.37795 0 1 1 12.76 835.51 A6.37795 6.37795 0 0 1 -0 835.51 Z" class="st10"></path>
+				</g>
+				<g id="shape69-48" v:mID="69" v:groupContext="shape" v:layerMember="4" transform="translate(4.84724,-2.65619)">
+					<title>Tabelle.69</title>
+					<path d="M0 841.8 L0.12 841.89 L5.1 838.06 L0.12 834.24 L0 834.32 L0 841.8 Z" class="st11"></path>
+				</g>
+			</g>
+			<g id="shape70-50" v:mID="70" v:groupContext="shape" transform="translate(11.3386,-28.7638)">
+				<title>TypeSymbolD</title>
+				<desc>D</desc>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="6.56929" cy="835.639" width="12.29" height="10.118"></v:textRect>
+				<path d="M0 835.51 A6.37795 6.37795 0 1 1 12.76 835.51 A6.37795 6.37795 0 0 1 -0 835.51 Z" class="st12"></path>
+				<text x="3.55" y="838.51" class="st13" v:langID="1031">D</text>			</g>
+			<g id="shape71-55" v:mID="71" v:groupContext="shape" transform="translate(71.7008,-42.5197)">
+				<title>MakroSymbol</title>
+				<desc>M</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+				<ellipse cx="0" cy="841.89" rx="0" ry="0" class="st4"></ellipse>
+				<text x="0" y="842.19" class="st5" v:langID="1031">M</text>			</g>
+			<g id="shape72-58" v:mID="72" v:groupContext="shape" v:layerMember="4" transform="translate(4.22871,-24.8031)">
+				<title>LoopBox</title>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="15.9565" cy="834.803" width="31.92" height="14.1732"></v:textRect>
+			</g>
+			<g id="group73-60" transform="translate(72.7008,-42.5197)" v:mID="73" v:groupContext="group">
+				<title>FunctionCallCog</title>
+				<g id="shape74-61" v:mID="74" v:groupContext="shape">
+					<title>Tabelle.74</title>
+				</g>
+				<g id="shape75-62" v:mID="75" v:groupContext="shape">
+					<title>Tabelle.75</title>
+				</g>
+				<g id="shape76-63" v:mID="76" v:groupContext="shape">
+					<title>Tabelle.76</title>
+				</g>
+			</g>
+			<g id="group77-64" transform="translate(69.7008,-42.5197)" v:mID="77" v:groupContext="group">
+				<title>DataAccess</title>
+				<desc>DA</desc>
+				<g id="shape78-65" v:mID="78" v:groupContext="shape">
+					<title>Tabelle.78</title>
+				</g>
+				<g id="shape77-66" v:mID="77" v:groupContext="groupContent">
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+					<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+					<text x="0" y="841.59" class="st14" v:langID="1031">D<tspan x="0" dy="1.2em" class="st15">A</tspan>
+</text>				</g>
+			</g>
+		</g>
+		<a xlink:href="?&quot;zoom=100&quot;" v:shapeLink="Receive Transition">
+			<g id="group97-69" transform="translate(233.858,-524.409)" v:mID="97" v:groupContext="group" v:layerMember="5">
+				
+				
+				<title>Send Transition</title>
+				<g id="shape97-70" v:mID="97" v:groupContext="groupContent" v:layerMember="5">
+					<path d="M0 834.8 L35.43 834.8 L117.13 834.8" class="st16"></path>
+				</g>
+				<g id="shape98-76" v:mID="98" v:groupContext="shape" v:layerMember="5" transform="translate(-778.157,835.618) rotate(-90)">
+					<title>Tabelle.98</title>
+					<path d="M0 841.89 L0.81 841.89" class="st18"></path>
+				</g>
+				<a xlink:href="?&quot;zoom=100&quot;" v:shapeLink="Receive Transition">
+					<g id="group99-79" transform="translate(32.4752,4.52971)" v:mID="99" v:groupContext="group" v:layerMember="5">
+						<title>Tabelle.99</title>
+						<desc>To: Msg:</desc>
+						<g id="shape99-80" v:mID="99" v:groupContext="groupContent" v:layerMember="5">
+							<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197" v:verticalAlign="0"></v:textBlock>
+							<v:textRect cx="31.2579" cy="831.088" width="62.52" height="21.6036"></v:textRect>
+							<rect x="0" y="820.286" width="62.5158" height="21.6036" rx="0.283465" ry="0.283465" class="st19"></rect>
+							<text x="0" y="828.39" class="st20" v:langID="1031">To: Vorgesetzter<v:newlineChar></v:newlineChar>
+<tspan x="0" dy="1.2em" class="st15">Msg: </tspan>Antrag</text>						</g>
+						<g id="group100-84" transform="translate(60.8272,-20.9369)" v:mID="100" v:groupContext="group">
+							<title>DataAccess</title>
+							<desc>DA</desc>
+							<g id="shape101-85" v:mID="101" v:groupContext="shape">
+								<title>Tabelle.101</title>
+							</g>
+							<g id="shape100-86" v:mID="100" v:groupContext="groupContent">
+								<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+								<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+								<text x="0" y="841.59" class="st14" v:langID="1031">D<tspan x="0" dy="1.2em" class="st15">A</tspan>
+</text>							</g>
+						</g>
+					</g>
+				</a>
+			</g>
+		</a>
+		<g id="group103-89" transform="translate(134.646,-408.189)" v:mID="103" v:groupContext="group" v:layerMember="7">
+			
+			
+			<title>Receive</title>
+			<g id="shape103-90" v:mID="103" v:groupContext="groupContent" v:layerMember="7">
+				<v:textBlock v:margins="rect(1,2,2,2)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="49.8898" cy="828.008" width="99.78" height="27.7638"></v:textRect>
+				<path d="M97.51 841.89 A2.26773 2.26773 -180 0 0 99.78 839.62 L99.78 801.64 A2.26773 2.26773 -180 0 0 97.51 799.37&#xA;							 L2.27 799.37 A2.26773 2.26773 -180 0 0 -0 801.64 L0 839.62 A2.26773 2.26773 -180 0 0 2.27 841.89 L97.51&#xA;							 841.89 Z" class="st21"></path>
+				<text x="30.24" y="830.51" class="st2" v:langID="1031">Annahme</text>			</g>
+			<g id="group104-95" transform="translate(86.1903,-28.9304)" v:mID="104" v:groupContext="group" v:layerMember="7">
+				<title>EndSymbol</title>
+				<g id="shape105-96" v:mID="105" v:groupContext="shape" v:layerMember="7">
+					<title>Kreis.54</title>
+					
+				</g>
+				<g id="shape106-98" v:mID="106" v:groupContext="shape" v:layerMember="7" transform="translate(3.44409,-3.44409)">
+					<title>Quadrat.62</title>
+					
+					<rect x="0" y="836.022" width="5.86772" height="5.86772" class="st3"></rect>
+				</g>
+				<g id="shape104-100" v:mID="104" v:groupContext="groupContent" v:layerMember="7"></g>
+			</g>
+			<g id="group107-101" transform="translate(72.601,-28.9304)" v:mID="107" v:groupContext="group" v:layerMember="7">
+				
+				<title>StartSymbol</title>
+				<g id="shape107-102" v:mID="107" v:groupContext="groupContent" v:layerMember="7"></g>
+				<g id="shape108-104" v:mID="108" v:groupContext="shape" v:layerMember="7" transform="translate(4.84724,-2.65619)">
+					<title>Tabelle.108</title>
+				</g>
+			</g>
+			<g id="shape109-106" v:mID="109" v:groupContext="shape" v:layerMember="7" transform="translate(-0.0644238,-23.3858)">
+				<title>MultiBox</title>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="20.8346" cy="833.386" width="41.67" height="17.0079"></v:textRect>
+			</g>
+			<g id="shape110-108" v:mID="110" v:groupContext="shape" transform="translate(72.2677,-42.5197)">
+				<title>MakroSymbol</title>
+				<desc>M</desc>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+				<ellipse cx="0" cy="841.89" rx="0" ry="0" class="st4"></ellipse>
+				<text x="0" y="842.19" class="st5" v:langID="1031">M</text>			</g>
+			<g id="group111-111" transform="translate(73.2677,-42.5197)" v:mID="111" v:groupContext="group">
+				<title>FunctionCallCog</title>
+				<g id="shape112-112" v:mID="112" v:groupContext="shape">
+					<title>Tabelle.112</title>
+				</g>
+				<g id="shape113-113" v:mID="113" v:groupContext="shape">
+					<title>Tabelle.113</title>
+				</g>
+				<g id="shape114-114" v:mID="114" v:groupContext="shape">
+					<title>Tabelle.114</title>
+				</g>
+			</g>
+			<g id="group115-115" transform="translate(12.7559,-28.8913)" v:mID="115" v:groupContext="group">
+				<title>StateSymbol</title>
+				<desc>R</desc>
+				<g id="shape115-116" v:mID="115" v:groupContext="groupContent">
+					<v:textBlock v:margins="rect(1,0,0,1)" v:tabSpace="42.5197"></v:textBlock>
+					<v:textRect cx="7.01575" cy="836.77" width="14.04" height="10.2392"></v:textRect>
+					<rect x="0" y="831.651" width="14.0315" height="10.2392" class="st6"></rect>
+					<text x="1" y="840.26" class="st22" v:langID="1031">R</text>				</g>
+				<g id="shape116-119" v:mID="116" v:groupContext="shape" transform="translate(0.637795,-6.82613)">
+					<title>Tabelle.116</title>
+					<path d="M0 836.09 L6.38 841.89 L12.76 836.09 L0 836.09 L0 836.09 Z" class="st23"></path>
+				</g>
+			</g>
+		</g>
+		<g id="group117-121" transform="translate(361.984,-408.189)" v:mID="117" v:groupContext="group" v:layerMember="4">
+			
+			
+			<title>Do.117</title>
+			<g id="shape117-122" v:mID="117" v:groupContext="groupContent" v:layerMember="4">
+				<v:textBlock v:margins="rect(1,2,2,2)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="49.6063" cy="827.508" width="99.22" height="28.7638"></v:textRect>
+				<path d="M96.94 841.89 A2.26773 2.26773 -180 0 0 99.21 839.62 L99.21 801.64 A2.26773 2.26773 -180 0 0 96.94 799.37&#xA;							 L2.27 799.37 A2.26773 2.26773 -180 0 0 -0 801.64 L0 839.62 A2.26773 2.26773 -180 0 0 2.27 841.89 L96.94&#xA;							 841.89 Z" class="st9"></path>
+				<text x="10.03" y="830.01" class="st2" v:langID="1031">Über Urlaub freuen</text>			</g>
+			<g id="group118-126" transform="translate(85.6234,-28.9304)" v:mID="118" v:groupContext="group" v:layerMember="4">
+				<title>EndSymbol</title>
+				<g id="shape119-127" v:mID="119" v:groupContext="shape" v:layerMember="4">
+					<title>Kreis.54</title>
+					
+					<path d="M0 835.51 A6.37795 6.37795 0 1 1 12.76 835.51 A6.37795 6.37795 0 0 1 -0 835.51 Z" class="st24"></path>
+				</g>
+				<g id="shape120-129" v:mID="120" v:groupContext="shape" v:layerMember="4" transform="translate(3.44409,-3.44409)">
+					<title>Quadrat.62</title>
+					
+					<rect x="0" y="836.022" width="5.86772" height="5.86772" class="st11"></rect>
+				</g>
+				<g id="shape118-131" v:mID="118" v:groupContext="groupContent" v:layerMember="4"></g>
+			</g>
+			<g id="group121-132" transform="translate(72.0341,-28.9304)" v:mID="121" v:groupContext="group" v:layerMember="4">
+				
+				<title>StartSymbol</title>
+				<g id="shape121-133" v:mID="121" v:groupContext="groupContent" v:layerMember="4"></g>
+				<g id="shape122-135" v:mID="122" v:groupContext="shape" v:layerMember="4" transform="translate(4.84724,-2.65619)">
+					<title>Tabelle.122</title>
+				</g>
+			</g>
+			<g id="shape123-137" v:mID="123" v:groupContext="shape" transform="translate(11.3386,-28.7638)">
+				<title>TypeSymbolD</title>
+				<desc>D</desc>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="6.56929" cy="835.639" width="12.29" height="10.118"></v:textRect>
+				<path d="M0 835.51 A6.37795 6.37795 0 1 1 12.76 835.51 A6.37795 6.37795 0 0 1 -0 835.51 Z" class="st12"></path>
+				<text x="3.55" y="838.51" class="st13" v:langID="1031">D</text>			</g>
+			<g id="shape124-141" v:mID="124" v:groupContext="shape" transform="translate(71.7008,-42.5197)">
+				<title>MakroSymbol</title>
+				<desc>M</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+				<ellipse cx="0" cy="841.89" rx="0" ry="0" class="st4"></ellipse>
+				<text x="0" y="842.19" class="st5" v:langID="1031">M</text>			</g>
+			<g id="shape125-144" v:mID="125" v:groupContext="shape" v:layerMember="4" transform="translate(4.22871,-24.8031)">
+				<title>LoopBox</title>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="15.9565" cy="834.803" width="31.92" height="14.1732"></v:textRect>
+			</g>
+			<g id="group126-146" transform="translate(72.7008,-42.5197)" v:mID="126" v:groupContext="group">
+				<title>FunctionCallCog</title>
+				<g id="shape127-147" v:mID="127" v:groupContext="shape">
+					<title>Tabelle.127</title>
+				</g>
+				<g id="shape128-148" v:mID="128" v:groupContext="shape">
+					<title>Tabelle.128</title>
+				</g>
+				<g id="shape129-149" v:mID="129" v:groupContext="shape">
+					<title>Tabelle.129</title>
+				</g>
+			</g>
+			<g id="group130-150" transform="translate(69.7008,-42.5197)" v:mID="130" v:groupContext="group">
+				<title>DataAccess</title>
+				<desc>DA</desc>
+				<g id="shape131-151" v:mID="131" v:groupContext="shape">
+					<title>Tabelle.131</title>
+				</g>
+				<g id="shape130-152" v:mID="130" v:groupContext="groupContent">
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+					<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+					<text x="0" y="841.59" class="st14" v:langID="1031">D<tspan x="0" dy="1.2em" class="st15">A</tspan>
+</text>				</g>
+			</g>
+		</g>
+		<a xlink:href="?&quot;zoom=100&quot;" v:shapeLink="Send Transition">
+			<g id="group132-155" transform="translate(234.425,-422.362)" v:mID="132" v:groupContext="group" v:layerMember="6">
+				
+				
+				<title>Receive Transition</title>
+				<g id="shape132-156" v:mID="132" v:groupContext="groupContent" v:layerMember="6">
+					<path d="M0 834.8 L74.46 834.8 L117.13 834.8" class="st16"></path>
+				</g>
+				<g id="shape133-161" v:mID="133" v:groupContext="shape" v:layerMember="6" transform="translate(907.295,834.803) rotate(90)">
+					<title>Tabelle.133</title>
+					<path d="M0 841.89 L0 841.89" class="st18"></path>
+				</g>
+				<a xlink:href="?&quot;zoom=100&quot;" v:shapeLink="Send Transition">
+					<g id="group134-164" transform="translate(29.1089,3.71519)" v:mID="134" v:groupContext="group" v:layerMember="6">
+						<title>Tabelle.134</title>
+						<desc>From: Msg:</desc>
+						<g id="shape134-165" v:mID="134" v:groupContext="groupContent" v:layerMember="6">
+							<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197" v:verticalAlign="0"></v:textBlock>
+							<v:textRect cx="36.2962" cy="831.088" width="72.6" height="21.6036"></v:textRect>
+							<rect x="0" y="820.286" width="72.5925" height="21.6036" rx="0.283465" ry="0.283465" class="st19"></rect>
+							<text x="0" y="828.39" class="st20" v:langID="1031">From: Vorgesetzter<v:newlineChar></v:newlineChar>
+<tspan x="0" dy="1.2em" class="st15">Msg: </tspan>Annahme</text>						</g>
+						<g id="group135-169" transform="translate(71.0512,-20.9369)" v:mID="135" v:groupContext="group">
+							<title>DataAccess</title>
+							<desc>DA</desc>
+							<g id="shape136-170" v:mID="136" v:groupContext="shape">
+								<title>Tabelle.136</title>
+							</g>
+							<g id="shape135-171" v:mID="135" v:groupContext="groupContent">
+								<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+								<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+								<text x="0" y="841.59" class="st14" v:langID="1031">D<tspan x="0" dy="1.2em" class="st15">A</tspan>
+</text>							</g>
+						</g>
+					</g>
+				</a>
+			</g>
+		</a>
+		<g id="group137-174" transform="translate(134.646,-325.984)" v:mID="137" v:groupContext="group" v:layerMember="7">
+			
+			
+			<title>Receive.137</title>
+			<g id="shape137-175" v:mID="137" v:groupContext="groupContent" v:layerMember="7">
+				<v:textBlock v:margins="rect(1,2,2,2)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="49.8898" cy="828.008" width="99.78" height="27.7638"></v:textRect>
+				<path d="M97.51 841.89 A2.26773 2.26773 -180 0 0 99.78 839.62 L99.78 801.64 A2.26773 2.26773 -180 0 0 97.51 799.37&#xA;							 L2.27 799.37 A2.26773 2.26773 -180 0 0 -0 801.64 L0 839.62 A2.26773 2.26773 -180 0 0 2.27 841.89 L97.51&#xA;							 841.89 Z" class="st21"></path>
+				<text x="27.87" y="830.51" class="st2" v:langID="1031">Ablehnung</text>			</g>
+			<g id="group138-179" transform="translate(86.1903,-28.9304)" v:mID="138" v:groupContext="group" v:layerMember="7">
+				<title>EndSymbol</title>
+				<g id="shape139-180" v:mID="139" v:groupContext="shape" v:layerMember="7">
+					<title>Kreis.54</title>
+					
+				</g>
+				<g id="shape140-182" v:mID="140" v:groupContext="shape" v:layerMember="7" transform="translate(3.44409,-3.44409)">
+					<title>Quadrat.62</title>
+					
+					<rect x="0" y="836.022" width="5.86772" height="5.86772" class="st3"></rect>
+				</g>
+				<g id="shape138-184" v:mID="138" v:groupContext="groupContent" v:layerMember="7"></g>
+			</g>
+			<g id="group141-185" transform="translate(72.601,-28.9304)" v:mID="141" v:groupContext="group" v:layerMember="7">
+				
+				<title>StartSymbol</title>
+				<g id="shape141-186" v:mID="141" v:groupContext="groupContent" v:layerMember="7"></g>
+				<g id="shape142-188" v:mID="142" v:groupContext="shape" v:layerMember="7" transform="translate(4.84724,-2.65619)">
+					<title>Tabelle.142</title>
+				</g>
+			</g>
+			<g id="shape143-190" v:mID="143" v:groupContext="shape" v:layerMember="7" transform="translate(-0.0644238,-23.3858)">
+				<title>MultiBox</title>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="20.8346" cy="833.386" width="41.67" height="17.0079"></v:textRect>
+			</g>
+			<g id="shape144-192" v:mID="144" v:groupContext="shape" transform="translate(72.2677,-42.5197)">
+				<title>MakroSymbol</title>
+				<desc>M</desc>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+				<ellipse cx="0" cy="841.89" rx="0" ry="0" class="st4"></ellipse>
+				<text x="0" y="842.19" class="st5" v:langID="1031">M</text>			</g>
+			<g id="group145-195" transform="translate(73.2677,-42.5197)" v:mID="145" v:groupContext="group">
+				<title>FunctionCallCog</title>
+				<g id="shape146-196" v:mID="146" v:groupContext="shape">
+					<title>Tabelle.146</title>
+				</g>
+				<g id="shape147-197" v:mID="147" v:groupContext="shape">
+					<title>Tabelle.147</title>
+				</g>
+				<g id="shape148-198" v:mID="148" v:groupContext="shape">
+					<title>Tabelle.148</title>
+				</g>
+			</g>
+			<g id="group149-199" transform="translate(12.7559,-28.8913)" v:mID="149" v:groupContext="group">
+				<title>StateSymbol</title>
+				<desc>R</desc>
+				<g id="shape149-200" v:mID="149" v:groupContext="groupContent">
+					<v:textBlock v:margins="rect(1,0,0,1)" v:tabSpace="42.5197"></v:textBlock>
+					<v:textRect cx="7.01575" cy="836.77" width="14.04" height="10.2392"></v:textRect>
+					<rect x="0" y="831.651" width="14.0315" height="10.2392" class="st6"></rect>
+					<text x="1" y="840.26" class="st22" v:langID="1031">R</text>				</g>
+				<g id="shape150-203" v:mID="150" v:groupContext="shape" transform="translate(0.637795,-6.82613)">
+					<title>Tabelle.150</title>
+					<path d="M0 836.09 L6.38 841.89 L12.76 836.09 L0 836.09 L0 836.09 Z" class="st23"></path>
+				</g>
+			</g>
+		</g>
+		<g id="group151-205" transform="translate(361.984,-325.984)" v:mID="151" v:groupContext="group" v:layerMember="4">
+			
+			
+			<title>Do.151</title>
+			<g id="shape151-206" v:mID="151" v:groupContext="groupContent" v:layerMember="4">
+				<v:textBlock v:margins="rect(1,2,2,2)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="49.6063" cy="827.508" width="99.22" height="28.7638"></v:textRect>
+				<path d="M96.94 841.89 A2.26773 2.26773 -180 0 0 99.21 839.62 L99.21 801.64 A2.26773 2.26773 -180 0 0 96.94 799.37&#xA;							 L2.27 799.37 A2.26773 2.26773 -180 0 0 -0 801.64 L0 839.62 A2.26773 2.26773 -180 0 0 2.27 841.89 L96.94&#xA;							 841.89 Z" class="st9"></path>
+				<text x="24" y="830.01" class="st2" v:langID="1031">Scheiß Tag :(</text>			</g>
+			<g id="group152-210" transform="translate(85.6234,-28.9304)" v:mID="152" v:groupContext="group" v:layerMember="4">
+				<title>EndSymbol</title>
+				<g id="shape153-211" v:mID="153" v:groupContext="shape" v:layerMember="4">
+					<title>Kreis.54</title>
+					
+					<path d="M0 835.51 A6.37795 6.37795 0 1 1 12.76 835.51 A6.37795 6.37795 0 0 1 -0 835.51 Z" class="st24"></path>
+				</g>
+				<g id="shape154-213" v:mID="154" v:groupContext="shape" v:layerMember="4" transform="translate(3.44409,-3.44409)">
+					<title>Quadrat.62</title>
+					
+					<rect x="0" y="836.022" width="5.86772" height="5.86772" class="st11"></rect>
+				</g>
+				<g id="shape152-215" v:mID="152" v:groupContext="groupContent" v:layerMember="4"></g>
+			</g>
+			<g id="group155-216" transform="translate(72.0341,-28.9304)" v:mID="155" v:groupContext="group" v:layerMember="4">
+				
+				<title>StartSymbol</title>
+				<g id="shape155-217" v:mID="155" v:groupContext="groupContent" v:layerMember="4"></g>
+				<g id="shape156-219" v:mID="156" v:groupContext="shape" v:layerMember="4" transform="translate(4.84724,-2.65619)">
+					<title>Tabelle.156</title>
+				</g>
+			</g>
+			<g id="shape157-221" v:mID="157" v:groupContext="shape" transform="translate(11.3386,-28.7638)">
+				<title>TypeSymbolD</title>
+				<desc>D</desc>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="6.56929" cy="835.639" width="12.29" height="10.118"></v:textRect>
+				<path d="M0 835.51 A6.37795 6.37795 0 1 1 12.76 835.51 A6.37795 6.37795 0 0 1 -0 835.51 Z" class="st12"></path>
+				<text x="3.55" y="838.51" class="st13" v:langID="1031">D</text>			</g>
+			<g id="shape158-225" v:mID="158" v:groupContext="shape" transform="translate(71.7008,-42.5197)">
+				<title>MakroSymbol</title>
+				<desc>M</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+				<ellipse cx="0" cy="841.89" rx="0" ry="0" class="st4"></ellipse>
+				<text x="0" y="842.19" class="st5" v:langID="1031">M</text>			</g>
+			<g id="shape159-228" v:mID="159" v:groupContext="shape" v:layerMember="4" transform="translate(4.22871,-24.8031)">
+				<title>LoopBox</title>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="15.9565" cy="834.803" width="31.92" height="14.1732"></v:textRect>
+			</g>
+			<g id="group160-230" transform="translate(72.7008,-42.5197)" v:mID="160" v:groupContext="group">
+				<title>FunctionCallCog</title>
+				<g id="shape161-231" v:mID="161" v:groupContext="shape">
+					<title>Tabelle.161</title>
+				</g>
+				<g id="shape162-232" v:mID="162" v:groupContext="shape">
+					<title>Tabelle.162</title>
+				</g>
+				<g id="shape163-233" v:mID="163" v:groupContext="shape">
+					<title>Tabelle.163</title>
+				</g>
+			</g>
+			<g id="group164-234" transform="translate(69.7008,-42.5197)" v:mID="164" v:groupContext="group">
+				<title>DataAccess</title>
+				<desc>DA</desc>
+				<g id="shape165-235" v:mID="165" v:groupContext="shape">
+					<title>Tabelle.165</title>
+				</g>
+				<g id="shape164-236" v:mID="164" v:groupContext="groupContent">
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+					<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+					<text x="0" y="841.59" class="st14" v:langID="1031">D<tspan x="0" dy="1.2em" class="st15">A</tspan>
+</text>				</g>
+			</g>
+		</g>
+		<a xlink:href="?&quot;zoom=100&quot;" v:shapeLink="Send Transition.88">
+			<g id="group166-239" transform="translate(234.425,-340.157)" v:mID="166" v:groupContext="group" v:layerMember="6">
+				
+				
+				<title>Receive Transition.166</title>
+				<g id="shape166-240" v:mID="166" v:groupContext="groupContent" v:layerMember="6">
+					<path d="M0 834.8 L56.95 834.8 L117.13 834.8" class="st16"></path>
+				</g>
+				<g id="shape167-245" v:mID="167" v:groupContext="shape" v:layerMember="6" transform="translate(907.295,834.803) rotate(90)">
+					<title>Tabelle.167</title>
+					<path d="M0 841.89 L0 841.89" class="st18"></path>
+				</g>
+				<a xlink:href="?&quot;zoom=100&quot;" v:shapeLink="Send Transition.88">
+					<g id="group168-248" transform="translate(29.1089,3.71519)" v:mID="168" v:groupContext="group" v:layerMember="6">
+						<title>Tabelle.168</title>
+						<desc>From: Msg:</desc>
+						<g id="shape168-249" v:mID="168" v:groupContext="groupContent" v:layerMember="6">
+							<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197" v:verticalAlign="0"></v:textBlock>
+							<v:textRect cx="36.2962" cy="831.088" width="72.6" height="21.6036"></v:textRect>
+							<rect x="0" y="820.286" width="72.5925" height="21.6036" rx="0.283465" ry="0.283465" class="st19"></rect>
+							<text x="0" y="828.39" class="st20" v:langID="1031">From: Vorgesetzter<v:newlineChar></v:newlineChar>
+<tspan x="0" dy="1.2em" class="st15">Msg: </tspan>Ablehnung</text>						</g>
+						<g id="group169-253" transform="translate(71.0512,-20.9369)" v:mID="169" v:groupContext="group">
+							<title>DataAccess</title>
+							<desc>DA</desc>
+							<g id="shape170-254" v:mID="170" v:groupContext="shape">
+								<title>Tabelle.170</title>
+							</g>
+							<g id="shape169-255" v:mID="169" v:groupContext="groupContent">
+								<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+								<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+								<text x="0" y="841.59" class="st14" v:langID="1031">D<tspan x="0" dy="1.2em" class="st15">A</tspan>
+</text>							</g>
+						</g>
+					</g>
+				</a>
+			</g>
+		</a>
+	</g>
+</svg>
+		</abstract-pass-ont:hasSVGRepresentation>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_SendState_22" >
+		<rdf:type rdf:resource="&standard-pass-ont;SendState" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_4_SendState_22</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Antrag</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:hasFunctionSpecification rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#functionDefinition_of_SBD_4_SendState_22" ></standard-pass-ont:hasFunctionSpecification>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_4_SendState_22" >
+		<rdf:type rdf:resource="&standard-pass-ont;Action" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >action_of_SBD_4_SendState_22</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >action_of_SBD_4_SendState_22</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_SendState_22" ></standard-pass-ont:contains>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_DoState_64" >
+		<rdf:type rdf:resource="&standard-pass-ont;DoState" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_4_DoState_64</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Ausfüllen</standard-pass-ont:hasModelComponentLabel>
+		<rdf:type rdf:resource="&standard-pass-ont;InitialStateOfBehavior" ></rdf:type>
+		<standard-pass-ont:isInitialStateOf rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_SID_1_FullySpecifiedSubject_2" ></standard-pass-ont:isInitialStateOf>
+		<standard-pass-ont:hasFunctionSpecification rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#functionDefinition_of_SBD_4_DoState_64" ></standard-pass-ont:hasFunctionSpecification>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_4_DoState_64" >
+		<rdf:type rdf:resource="&standard-pass-ont;Action" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >action_of_SBD_4_DoState_64</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >action_of_SBD_4_DoState_64</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_DoState_64" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_SendTransition_97" ></standard-pass-ont:contains>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_SendTransition_97" >
+		<rdf:type rdf:resource="&standard-pass-ont;SendTransition" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_4_SendTransition_97</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >To: Vorgesetzter
+Msg: Antrag</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:hasSourceState rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_DoState_64" ></standard-pass-ont:hasSourceState>
+		<standard-pass-ont:hasTargetState rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_SendState_22" ></standard-pass-ont:hasTargetState>
+		<standard-pass-ont:hasPriorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger" >1</standard-pass-ont:hasPriorityNumber>
+		<standard-pass-ont:hasTransitionCondition rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_SendTransition_97_sendTransitionCondition" ></standard-pass-ont:hasTransitionCondition>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_SendTransition_97_sendTransitionCondition" >
+		<rdf:type rdf:resource="&standard-pass-ont;SendTransitionCondition" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_4_SendTransition_97_sendTransitionCondition</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >SBD_4_SendTransition_97_sendTransitionCondition</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:requiresPerformedMessageExchange rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_StandardMessageConnector_99_SID_1_MessageSpecification_103" ></standard-pass-ont:requiresPerformedMessageExchange>
+		<standard-pass-ont:requiresMessageSentTo rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_FullySpecifiedSubject_49" ></standard-pass-ont:requiresMessageSentTo>
+		<standard-pass-ont:requiresSendingOfMessage rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_MessageSpecification_103" ></standard-pass-ont:requiresSendingOfMessage>
+		<standard-pass-ont:hasSendType rdf:resource="http://www.i2pm.net/standard-pass-ont#SendTypeStandard" ></standard-pass-ont:hasSendType>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_ReceiveState_103" >
+		<rdf:type rdf:resource="&standard-pass-ont;ReceiveState" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_4_ReceiveState_103</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Annahme</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:hasFunctionSpecification rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#functionDefinition_of_SBD_4_ReceiveState_103" ></standard-pass-ont:hasFunctionSpecification>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_4_ReceiveState_103" >
+		<rdf:type rdf:resource="&standard-pass-ont;Action" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >action_of_SBD_4_ReceiveState_103</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >action_of_SBD_4_ReceiveState_103</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_ReceiveState_103" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_ReceiveTransition_132" ></standard-pass-ont:contains>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_DoState_117" >
+		<rdf:type rdf:resource="&standard-pass-ont;DoState" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_4_DoState_117</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Über Urlaub freuen</standard-pass-ont:hasModelComponentLabel>
+		<rdf:type rdf:resource="&standard-pass-ont;EndState" ></rdf:type>
+		<standard-pass-ont:hasFunctionSpecification rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#functionDefinition_of_SBD_4_DoState_117" ></standard-pass-ont:hasFunctionSpecification>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_4_DoState_117" >
+		<rdf:type rdf:resource="&standard-pass-ont;Action" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >action_of_SBD_4_DoState_117</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >action_of_SBD_4_DoState_117</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_DoState_117" ></standard-pass-ont:contains>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_ReceiveTransition_132" >
+		<rdf:type rdf:resource="&standard-pass-ont;ReceiveTransition" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_4_ReceiveTransition_132</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >From: Vorgesetzter
+Msg: Annahme</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:hasSourceState rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_ReceiveState_103" ></standard-pass-ont:hasSourceState>
+		<standard-pass-ont:hasTargetState rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_DoState_117" ></standard-pass-ont:hasTargetState>
+		<standard-pass-ont:hasPriorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger" >1</standard-pass-ont:hasPriorityNumber>
+		<standard-pass-ont:hasTransitionCondition rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_ReceiveTransition_132_receiveTransitionCondition" ></standard-pass-ont:hasTransitionCondition>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_ReceiveTransition_132_receiveTransitionCondition" >
+		<rdf:type rdf:resource="&standard-pass-ont;ReceiveTransitionCondition" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_4_ReceiveTransition_132_receiveTransitionCondition</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >SBD_4_ReceiveTransition_132_receiveTransitionCondition</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:requiresMessageSentFrom rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_FullySpecifiedSubject_49" ></standard-pass-ont:requiresMessageSentFrom>
+		<standard-pass-ont:requiresReceptionOfMessage rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_MessageSpecification_131" ></standard-pass-ont:requiresReceptionOfMessage>
+		<standard-pass-ont:requiresPerformedMessageExchange rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_StandardMessageConnector_127_SID_1_MessageSpecification_131" ></standard-pass-ont:requiresPerformedMessageExchange>
+		<standard-pass-ont:hasReceiveType rdf:resource="http://www.i2pm.net/standard-pass-ont#ReceiveTypeStandard" ></standard-pass-ont:hasReceiveType>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_ReceiveState_137" >
+		<rdf:type rdf:resource="&standard-pass-ont;ReceiveState" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_4_ReceiveState_137</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Ablehnung</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:hasFunctionSpecification rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#functionDefinition_of_SBD_4_ReceiveState_137" ></standard-pass-ont:hasFunctionSpecification>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_4_ReceiveState_137" >
+		<rdf:type rdf:resource="&standard-pass-ont;Action" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >action_of_SBD_4_ReceiveState_137</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >action_of_SBD_4_ReceiveState_137</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_ReceiveState_137" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_ReceiveTransition_166" ></standard-pass-ont:contains>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_DoState_151" >
+		<rdf:type rdf:resource="&standard-pass-ont;DoState" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_4_DoState_151</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Scheiß Tag :(</standard-pass-ont:hasModelComponentLabel>
+		<rdf:type rdf:resource="&standard-pass-ont;EndState" ></rdf:type>
+		<standard-pass-ont:hasFunctionSpecification rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#functionDefinition_of_SBD_4_DoState_151" ></standard-pass-ont:hasFunctionSpecification>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_4_DoState_151" >
+		<rdf:type rdf:resource="&standard-pass-ont;Action" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >action_of_SBD_4_DoState_151</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >action_of_SBD_4_DoState_151</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_DoState_151" ></standard-pass-ont:contains>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_ReceiveTransition_166" >
+		<rdf:type rdf:resource="&standard-pass-ont;ReceiveTransition" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_4_ReceiveTransition_166</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >From: Vorgesetzter
+Msg: Ablehnung</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:hasSourceState rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_ReceiveState_137" ></standard-pass-ont:hasSourceState>
+		<standard-pass-ont:hasTargetState rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_DoState_151" ></standard-pass-ont:hasTargetState>
+		<standard-pass-ont:hasPriorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger" >1</standard-pass-ont:hasPriorityNumber>
+		<standard-pass-ont:hasTransitionCondition rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_ReceiveTransition_166_receiveTransitionCondition" ></standard-pass-ont:hasTransitionCondition>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_4_ReceiveTransition_166_receiveTransitionCondition" >
+		<rdf:type rdf:resource="&standard-pass-ont;ReceiveTransitionCondition" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_4_ReceiveTransition_166_receiveTransitionCondition</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >SBD_4_ReceiveTransition_166_receiveTransitionCondition</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:requiresMessageSentFrom rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_FullySpecifiedSubject_49" ></standard-pass-ont:requiresMessageSentFrom>
+		<standard-pass-ont:requiresReceptionOfMessage rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_MessageSpecification_134" ></standard-pass-ont:requiresReceptionOfMessage>
+		<standard-pass-ont:requiresPerformedMessageExchange rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_StandardMessageConnector_127_SID_1_MessageSpecification_134" ></standard-pass-ont:requiresPerformedMessageExchange>
+		<standard-pass-ont:hasReceiveType rdf:resource="http://www.i2pm.net/standard-pass-ont#ReceiveTypeStandard" ></standard-pass-ont:hasReceiveType>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SID_1_FullySpecifiedSubject_49" >
+		<rdf:type rdf:resource="&standard-pass-ont;SubjectBehavior" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_5_SID_1_FullySpecifiedSubject_49</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >SBD: Vorgesetzter</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:hasPriorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger" >1</standard-pass-ont:hasPriorityNumber>
+		<standard-pass-ont:hasInitialState rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_ReceiveState_2" ></standard-pass-ont:hasInitialState>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_ReceiveState_2" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_5_ReceiveState_2" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_DoState_16" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_5_DoState_16" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendState_31" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_5_SendState_31" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendState_45" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_5_SendState_45" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_ReceiveTransition_77" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_ReceiveTransition_77_receiveTransitionCondition" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendTransition_83" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendTransition_83_sendTransitionCondition" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendTransition_88" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendTransition_88_sendTransitionCondition" ></standard-pass-ont:contains>
+		<standard-pass-ont:hasEndState rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_DoState_108" ></standard-pass-ont:hasEndState>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_DoState_108" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_5_DoState_108" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_DoTransition_123" ></standard-pass-ont:contains>
+		<abstract-pass-ont:hasSVGRepresentation rdf:parseType="Literal" >
+			<svg width="8.26772in" height="11.6929in" viewBox="0 0 595.276 841.89" xml:space="preserve" color-interpolation-filters="sRGB" class="st29" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+	
+
+	<style type="text/css">
+	
+		.st1 {fill:url(#grad0-5);stroke:#3c3c3c;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#000000;font-family:Calibri;font-size:0.833336em}
+		.st3 {fill:#000000;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75;visibility:hidden}
+		.st4 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st5 {fill:#000000;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st6 {fill:#dbeef3;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st7 {fill:#000000;font-family:Calibri;font-size:0.0833359em;font-weight:bold;opacity:0}
+		.st8 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st9 {fill:#000000;font-family:Calibri;font-size:0.831367em;font-weight:bold}
+		.st10 {fill:#c4d6a0;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st11 {fill:url(#grad0-37);stroke:#3c3c3c;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st12 {fill:url(#grad3-53);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.3}
+		.st13 {fill:#000000;font-family:Calibri;font-size:0.797241em;font-weight:bold}
+		.st14 {fill:#262626;font-family:Calibri;font-size:0.0833359em;font-weight:bold;opacity:0}
+		.st15 {font-size:1em}
+		.st16 {fill:url(#grad0-73);stroke:#3c3c3c;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st17 {fill:#000000;font-family:Calibri;font-size:0.674652em;font-weight:bold}
+		.st18 {fill:#ff6666;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st19 {marker-end:url(#mrkr5-138);stroke:#282828;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st20 {fill:#282828;fill-opacity:1;stroke:#282828;stroke-opacity:1;stroke-width:0.33557046979866}
+		.st21 {stroke:#282828;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st22 {fill:#ffffff;stroke:#282828;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st23 {fill:#000000;font-family:Calibri;font-size:0.75em}
+		.st24 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st25 {marker-end:url(#mrkr5-230);stroke:#3c3c3c;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st26 {fill:#3c3c3c;fill-opacity:1;stroke:#3c3c3c;stroke-opacity:1;stroke-width:0.33557046979866}
+		.st27 {stroke:#3c3c3c;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st28 {fill:#ffffff;stroke:#3c3c3c;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st29 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	
+	</style>
+
+	<defs id="Patterns_And_Gradients">
+		<linearGradient id="grad0-5" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(270 0.5 0.5)">
+			<stop offset="0" stop-color="#d99690" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#e3b3ae" stop-opacity="1"></stop>
+		</linearGradient>
+		<linearGradient id="grad0-37" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(270 0.5 0.5)">
+			<stop offset="0" stop-color="#ffff64" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#ffff64" stop-opacity="1"></stop>
+		</linearGradient>
+		<radialGradient id="grad3-53" cx="0.5" cy="0.5" r="0.73">
+			<stop offset="0" stop-color="#fbf6f5" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#ffff00" stop-opacity="1"></stop>
+		</radialGradient>
+		<linearGradient id="grad0-73" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(270 0.5 0.5)">
+			<stop offset="0" stop-color="#c3d7a0" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#d7ebb4" stop-opacity="1"></stop>
+		</linearGradient>
+	</defs>
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"></path>
+		</g>
+		<marker id="mrkr5-138" class="st20" v:arrowType="5" v:arrowSize="4" v:setback="5.215" refX="-5.215" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-2.98,-2.98) "></use>
+		</marker>
+		<marker id="mrkr5-230" class="st26" v:arrowType="5" v:arrowSize="4" v:setback="5.215" refX="-5.215" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-2.98,-2.98) "></use>
+		</marker>
+	</defs>
+	<g v:mID="5" v:index="3" v:groupContext="foregroundPage">
+		
+		<title>SBD: Vorgesetzter</title>
+		
+		
+		
+		
+		
+		
+		
+		
+		<g id="group2-1" transform="translate(56.6929,-680.315)" v:mID="2" v:groupContext="group" v:layerMember="0">
+			
+			
+			<title>Receive</title>
+			<g id="shape2-2" v:mID="2" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(1,2,2,2)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="49.8898" cy="828.008" width="99.78" height="27.7638"></v:textRect>
+				<path d="M97.51 841.89 A2.26773 2.26773 -180 0 0 99.78 839.62 L99.78 801.64 A2.26773 2.26773 -180 0 0 97.51 799.37&#xA;							 L2.27 799.37 A2.26773 2.26773 -180 0 0 -0 801.64 L0 839.62 A2.26773 2.26773 -180 0 0 2.27 841.89 L97.51&#xA;							 841.89 Z" class="st1"></path>
+				<text x="36.2" y="830.51" class="st2" v:langID="1031">Antrag</text>			</g>
+			<g id="group3-7" transform="translate(86.1903,-28.9304)" v:mID="3" v:groupContext="group" v:layerMember="0">
+				<title>EndSymbol</title>
+				<g id="shape4-8" v:mID="4" v:groupContext="shape" v:layerMember="0">
+					<title>Kreis.54</title>
+					
+				</g>
+				<g id="shape5-10" v:mID="5" v:groupContext="shape" v:layerMember="0" transform="translate(3.44409,-3.44409)">
+					<title>Quadrat.62</title>
+					
+					<rect x="0" y="836.022" width="5.86772" height="5.86772" class="st3"></rect>
+				</g>
+				<g id="shape3-12" v:mID="3" v:groupContext="groupContent" v:layerMember="0"></g>
+			</g>
+			<g id="group6-13" transform="translate(72.601,-28.9304)" v:mID="6" v:groupContext="group" v:layerMember="0">
+				
+				<title>StartSymbol</title>
+				<g id="shape6-14" v:mID="6" v:groupContext="groupContent" v:layerMember="0">
+					<path d="M0 835.51 A6.37795 6.37795 0 1 1 12.76 835.51 A6.37795 6.37795 0 0 1 -0 835.51 Z" class="st4"></path>
+				</g>
+				<g id="shape7-16" v:mID="7" v:groupContext="shape" v:layerMember="0" transform="translate(4.84724,-2.65619)">
+					<title>Tabelle.7</title>
+					<path d="M0 841.8 L0.12 841.89 L5.1 838.06 L0.12 834.24 L0 834.32 L0 841.8 Z" class="st5"></path>
+				</g>
+			</g>
+			<g id="shape8-18" v:mID="8" v:groupContext="shape" v:layerMember="0" transform="translate(-0.0644238,-23.3858)">
+				<title>MultiBox</title>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="20.8346" cy="833.386" width="41.67" height="17.0079"></v:textRect>
+			</g>
+			<g id="shape9-20" v:mID="9" v:groupContext="shape" transform="translate(72.2677,-42.5197)">
+				<title>MakroSymbol</title>
+				<desc>M</desc>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+				<ellipse cx="0" cy="841.89" rx="0" ry="0" class="st6"></ellipse>
+				<text x="0" y="842.19" class="st7" v:langID="1031">M</text>			</g>
+			<g id="group10-23" transform="translate(73.2677,-42.5197)" v:mID="10" v:groupContext="group">
+				<title>FunctionCallCog</title>
+				<g id="shape11-24" v:mID="11" v:groupContext="shape">
+					<title>Tabelle.11</title>
+				</g>
+				<g id="shape12-25" v:mID="12" v:groupContext="shape">
+					<title>Tabelle.12</title>
+				</g>
+				<g id="shape13-26" v:mID="13" v:groupContext="shape">
+					<title>Tabelle.13</title>
+				</g>
+			</g>
+			<g id="group14-27" transform="translate(12.7559,-28.8913)" v:mID="14" v:groupContext="group">
+				<title>StateSymbol</title>
+				<desc>R</desc>
+				<g id="shape14-28" v:mID="14" v:groupContext="groupContent">
+					<v:textBlock v:margins="rect(1,0,0,1)" v:tabSpace="42.5197"></v:textBlock>
+					<v:textRect cx="7.01575" cy="836.77" width="14.04" height="10.2392"></v:textRect>
+					<rect x="0" y="831.651" width="14.0315" height="10.2392" class="st8"></rect>
+					<text x="1" y="840.26" class="st9" v:langID="1031">R</text>				</g>
+				<g id="shape15-31" v:mID="15" v:groupContext="shape" transform="translate(0.637795,-6.82613)">
+					<title>Tabelle.15</title>
+					<path d="M0 836.09 L6.38 841.89 L12.76 836.09 L0 836.09 L0 836.09 Z" class="st10"></path>
+				</g>
+			</g>
+		</g>
+		<g id="group16-33" transform="translate(255.118,-595.276)" v:mID="16" v:groupContext="group" v:layerMember="1">
+			
+			
+			<title>Do</title>
+			<g id="shape16-34" v:mID="16" v:groupContext="groupContent" v:layerMember="1">
+				<v:textBlock v:margins="rect(1,2,2,2)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="49.6063" cy="827.508" width="99.22" height="28.7638"></v:textRect>
+				<path d="M96.94 841.89 A2.26773 2.26773 -180 0 0 99.21 839.62 L99.21 801.64 A2.26773 2.26773 -180 0 0 96.94 799.37&#xA;							 L2.27 799.37 A2.26773 2.26773 -180 0 0 -0 801.64 L0 839.62 A2.26773 2.26773 -180 0 0 2.27 841.89 L96.94&#xA;							 841.89 Z" class="st11"></path>
+				<text x="25.04" y="830.01" class="st2" v:langID="1031">Auswertung</text>			</g>
+			<g id="group17-39" transform="translate(85.6234,-28.9304)" v:mID="17" v:groupContext="group" v:layerMember="1">
+				<title>EndSymbol</title>
+				<g id="shape18-40" v:mID="18" v:groupContext="shape" v:layerMember="1">
+					<title>Kreis.54</title>
+					
+				</g>
+				<g id="shape19-42" v:mID="19" v:groupContext="shape" v:layerMember="1" transform="translate(3.44409,-3.44409)">
+					<title>Quadrat.62</title>
+					
+					<rect x="0" y="836.022" width="5.86772" height="5.86772" class="st3"></rect>
+				</g>
+				<g id="shape17-44" v:mID="17" v:groupContext="groupContent" v:layerMember="1"></g>
+			</g>
+			<g id="group20-45" transform="translate(72.0341,-28.9304)" v:mID="20" v:groupContext="group" v:layerMember="1">
+				
+				<title>StartSymbol</title>
+				<g id="shape20-46" v:mID="20" v:groupContext="groupContent" v:layerMember="1"></g>
+				<g id="shape21-48" v:mID="21" v:groupContext="shape" v:layerMember="1" transform="translate(4.84724,-2.65619)">
+					<title>Tabelle.21</title>
+				</g>
+			</g>
+			<g id="shape22-50" v:mID="22" v:groupContext="shape" transform="translate(11.3386,-28.7638)">
+				<title>TypeSymbolD</title>
+				<desc>D</desc>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="6.56929" cy="835.639" width="12.29" height="10.118"></v:textRect>
+				<path d="M0 835.51 A6.37795 6.37795 0 1 1 12.76 835.51 A6.37795 6.37795 0 0 1 -0 835.51 Z" class="st12"></path>
+				<text x="3.55" y="838.51" class="st13" v:langID="1031">D</text>			</g>
+			<g id="shape23-55" v:mID="23" v:groupContext="shape" transform="translate(71.7008,-42.5197)">
+				<title>MakroSymbol</title>
+				<desc>M</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+				<ellipse cx="0" cy="841.89" rx="0" ry="0" class="st6"></ellipse>
+				<text x="0" y="842.19" class="st7" v:langID="1031">M</text>			</g>
+			<g id="shape24-58" v:mID="24" v:groupContext="shape" v:layerMember="1" transform="translate(4.22871,-24.8031)">
+				<title>LoopBox</title>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="15.9565" cy="834.803" width="31.92" height="14.1732"></v:textRect>
+			</g>
+			<g id="group25-60" transform="translate(72.7008,-42.5197)" v:mID="25" v:groupContext="group">
+				<title>FunctionCallCog</title>
+				<g id="shape26-61" v:mID="26" v:groupContext="shape">
+					<title>Tabelle.26</title>
+				</g>
+				<g id="shape27-62" v:mID="27" v:groupContext="shape">
+					<title>Tabelle.27</title>
+				</g>
+				<g id="shape28-63" v:mID="28" v:groupContext="shape">
+					<title>Tabelle.28</title>
+				</g>
+			</g>
+			<g id="group29-64" transform="translate(69.7008,-42.5197)" v:mID="29" v:groupContext="group">
+				<title>DataAccess</title>
+				<desc>DA</desc>
+				<g id="shape30-65" v:mID="30" v:groupContext="shape">
+					<title>Tabelle.30</title>
+				</g>
+				<g id="shape29-66" v:mID="29" v:groupContext="groupContent">
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+					<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+					<text x="0" y="841.59" class="st14" v:langID="1031">D<tspan x="0" dy="1.2em" class="st15">A</tspan>
+</text>				</g>
+			</g>
+		</g>
+		<g id="group31-69" transform="translate(325.984,-481.89)" v:mID="31" v:groupContext="group" v:layerMember="2">
+			
+			
+			<title>Send</title>
+			<g id="shape31-70" v:mID="31" v:groupContext="groupContent" v:layerMember="2">
+				<v:textBlock v:margins="rect(1,2,2,2)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="49.6063" cy="828.008" width="99.22" height="27.7638"></v:textRect>
+				<path d="M96.94 841.89 A2.26773 2.26773 -180 0 0 99.21 839.62 L99.21 801.64 A2.26773 2.26773 -180 0 0 96.94 799.37&#xA;							 L2.27 799.37 A2.26773 2.26773 -180 0 0 0 801.64 L0 839.62 A2.26773 2.26773 -180 0 0 2.27 841.89 L96.94&#xA;							 841.89 Z" class="st16"></path>
+				<text x="29.96" y="830.51" class="st2" v:langID="1031">Annahme</text>			</g>
+			<g id="group32-75" transform="translate(85.4731,-28.7802)" v:mID="32" v:groupContext="group" v:layerMember="2">
+				<title>EndSymbol</title>
+				<g id="shape33-76" v:mID="33" v:groupContext="shape" v:layerMember="2">
+					<title>Kreis.54</title>
+					
+				</g>
+				<g id="shape34-78" v:mID="34" v:groupContext="shape" v:layerMember="2" transform="translate(3.44409,-3.44409)">
+					<title>Quadrat.62</title>
+					
+					<rect x="0" y="836.022" width="5.86772" height="5.86772" class="st3"></rect>
+				</g>
+				<g id="shape32-80" v:mID="32" v:groupContext="groupContent" v:layerMember="2"></g>
+			</g>
+			<g id="group35-81" transform="translate(71.7336,-28.7802)" v:mID="35" v:groupContext="group" v:layerMember="2">
+				
+				<title>StartSymbol</title>
+				<g id="shape35-82" v:mID="35" v:groupContext="groupContent" v:layerMember="2"></g>
+				<g id="shape36-84" v:mID="36" v:groupContext="shape" v:layerMember="2" transform="translate(4.84724,-2.65619)">
+					<title>Tabelle.36</title>
+				</g>
+			</g>
+			<g id="shape37-86" v:mID="37" v:groupContext="shape" v:layerMember="2" transform="translate(9.18934,-23.6889)">
+				<title>LoopBox</title>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="15.9565" cy="835.122" width="31.92" height="13.5365"></v:textRect>
+			</g>
+			<g id="shape38-88" v:mID="38" v:groupContext="shape" transform="translate(71.7008,-42.5197)">
+				<title>MakroSymbol</title>
+				<desc>M</desc>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+				<ellipse cx="0" cy="841.89" rx="0" ry="0" class="st6"></ellipse>
+				<text x="0" y="842.19" class="st7" v:langID="1031">M</text>			</g>
+			<g id="group39-91" transform="translate(72.7008,-42.5197)" v:mID="39" v:groupContext="group">
+				<title>FunctionCallCog</title>
+				<g id="shape40-92" v:mID="40" v:groupContext="shape">
+					<title>Tabelle.40</title>
+				</g>
+				<g id="shape41-93" v:mID="41" v:groupContext="shape">
+					<title>Tabelle.41</title>
+				</g>
+				<g id="shape42-94" v:mID="42" v:groupContext="shape">
+					<title>Tabelle.42</title>
+				</g>
+			</g>
+			<g id="group43-95" transform="translate(11.3386,-28.6142)" v:mID="43" v:groupContext="group">
+				<title>StateSymbol.20</title>
+				<desc>S</desc>
+				<g id="shape43-96" v:mID="43" v:groupContext="groupContent">
+					<v:textBlock v:margins="rect(0,2,0,1)" v:tabSpace="42.5197"></v:textBlock>
+					<v:textRect cx="7.44094" cy="833.76" width="14.89" height="9.22028"></v:textRect>
+					<rect x="0" y="829.984" width="14.8819" height="8.87316" class="st8"></rect>
+					<text x="9.06" y="836.19" class="st17" v:langID="1031">S</text>				</g>
+				<g id="shape44-99" v:mID="44" v:groupContext="shape" transform="translate(0.53785,0.904701)">
+					<title>Tabelle.44</title>
+					<path d="M0 835.88 L6.76 841.89 L13.53 835.88 L0 835.88 L0 835.88 Z" class="st18"></path>
+				</g>
+			</g>
+		</g>
+		<g id="group45-101" transform="translate(99.2126,-481.89)" v:mID="45" v:groupContext="group" v:layerMember="2">
+			
+			
+			<title>Send.45</title>
+			<g id="shape45-102" v:mID="45" v:groupContext="groupContent" v:layerMember="2">
+				<v:textBlock v:margins="rect(1,2,2,2)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="49.6063" cy="828.008" width="99.22" height="27.7638"></v:textRect>
+				<path d="M96.94 841.89 A2.26773 2.26773 -180 0 0 99.21 839.62 L99.21 801.64 A2.26773 2.26773 -180 0 0 96.94 799.37&#xA;							 L2.27 799.37 A2.26773 2.26773 -180 0 0 0 801.64 L0 839.62 A2.26773 2.26773 -180 0 0 2.27 841.89 L96.94&#xA;							 841.89 Z" class="st16"></path>
+				<text x="27.59" y="830.51" class="st2" v:langID="1031">Ablehnung</text>			</g>
+			<g id="group46-106" transform="translate(85.4731,-28.7802)" v:mID="46" v:groupContext="group" v:layerMember="2">
+				<title>EndSymbol</title>
+				<g id="shape47-107" v:mID="47" v:groupContext="shape" v:layerMember="2">
+					<title>Kreis.54</title>
+					
+				</g>
+				<g id="shape48-109" v:mID="48" v:groupContext="shape" v:layerMember="2" transform="translate(3.44409,-3.44409)">
+					<title>Quadrat.62</title>
+					
+					<rect x="0" y="836.022" width="5.86772" height="5.86772" class="st3"></rect>
+				</g>
+				<g id="shape46-111" v:mID="46" v:groupContext="groupContent" v:layerMember="2"></g>
+			</g>
+			<g id="group49-112" transform="translate(71.7336,-28.7802)" v:mID="49" v:groupContext="group" v:layerMember="2">
+				
+				<title>StartSymbol</title>
+				<g id="shape49-113" v:mID="49" v:groupContext="groupContent" v:layerMember="2"></g>
+				<g id="shape50-115" v:mID="50" v:groupContext="shape" v:layerMember="2" transform="translate(4.84724,-2.65619)">
+					<title>Tabelle.50</title>
+				</g>
+			</g>
+			<g id="shape51-117" v:mID="51" v:groupContext="shape" v:layerMember="2" transform="translate(9.18934,-23.6889)">
+				<title>LoopBox</title>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="15.9565" cy="835.122" width="31.92" height="13.5365"></v:textRect>
+			</g>
+			<g id="shape52-119" v:mID="52" v:groupContext="shape" transform="translate(71.7008,-42.5197)">
+				<title>MakroSymbol</title>
+				<desc>M</desc>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+				<ellipse cx="0" cy="841.89" rx="0" ry="0" class="st6"></ellipse>
+				<text x="0" y="842.19" class="st7" v:langID="1031">M</text>			</g>
+			<g id="group53-122" transform="translate(72.7008,-42.5197)" v:mID="53" v:groupContext="group">
+				<title>FunctionCallCog</title>
+				<g id="shape54-123" v:mID="54" v:groupContext="shape">
+					<title>Tabelle.54</title>
+				</g>
+				<g id="shape55-124" v:mID="55" v:groupContext="shape">
+					<title>Tabelle.55</title>
+				</g>
+				<g id="shape56-125" v:mID="56" v:groupContext="shape">
+					<title>Tabelle.56</title>
+				</g>
+			</g>
+			<g id="group57-126" transform="translate(11.3386,-28.6142)" v:mID="57" v:groupContext="group">
+				<title>StateSymbol.20</title>
+				<desc>S</desc>
+				<g id="shape57-127" v:mID="57" v:groupContext="groupContent">
+					<v:textBlock v:margins="rect(0,2,0,1)" v:tabSpace="42.5197"></v:textBlock>
+					<v:textRect cx="7.44094" cy="833.76" width="14.89" height="9.22028"></v:textRect>
+					<rect x="0" y="829.984" width="14.8819" height="8.87316" class="st8"></rect>
+					<text x="9.06" y="836.19" class="st17" v:langID="1031">S</text>				</g>
+				<g id="shape58-130" v:mID="58" v:groupContext="shape" transform="translate(0.53785,0.904701)">
+					<title>Tabelle.58</title>
+					<path d="M0 835.88 L6.76 841.89 L13.53 835.88 L0 835.88 L0 835.88 Z" class="st18"></path>
+				</g>
+			</g>
+		</g>
+		<a xlink:href="?&quot;zoom=100&quot;" v:shapeLink="Send Transition">
+			<g id="group77-132" transform="translate(156.472,-701.575)" v:mID="77" v:groupContext="group" v:layerMember="5">
+				
+				
+				<title>Receive Transition</title>
+				<g id="shape77-133" v:mID="77" v:groupContext="groupContent" v:layerMember="5">
+					<path d="M0 841.89 L53.29 841.89 A2.83465 2.83465 0 0 1 56.13 844.72 L56.13 924.09 A2.83465 2.83465 -180 0 0&#xA;								 58.96 926.93 L88.22 926.93" class="st19"></path>
+				</g>
+				<g id="shape78-139" v:mID="78" v:groupContext="shape" v:layerMember="5" transform="translate(56.126,1721.79) rotate(180)">
+					<title>Tabelle.78</title>
+					<path d="M0 841.89 L0 841.89" class="st21"></path>
+				</g>
+				<a xlink:href="?&quot;zoom=100&quot;" v:shapeLink="Send Transition">
+					<g id="group79-142" transform="translate(22.2182,48.8168)" v:mID="79" v:groupContext="group" v:layerMember="5">
+						<title>Tabelle.79</title>
+						<desc>From: Msg:</desc>
+						<g id="shape79-143" v:mID="79" v:groupContext="groupContent" v:layerMember="5">
+							<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197" v:verticalAlign="0"></v:textBlock>
+							<v:textRect cx="33.9078" cy="831.088" width="67.82" height="21.6036"></v:textRect>
+							<rect x="0" y="820.286" width="67.8156" height="21.6036" rx="0.283465" ry="0.283465" class="st22"></rect>
+							<text x="0" y="828.39" class="st23" v:langID="1031">From: Mitarbeiter<v:newlineChar></v:newlineChar>
+<tspan x="0" dy="1.2em" class="st15">Msg: </tspan>Antrag</text>						</g>
+						<g id="group80-147" transform="translate(66.3758,-20.9369)" v:mID="80" v:groupContext="group">
+							<title>DataAccess</title>
+							<desc>DA</desc>
+							<g id="shape81-148" v:mID="81" v:groupContext="shape">
+								<title>Tabelle.81</title>
+							</g>
+							<g id="shape80-149" v:mID="80" v:groupContext="groupContent">
+								<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+								<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+								<text x="0" y="841.59" class="st14" v:langID="1031">D<tspan x="0" dy="1.2em" class="st15">A</tspan>
+</text>							</g>
+						</g>
+					</g>
+				</a>
+			</g>
+		</a>
+		<a xlink:href="?&quot;zoom=100&quot;" v:shapeLink="Receive Transition">
+			<g id="group83-152" transform="translate(304.724,-595.276)" v:mID="83" v:groupContext="group" v:layerMember="3">
+				
+				
+				<title>Send Transition</title>
+				<g id="shape83-153" v:mID="83" v:groupContext="groupContent" v:layerMember="3">
+					<path d="M0 841.89 L0.21 841.89 a0.20843 0.20843 0 0 1 0.20843 0.20843 L0.42 931.18 A2.83465 2.83465 -180 0 0&#xA;								 3.25 934.02 L10.83 934.02" class="st19"></path>
+				</g>
+				<g id="shape84-158" v:mID="84" v:groupContext="shape" v:layerMember="3" transform="translate(-0.397661,55.4663)">
+					<title>Tabelle.84</title>
+					<path d="M0 841.89 L0.81 841.89" class="st21"></path>
+				</g>
+				<a xlink:href="?&quot;zoom=100&quot;" v:shapeLink="Receive Transition">
+					<g id="group85-161" transform="translate(-29.2671,66.2681)" v:mID="85" v:groupContext="group" v:layerMember="3">
+						<title>Tabelle.85</title>
+						<desc>To: Msg:</desc>
+						<g id="shape85-162" v:mID="85" v:groupContext="groupContent" v:layerMember="3">
+							<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197" v:verticalAlign="0"></v:textBlock>
+							<v:textRect cx="28.8695" cy="831.088" width="57.74" height="21.6036"></v:textRect>
+							<rect x="0" y="820.286" width="57.739" height="21.6036" rx="0.283465" ry="0.283465" class="st22"></rect>
+							<text x="0" y="828.39" class="st23" v:langID="1031">To: Mitarbeiter<v:newlineChar></v:newlineChar>
+<tspan x="0" dy="1.2em" class="st15">Msg: </tspan>Annahme</text>						</g>
+						<g id="group86-166" transform="translate(56.1794,-20.9369)" v:mID="86" v:groupContext="group">
+							<title>DataAccess</title>
+							<desc>DA</desc>
+							<g id="shape87-167" v:mID="87" v:groupContext="shape">
+								<title>Tabelle.87</title>
+							</g>
+							<g id="shape86-168" v:mID="86" v:groupContext="groupContent">
+								<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+								<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+								<text x="-0" y="841.59" class="st14" v:langID="1031">D<tspan x="-0" dy="1.2em" class="st15">A</tspan>
+</text>							</g>
+						</g>
+					</g>
+				</a>
+			</g>
+		</a>
+		<a xlink:href="?&quot;zoom=100&quot;" v:shapeLink="Receive Transition.166">
+			<g id="group88-171" transform="translate(279.921,-595.276)" v:mID="88" v:groupContext="group" v:layerMember="3">
+				
+				
+				<title>Send Transition.88</title>
+				<g id="shape88-172" v:mID="88" v:groupContext="groupContent" v:layerMember="3">
+					<path d="M0 841.89 L0 880.16 A2.83465 2.83465 0 0 1 -2.83 882.99 L-241.65 882.99 A2.83465 2.83465 -180 0 0 -244.49&#xA;								 885.83 L-244.49 931.18 A2.83465 2.83465 -180 0 0 -241.65 934.02 L-191.14 934.02" class="st19"></path>
+				</g>
+				<g id="shape89-177" v:mID="89" v:groupContext="shape" v:layerMember="3" transform="translate(683.769,882.178) rotate(90)">
+					<title>Tabelle.89</title>
+					<path d="M0 841.89 L0.81 841.89" class="st21"></path>
+				</g>
+				<a xlink:href="?&quot;zoom=100&quot;" v:shapeLink="Receive Transition.166">
+					<g id="group90-180" transform="translate(-188.902,51.0896)" v:mID="90" v:groupContext="group" v:layerMember="3">
+						<title>Tabelle.90</title>
+						<desc>To: Msg:</desc>
+						<g id="shape90-181" v:mID="90" v:groupContext="groupContent" v:layerMember="3">
+							<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197" v:verticalAlign="0"></v:textBlock>
+							<v:textRect cx="30.7811" cy="831.088" width="61.57" height="21.6036"></v:textRect>
+							<rect x="0" y="820.286" width="61.5622" height="21.6036" rx="0.283465" ry="0.283465" class="st22"></rect>
+							<text x="-0" y="828.39" class="st23" v:langID="1031">To: Mitarbeiter<v:newlineChar></v:newlineChar>
+<tspan x="-0" dy="1.2em" class="st15">Msg: </tspan>Ablehnung</text>						</g>
+						<g id="group91-185" transform="translate(59.8994,-20.9369)" v:mID="91" v:groupContext="group">
+							<title>DataAccess</title>
+							<desc>DA</desc>
+							<g id="shape92-186" v:mID="92" v:groupContext="shape">
+								<title>Tabelle.92</title>
+							</g>
+							<g id="shape91-187" v:mID="91" v:groupContext="groupContent">
+								<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+								<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+								<text x="-0" y="841.59" class="st14" v:langID="1031">D<tspan x="-0" dy="1.2em" class="st15">A</tspan>
+</text>							</g>
+						</g>
+					</g>
+				</a>
+			</g>
+		</a>
+		<g id="group108-190" transform="translate(478.063,-481.89)" v:mID="108" v:groupContext="group" v:layerMember="1">
+			
+			
+			<title>Do.108</title>
+			<g id="shape108-191" v:mID="108" v:groupContext="groupContent" v:layerMember="1">
+				<v:textBlock v:margins="rect(1,2,2,2)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="49.6063" cy="827.508" width="99.22" height="28.7638"></v:textRect>
+				<path d="M96.94 841.89 A2.26773 2.26773 -180 0 0 99.21 839.62 L99.21 801.64 A2.26773 2.26773 -180 0 0 96.94 799.37&#xA;							 L2.27 799.37 A2.26773 2.26773 -180 0 0 -0 801.64 L0 839.62 A2.26773 2.26773 -180 0 0 2.27 841.89 L96.94&#xA;							 841.89 Z" class="st11"></path>
+				<text x="5.07" y="830.01" class="st2" v:langID="1031">Eintrag in Urlaubsliste</text>			</g>
+			<g id="group109-195" transform="translate(85.6234,-28.9304)" v:mID="109" v:groupContext="group" v:layerMember="1">
+				<title>EndSymbol</title>
+				<g id="shape110-196" v:mID="110" v:groupContext="shape" v:layerMember="1">
+					<title>Kreis.54</title>
+					
+					<path d="M0 835.51 A6.37795 6.37795 0 1 1 12.76 835.51 A6.37795 6.37795 0 0 1 -0 835.51 Z" class="st24"></path>
+				</g>
+				<g id="shape111-198" v:mID="111" v:groupContext="shape" v:layerMember="1" transform="translate(3.44409,-3.44409)">
+					<title>Quadrat.62</title>
+					
+					<rect x="0" y="836.022" width="5.86772" height="5.86772" class="st5"></rect>
+				</g>
+				<g id="shape109-200" v:mID="109" v:groupContext="groupContent" v:layerMember="1"></g>
+			</g>
+			<g id="group112-201" transform="translate(72.0341,-28.9304)" v:mID="112" v:groupContext="group" v:layerMember="1">
+				
+				<title>StartSymbol</title>
+				<g id="shape112-202" v:mID="112" v:groupContext="groupContent" v:layerMember="1"></g>
+				<g id="shape113-204" v:mID="113" v:groupContext="shape" v:layerMember="1" transform="translate(4.84724,-2.65619)">
+					<title>Tabelle.113</title>
+				</g>
+			</g>
+			<g id="shape114-206" v:mID="114" v:groupContext="shape" transform="translate(11.3386,-28.7638)">
+				<title>TypeSymbolD</title>
+				<desc>D</desc>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="6.56929" cy="835.639" width="12.29" height="10.118"></v:textRect>
+				<path d="M0 835.51 A6.37795 6.37795 0 1 1 12.76 835.51 A6.37795 6.37795 0 0 1 -0 835.51 Z" class="st12"></path>
+				<text x="3.55" y="838.51" class="st13" v:langID="1031">D</text>			</g>
+			<g id="shape115-210" v:mID="115" v:groupContext="shape" transform="translate(71.7008,-42.5197)">
+				<title>MakroSymbol</title>
+				<desc>M</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+				<ellipse cx="0" cy="841.89" rx="0" ry="0" class="st6"></ellipse>
+				<text x="0" y="842.19" class="st7" v:langID="1031">M</text>			</g>
+			<g id="shape116-213" v:mID="116" v:groupContext="shape" v:layerMember="1" transform="translate(4.22871,-24.8031)">
+				<title>LoopBox</title>
+				
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+				<v:textRect cx="15.9565" cy="834.803" width="31.92" height="14.1732"></v:textRect>
+			</g>
+			<g id="group117-215" transform="translate(72.7008,-42.5197)" v:mID="117" v:groupContext="group">
+				<title>FunctionCallCog</title>
+				<g id="shape118-216" v:mID="118" v:groupContext="shape">
+					<title>Tabelle.118</title>
+				</g>
+				<g id="shape119-217" v:mID="119" v:groupContext="shape">
+					<title>Tabelle.119</title>
+				</g>
+				<g id="shape120-218" v:mID="120" v:groupContext="shape">
+					<title>Tabelle.120</title>
+				</g>
+			</g>
+			<g id="group121-219" transform="translate(69.7008,-42.5197)" v:mID="121" v:groupContext="group">
+				<title>DataAccess</title>
+				<desc>DA</desc>
+				<g id="shape122-220" v:mID="122" v:groupContext="shape">
+					<title>Tabelle.122</title>
+				</g>
+				<g id="shape121-221" v:mID="121" v:groupContext="groupContent">
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"></v:textBlock>
+					<v:textRect cx="0" cy="841.89" width="0" height="0"></v:textRect>
+					<text x="0" y="841.59" class="st14" v:langID="1031">D<tspan x="0" dy="1.2em" class="st15">A</tspan>
+</text>				</g>
+			</g>
+		</g>
+		<g id="group123-224" transform="translate(425.197,-496.063)" v:mID="123" v:groupContext="group" v:layerMember="4">
+			
+			
+			<title>Do Transition</title>
+			<g id="shape123-225" v:mID="123" v:groupContext="groupContent" v:layerMember="4">
+				<path d="M0 834.8 L42.44 834.8" class="st25"></path>
+			</g>
+			<g id="shape124-231" v:mID="124" v:groupContext="shape" v:layerMember="4" transform="translate(-813.543,848.976) rotate(-90)">
+				<title>Tabelle.124</title>
+				<path d="M0 841.89 L14.17 841.89" class="st27"></path>
+			</g>
+			<g id="group125-234" transform="translate(9.77996,12.4884)" v:mID="125" v:groupContext="group" v:layerMember="4">
+				<title>Tabelle.125</title>
+				<g id="shape125-235" v:mID="125" v:groupContext="groupContent" v:layerMember="4">
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197" v:verticalAlign="0"></v:textBlock>
+					<v:textRect cx="18.5665" cy="836.488" width="37.14" height="10.8036"></v:textRect>
+					<rect x="0" y="831.086" width="37.133" height="10.8036" rx="0.283465" ry="0.283465" class="st28"></rect>
+					<text x="0" y="839.19" class="st23" v:langID="1031">Eintragen</text>				</g>
+			</g>
+		</g>
+	</g>
+</svg>
+		</abstract-pass-ont:hasSVGRepresentation>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_ReceiveState_2" >
+		<rdf:type rdf:resource="&standard-pass-ont;ReceiveState" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_5_ReceiveState_2</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Antrag</standard-pass-ont:hasModelComponentLabel>
+		<rdf:type rdf:resource="&standard-pass-ont;InitialStateOfBehavior" ></rdf:type>
+		<standard-pass-ont:isInitialStateOf rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SID_1_FullySpecifiedSubject_49" ></standard-pass-ont:isInitialStateOf>
+		<standard-pass-ont:hasFunctionSpecification rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#functionDefinition_of_SBD_5_ReceiveState_2" ></standard-pass-ont:hasFunctionSpecification>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_5_ReceiveState_2" >
+		<rdf:type rdf:resource="&standard-pass-ont;Action" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >action_of_SBD_5_ReceiveState_2</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >action_of_SBD_5_ReceiveState_2</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_ReceiveState_2" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_ReceiveTransition_77" ></standard-pass-ont:contains>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_DoState_16" >
+		<rdf:type rdf:resource="&standard-pass-ont;DoState" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_5_DoState_16</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Auswertung</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:hasFunctionSpecification rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#functionDefinition_of_SBD_5_DoState_16" ></standard-pass-ont:hasFunctionSpecification>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_5_DoState_16" >
+		<rdf:type rdf:resource="&standard-pass-ont;Action" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >action_of_SBD_5_DoState_16</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >action_of_SBD_5_DoState_16</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_DoState_16" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendTransition_83" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendTransition_88" ></standard-pass-ont:contains>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendState_31" >
+		<rdf:type rdf:resource="&standard-pass-ont;SendState" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_5_SendState_31</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Annahme</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:hasFunctionSpecification rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#functionDefinition_of_SBD_5_SendState_31" ></standard-pass-ont:hasFunctionSpecification>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_5_SendState_31" >
+		<rdf:type rdf:resource="&standard-pass-ont;Action" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >action_of_SBD_5_SendState_31</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >action_of_SBD_5_SendState_31</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendState_31" ></standard-pass-ont:contains>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_DoTransition_123" ></standard-pass-ont:contains>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendState_45" >
+		<rdf:type rdf:resource="&standard-pass-ont;SendState" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_5_SendState_45</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Ablehnung</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:hasFunctionSpecification rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#functionDefinition_of_SBD_5_SendState_45" ></standard-pass-ont:hasFunctionSpecification>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_5_SendState_45" >
+		<rdf:type rdf:resource="&standard-pass-ont;Action" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >action_of_SBD_5_SendState_45</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >action_of_SBD_5_SendState_45</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendState_45" ></standard-pass-ont:contains>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_ReceiveTransition_77" >
+		<rdf:type rdf:resource="&standard-pass-ont;ReceiveTransition" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_5_ReceiveTransition_77</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >From: Mitarbeiter
+Msg: Antrag</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:hasSourceState rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_ReceiveState_2" ></standard-pass-ont:hasSourceState>
+		<standard-pass-ont:hasTargetState rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_DoState_16" ></standard-pass-ont:hasTargetState>
+		<standard-pass-ont:hasPriorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger" >1</standard-pass-ont:hasPriorityNumber>
+		<standard-pass-ont:hasTransitionCondition rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_ReceiveTransition_77_receiveTransitionCondition" ></standard-pass-ont:hasTransitionCondition>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_ReceiveTransition_77_receiveTransitionCondition" >
+		<rdf:type rdf:resource="&standard-pass-ont;ReceiveTransitionCondition" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_5_ReceiveTransition_77_receiveTransitionCondition</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >SBD_5_ReceiveTransition_77_receiveTransitionCondition</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:requiresMessageSentFrom rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_FullySpecifiedSubject_2" ></standard-pass-ont:requiresMessageSentFrom>
+		<standard-pass-ont:requiresReceptionOfMessage rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_MessageSpecification_103" ></standard-pass-ont:requiresReceptionOfMessage>
+		<standard-pass-ont:requiresPerformedMessageExchange rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_StandardMessageConnector_99_SID_1_MessageSpecification_103" ></standard-pass-ont:requiresPerformedMessageExchange>
+		<standard-pass-ont:hasReceiveType rdf:resource="http://www.i2pm.net/standard-pass-ont#ReceiveTypeStandard" ></standard-pass-ont:hasReceiveType>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendTransition_83" >
+		<rdf:type rdf:resource="&standard-pass-ont;SendTransition" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_5_SendTransition_83</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >To: Mitarbeiter
+Msg: Annahme</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:hasSourceState rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_DoState_16" ></standard-pass-ont:hasSourceState>
+		<standard-pass-ont:hasTargetState rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendState_31" ></standard-pass-ont:hasTargetState>
+		<standard-pass-ont:hasPriorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger" >1</standard-pass-ont:hasPriorityNumber>
+		<standard-pass-ont:hasTransitionCondition rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendTransition_83_sendTransitionCondition" ></standard-pass-ont:hasTransitionCondition>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendTransition_83_sendTransitionCondition" >
+		<rdf:type rdf:resource="&standard-pass-ont;SendTransitionCondition" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_5_SendTransition_83_sendTransitionCondition</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >SBD_5_SendTransition_83_sendTransitionCondition</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:requiresPerformedMessageExchange rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_StandardMessageConnector_127_SID_1_MessageSpecification_131" ></standard-pass-ont:requiresPerformedMessageExchange>
+		<standard-pass-ont:requiresMessageSentTo rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_FullySpecifiedSubject_2" ></standard-pass-ont:requiresMessageSentTo>
+		<standard-pass-ont:requiresSendingOfMessage rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_MessageSpecification_131" ></standard-pass-ont:requiresSendingOfMessage>
+		<standard-pass-ont:hasSendType rdf:resource="http://www.i2pm.net/standard-pass-ont#SendTypeStandard" ></standard-pass-ont:hasSendType>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendTransition_88" >
+		<rdf:type rdf:resource="&standard-pass-ont;SendTransition" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_5_SendTransition_88</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >To: Mitarbeiter
+Msg: Ablehnung</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:hasSourceState rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_DoState_16" ></standard-pass-ont:hasSourceState>
+		<standard-pass-ont:hasTargetState rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendState_45" ></standard-pass-ont:hasTargetState>
+		<standard-pass-ont:hasPriorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger" >1</standard-pass-ont:hasPriorityNumber>
+		<standard-pass-ont:hasTransitionCondition rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendTransition_88_sendTransitionCondition" ></standard-pass-ont:hasTransitionCondition>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendTransition_88_sendTransitionCondition" >
+		<rdf:type rdf:resource="&standard-pass-ont;SendTransitionCondition" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_5_SendTransition_88_sendTransitionCondition</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >SBD_5_SendTransition_88_sendTransitionCondition</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:requiresPerformedMessageExchange rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_StandardMessageConnector_127_SID_1_MessageSpecification_134" ></standard-pass-ont:requiresPerformedMessageExchange>
+		<standard-pass-ont:requiresMessageSentTo rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_FullySpecifiedSubject_2" ></standard-pass-ont:requiresMessageSentTo>
+		<standard-pass-ont:requiresSendingOfMessage rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SID_1_MessageSpecification_134" ></standard-pass-ont:requiresSendingOfMessage>
+		<standard-pass-ont:hasSendType rdf:resource="http://www.i2pm.net/standard-pass-ont#SendTypeStandard" ></standard-pass-ont:hasSendType>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_DoState_108" >
+		<rdf:type rdf:resource="&standard-pass-ont;DoState" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_5_DoState_108</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Eintrag in Urlaubsliste</standard-pass-ont:hasModelComponentLabel>
+		<rdf:type rdf:resource="&standard-pass-ont;EndState" ></rdf:type>
+		<standard-pass-ont:hasFunctionSpecification rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#functionDefinition_of_SBD_5_DoState_108" ></standard-pass-ont:hasFunctionSpecification>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#action_of_SBD_5_DoState_108" >
+		<rdf:type rdf:resource="&standard-pass-ont;Action" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >action_of_SBD_5_DoState_108</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >action_of_SBD_5_DoState_108</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:contains rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_DoState_108" ></standard-pass-ont:contains>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_DoTransition_123" >
+		<rdf:type rdf:resource="&standard-pass-ont;DoTransition" ></rdf:type>
+		<standard-pass-ont:hasModelComponentID rdf:datatype="&xsd;string" >SBD_5_DoTransition_123</standard-pass-ont:hasModelComponentID>
+		<standard-pass-ont:hasModelComponentLabel xml:lang="en" >Eintragen</standard-pass-ont:hasModelComponentLabel>
+		<standard-pass-ont:hasSourceState rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_SendState_31" ></standard-pass-ont:hasSourceState>
+		<standard-pass-ont:hasTargetState rdf:resource="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-04-15/Zeichenblatt-1#SBD_5_DoState_108" ></standard-pass-ont:hasTargetState>
+		<standard-pass-ont:hasPriorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger" >1</standard-pass-ont:hasPriorityNumber>
+	</owl:NamedIndividual>
+</rdf:RDF>
+
