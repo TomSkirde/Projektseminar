@@ -1,58 +1,73 @@
-import { useEffect, useState } from 'react';
 import './App.css';
-
-interface Forecast {
-    date: string;
-    temperatureC: number;
-    temperatureF: number;
-    summary: string;
-}
+import { useState } from "react";
 
 function App() {
-    const [forecasts, setForecasts] = useState<Forecast[]>();
+    const [models, setModels] = useState<FileInfo[] | null>(null);
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState<string | null>(null);
+    const [rawJson, setRawJson] = useState<string | null>(null); // State for raw JSON
 
-    useEffect(() => {
-        populateWeatherData();
-    }, []);
+    interface FileInfo {
+        Name: string; // Groß‑/Kleinschreibung exakt wie im JSON!
+        Path: string;
+    }
 
-    const contents = forecasts === undefined
-        ? <p><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationreact">https://aka.ms/jspsintegrationreact</a> for more details.</em></p>
-        : <table className="table table-striped" aria-labelledby="tableLabel">
-            <thead>
-                <tr>
-                    <th>Date</th>
-                    <th>Temp. (C)</th>
-                    <th>Temp. (F)</th>
-                    <th>Summary</th>
-                </tr>
-            </thead>
-            <tbody>
-                {forecasts.map(forecast =>
-                    <tr key={forecast.date}>
-                        <td>{forecast.date}</td>
-                        <td>{forecast.temperatureC}</td>
-                        <td>{forecast.temperatureF}</td>
-                        <td>{forecast.summary}</td>
-                    </tr>
-                )}
-            </tbody>
-        </table>;
+    async function loadModels() {
+        setLoading(true);
+        setError(null);
 
-    return (
-        <div>
-            <h1 id="tableLabel">Weather forecast</h1>
-            <p>This component demonstrates fetching data from the server.</p>
-            {contents}
-        </div>
-    );
+        try {
+            const res = await fetch('/api/Main/GetJsons', {
+                headers: { Accept: 'application/json' }
+            });
 
-    async function populateWeatherData() {
-        const response = await fetch('weatherforecast');
-        if (response.ok) {
-            const data = await response.json();
-            setForecasts(data);
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+            // 1.erstes JSON‑Parsing (liefert String)
+            const payload = await res.json() as unknown;
+
+            // 2.falls Server ein String‑Array schickt → nochmal parsen
+            const data: FileInfo[] =
+                typeof payload === 'string' ? JSON.parse(payload) : (payload as FileInfo[]);
+
+            setModels(data);
+            setRawJson(JSON.stringify(data, null, 2));
+        } catch (err) {
+            setError((err as Error).message);
+        } finally {
+            setLoading(false);
         }
     }
+
+    return (
+        <main style={{ padding: "2rem", fontFamily: "system-ui" }}>
+            <button onClick={loadModels}>Modelle laden</button>
+
+            {loading && <p>Lade</p>}
+            {error && <p style={{ color: "red" }}>Fehler: {error}</p>}
+
+            {models && (
+                <ul>
+                    {models.map(f => (
+                        <li key={f.Path}>
+                            {f.Name}
+                            <br />
+                            <small>{f.Path}</small>
+                        </li>
+                    ))}
+                </ul>
+            )}
+
+            {rawJson && (
+                <section>
+                    <h3>Rohdaten:</h3>
+                    <pre style={{ background: "#f4f4f4", padding: "1rem" }}>
+                        {rawJson}
+                    </pre>
+                </section>
+            )}
+        </main>
+    );
 }
 
 export default App;
