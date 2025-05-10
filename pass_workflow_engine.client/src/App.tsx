@@ -1,3 +1,4 @@
+import './App.css';
 import React from 'react';
 import FileUploadButton from './components/FileUploadButton';
 
