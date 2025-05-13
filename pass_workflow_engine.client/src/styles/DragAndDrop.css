@@ -1,0 +1,21 @@
+/* DragBox.css */
+.DragBox {
+    height: 300px;
+    width: 500px;
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+    .DragBox:hover {
+        background-color: #f8f8f8;
+    }
+
+    .DragBox.dragging {
+        border-color: #4CAF50;
+        background-color: #f8fff8;
+    }

@@ -24,14 +24,14 @@ namespace PASS_Workflow_Engine.Server.Controllers
         {
             return Ok(new UploadFolderHandler().GetJsonsOfModels());
         }
-
-        /*[HttpPost]
+        /*
+        [HttpPost]
         public IActionResult LoadModel([FromBody] OwlFile file)
         {
             return Ok(new AlpsApiHandler().LoadOwl(file));
-        }*/
+        }
 
-
+        */
     }
 }
 

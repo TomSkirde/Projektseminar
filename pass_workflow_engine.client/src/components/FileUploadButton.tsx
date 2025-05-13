@@ -46,7 +46,7 @@ const FileUploadButton: React.FC = () => {
                 style={{ display: 'none' }}
                 onChange={handleFileUpload}
             />
-            {uploadStatus && <p>{uploadStatus}</p>}
+            {<p>{uploadStatus}</p>}
         </div>
     );
 };
