@@ -12,9 +12,7 @@ const App: React.FC = () => {
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
             <FileUploadButton />
             <GetJsonsButton />
-            <DragAndDrop
-                onFileSelected={setFile}
-            />
+            <DragAndDrop/>
         </div>
 
     );

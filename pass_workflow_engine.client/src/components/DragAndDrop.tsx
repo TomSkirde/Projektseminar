@@ -1,48 +1,9 @@
-import React, { useState, useRef, DragEvent } from 'react';
-import '../styles/DragAndDrop.css';
-/*type FileUploadProps = {
-    onFileSelected: (file: File) => void;
-} */
+import React, { useState, useCallback } from 'react';
 
-const DragAndDrop: React.FC = () => {
-
-    const [isDragging, setIsDragging] = useState<boolean>(false);
-    const [file, setFile] = useState<File | null>(null);
+const FileUploadButton: React.FC = () => {
     const [uploadStatus, setUploadStatus] = useState<string | null>(null);
-    const fileInputRef = useRef<HTMLInputElement>(null);
 
-
-    //Drag and drop events 
-    const handleDrag = (e: DragEvent<HTMLDivElement>) => {
-        e.preventDefault();
-        switch (e.type) {
-            case 'dragenter': setIsDragging(true); break;
-            case 'dragleave': setIsDragging(false); break;
-            case 'drop':
-                if (e.dataTransfer.files?.length) {
-                    setFile(e.dataTransfer.files[0]);
-                }
-                break;
-        }
-    }
-
-    //Upload per click
-    const handleClick = () => {
-        fileInputRef.current?.click();
-    }
-
-    const handleFileInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        if (e.target.files && e.target.files.length > 0) { 
-            setFile(e.target.files[0]);
-            console.log(file);
-            handleFileUpload();
-        }
-    }
-
-    const handleFileUpload = async () => {
-        if (!file) return;
-
-        // Create a FormData object to send the file
+    const handleFileUpload = async (file: File) => {
         const formData = new FormData();
         formData.append('owlfile', file);
 
@@ -59,36 +20,60 @@ const DragAndDrop: React.FC = () => {
             } else {
                 setUploadStatus('Failed to upload file.');
             }
-            setFile(null); // Clear the file after upload
         } catch (error) {
             console.error('Error uploading file:', error);
             setUploadStatus('An error occurred while uploading the file.');
         }
-     }
+    };
+
+    const handleDrop = useCallback((event: React.DragEvent<HTMLDivElement>) => {
+        event.preventDefault();
+        event.stopPropagation();
+        const file = event.dataTransfer.files[0];
+        if (file) handleFileUpload(file);
+    }, []);
+
+    const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        const file = event.target.files?.[0];
+        if (file) handleFileUpload(file);
+    };
+
+    const handleDragOver = (event: React.DragEvent<HTMLDivElement>) => {
+        event.preventDefault();
+    };
+
+    const handleButtonClick = () => {
+        document.getElementById('fileInput')?.click();
+    };
 
     return (
-        <div
-            className='DragBox'
-            onClick={handleClick}
-            onDragEnter={handleDrag}
-            onDragLeave={handleDrag}
-            onDragOver={handleDrag}
-            onDrop={handleDrag}
-        >
-            {isDragging ? 'Drop files here' : 'Drag & drop a file, or click to select'}
+        <div>
+            <div
+                onDrop={handleDrop}
+                onDragOver={handleDragOver}
+                style={{
+                    border: '2px dashed #ccc',
+                    borderRadius: '10px',
+                    padding: '20px',
+                    textAlign: 'center',
+                    marginBottom: '10px',
+                    cursor: 'pointer',
+                }}
+            >
+                Drag & Drop file here or <span onClick={handleButtonClick} style={{ color: 'blue', textDecoration: 'underline' }}>browse</span>
+            </div>
+
             <input
+                id="fileInput"
                 type="file"
-                ref={fileInputRef}
-                onChange={handleFileInputChange}
-                accept={'.owl'}
+                accept=".owl"
                 style={{ display: 'none' }}
+                onChange={handleInputChange}
             />
 
+            <p>{uploadStatus}</p>
         </div>
+    );
+};
 
-    )
-
-
-}
-export default DragAndDrop;
-
+export default FileUploadButton;
