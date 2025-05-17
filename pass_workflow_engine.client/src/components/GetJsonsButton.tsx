@@ -42,7 +42,13 @@ const GetJsonsButton: React.FC = () => {
 
     return (
         <main style={{ padding: "2rem", fontFamily: "system-ui" }}>
-            <button onClick={loadModels}>Modelle laden</button>
+            <button
+                onClick={loadModels}
+                style={{ backgroundColor: "#ffffff", color: "#000000", border: "none", padding: "0.5rem 1.5rem", borderRadius: "4px", cursor: "pointer" }}
+            >
+                Modelle laden
+            </button>
+            
 
             {loading && <p>Lade</p>}
             {error && <p style={{ color: "red" }}>Fehler: {error}</p>}
@@ -58,17 +64,21 @@ const GetJsonsButton: React.FC = () => {
                     ))}
                 </ul>
             )}
+        </main>
+    );
+};
+//Rohdaten Ausgabe
+/*/
 
             {rawJson && (
                 <section>
                     <h3>Rohdaten:</h3>
-                    <pre style={{ background: "#f4f4f4", padding: "1rem" }}>
+                    <pre>
                         {rawJson}
                     </pre>
                 </section>
             )}
-        </main>
-    );
-};
+            
+*/
 
 export default GetJsonsButton;
