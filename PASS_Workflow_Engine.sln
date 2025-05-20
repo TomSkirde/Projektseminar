@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "pass_workflow_engine.client", "pass_workflow_engine.client\pass_workflow_engine.client.esproj", "{865DAF12-3460-3C28-25CC-5BBB271C7D21}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PASS_Workflow_Engine.Server", "PASS_Workflow_Engine.Server\PASS_Workflow_Engine.Server.csproj", "{861A3EC1-4A13-4947-A3A8-E050BC858062}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "alps.net.api", "alps.net.api\alps.net.api.csproj", "{21B5629F-53F0-7F8B-6FB2-4BA1D878EC4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{861A3EC1-4A13-4947-A3A8-E050BC858062}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{861A3EC1-4A13-4947-A3A8-E050BC858062}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{861A3EC1-4A13-4947-A3A8-E050BC858062}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B5629F-53F0-7F8B-6FB2-4BA1D878EC4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B5629F-53F0-7F8B-6FB2-4BA1D878EC4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B5629F-53F0-7F8B-6FB2-4BA1D878EC4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B5629F-53F0-7F8B-6FB2-4BA1D878EC4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

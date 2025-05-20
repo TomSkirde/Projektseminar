@@ -1,0 +1,2406 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Studium KIT/Hiwi IMI KIT/Code/alps .net api/alps .net api",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "yMm7thTLpMaUVEEFY4GmvA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "UxZrpZc5J8eSvoWexbjnng=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "IJ+48hdNdSbVJNVwXEUBzw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.Action.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.Action.html",
+          "hash": "kTBaOiRuO3mDDZQIfoWM5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.BehaviorDescriptionComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.BehaviorDescriptionComponent.html",
+          "hash": "A8NtU2doNKesHV1hcEcB/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.BuisnessDayTimerTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.BuisnessDayTimerTransition.html",
+          "hash": "fPjEzJ/NFEPsF4NY1c2QTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.BusinessDayTimerTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.BusinessDayTimerTransitionCondition.html",
+          "hash": "kpzthFJCRRIGbm/UTzxyMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.CalenderBasedReminderTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.CalenderBasedReminderTransition.html",
+          "hash": "55fMCcTEFUjTbawKUZwp5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.CalenderBasedReminderTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.CalenderBasedReminderTransitionCondition.html",
+          "hash": "4LdmSfvg2s1fSIjXe6SYow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ChoiceSegment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ChoiceSegment.html",
+          "hash": "Fi3SVdrE97WgayWW+F8AkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ChoiceSegmentPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ChoiceSegmentPath.html",
+          "hash": "1RoVYEhCvUoTc5+yDNFzbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.CommunicationAct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.CommunicationAct.html",
+          "hash": "1zOn27kurOfBB7Vg5s7i8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.CommunicationTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.CommunicationTransition.html",
+          "hash": "hHakIEzvpfnW9vdz+vzzfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.CustomOrExternalDataTypeDefintion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.CustomOrExternalDataTypeDefintion.html",
+          "hash": "VsJvaepZLBWeS46F23sZtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.DataDescribingComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.DataDescribingComponent.html",
+          "hash": "+DbZ8P2FemiFj0G5ZMf7pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.DataMappingFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.DataMappingFunction.html",
+          "hash": "nzAo01XkwPsrTONtxLrzvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.DataMappingIncomingToLocal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.DataMappingIncomingToLocal.html",
+          "hash": "AYHub9aOONfS8WXlvKp7MA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.DataMappingLocalToOutgoing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.DataMappingLocalToOutgoing.html",
+          "hash": "uCRTzVtOMKGo0pVm26/HBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.DataObjectDefiniton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.DataObjectDefiniton.html",
+          "hash": "gGpfpKwY0sATae4Yv4Pb4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.DataObjectListDefiniton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.DataObjectListDefiniton.html",
+          "hash": "ugIsjC2IOF+Dnmleza6zTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.DataTypeDefintion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.DataTypeDefintion.html",
+          "hash": "dlU4ihQPFSL8xW6cSZ85VA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.DayTimeTimerTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.DayTimeTimerTransition.html",
+          "hash": "MUUC59mq9wZbUnBOXHiEHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.DayTimerTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.DayTimerTransitionCondition.html",
+          "hash": "v4VBgRF1WCH2ZoB+R9lj3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.DoFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.DoFunction.html",
+          "hash": "lsqZ1VkOH1GwGX8UCXypMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.DoState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.DoState.html",
+          "hash": "8/MpHi712gA2CeisG5iWPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.DoTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.DoTransition.html",
+          "hash": "OAiWOBqwPQ6/tOJftCje8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.DoTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.DoTransitionCondition.html",
+          "hash": "NtnBbpX4u4VDk4Q7I3+oLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.EndState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.EndState.html",
+          "hash": "tmXmD4fHn2CKRBP9kNRV/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.FullySpecifiedSubject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.FullySpecifiedSubject.html",
+          "hash": "eHaOk5/Ugcn7Y1Jb62FoyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.FunctionSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.FunctionSpecification.html",
+          "hash": "kTRSs8ccw4KIioNjWF0q7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.GenericReturnToOriginReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.GenericReturnToOriginReference.html",
+          "hash": "Jy2Qp7y0+9EmsJ7DNHmdlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.GuardBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.GuardBehavior.html",
+          "hash": "uX+dgNIM72e+aKa9fDua7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IAction.html",
+          "hash": "HdtxSVHd59VuOrMWQPYi/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IBehaviorDescriptionComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IBehaviorDescriptionComponent.html",
+          "hash": "a60HV8aX9i4vW3mIYvfP0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IBuisnessDayTimerTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IBuisnessDayTimerTransition.html",
+          "hash": "Geh0aZ9z7/J+GhnjxFdE+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IBusinessDayTimerTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IBusinessDayTimerTransitionCondition.html",
+          "hash": "21ibehzfxR34E1p3HlE3AA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ICalenderBasedReminderTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ICalenderBasedReminderTransition.html",
+          "hash": "1sTW0oUL4iw2POZVFirIsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ICalenderBasedReminderTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ICalenderBasedReminderTransitionCondition.html",
+          "hash": "QL9kZJ+Q8cjmS4PgG2htww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IChoiceSegment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IChoiceSegment.html",
+          "hash": "zhR9SUiBRZS8G9ip3yD/Gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IChoiceSegmentPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IChoiceSegmentPath.html",
+          "hash": "opLJ/1YNvD71Lsmosy7M+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ICommunicationAct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ICommunicationAct.html",
+          "hash": "L6Qrl9oY9n6p/H8OkVWiJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ICommunicationTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ICommunicationTransition.html",
+          "hash": "JzjwpMGOOWC/oopJNOHMRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ICustomOrExternalDataTypeDefintion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ICustomOrExternalDataTypeDefintion.html",
+          "hash": "cwHprtiYeR1vpDDiIqpBGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IDataDescribingComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IDataDescribingComponent.html",
+          "hash": "TqZxWkY0+WAP/0HXzCdp/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IDataMappingFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IDataMappingFunction.html",
+          "hash": "6OwPcnMczNZdDqCopNpNZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IDataMappingIncomingToLocal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IDataMappingIncomingToLocal.html",
+          "hash": "zuVWyoWBLOCyUhRFMYqAiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IDataMappingLocalToOutgoing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IDataMappingLocalToOutgoing.html",
+          "hash": "NgIc3zbmGLCT1uZsh8o5hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IDataObjectDefiniton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IDataObjectDefiniton.html",
+          "hash": "bJOYbLi6czGoXvBixYvdpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IDataObjectListDefiniton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IDataObjectListDefiniton.html",
+          "hash": "0da9ODYwNTVMJxXWcsWu+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IDataTypeDefintion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IDataTypeDefintion.html",
+          "hash": "3Zm1aHiF7OdQEhN+dLlZ2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IDayTimeTimerTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IDayTimeTimerTransition.html",
+          "hash": "nuzpH48L5h0TLkJFdimYPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IDayTimerTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IDayTimerTransitionCondition.html",
+          "hash": "rxQG3iMM/3xIeNx3JiT2aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IDoFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IDoFunction.html",
+          "hash": "hNwAAO4qZ4dNlq0O5B3QYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IDoState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IDoState.html",
+          "hash": "njnloHLo/FRZqItIrI+W1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IDoTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IDoTransition.html",
+          "hash": "D+5DowyU3og/WZBKKbzwlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IDoTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IDoTransitionCondition.html",
+          "hash": "60BruvzIczS5WeQcUkDcow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IEndState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IEndState.html",
+          "hash": "/rF3wSebDLt97FPfmZEEeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IFullySpecifiedSubject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IFullySpecifiedSubject.html",
+          "hash": "5hRh7IOQBMi7+mJLqjR+zg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IFunctionSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IFunctionSpecification.html",
+          "hash": "I5s9Ss6Sc4CJQN7NMEYPgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IGenericReturnToOriginRefrence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IGenericReturnToOriginRefrence.html",
+          "hash": "GasggRt5svMZZs4bTN05mQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IGuardBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IGuardBehavior.html",
+          "hash": "Emgp1+2XeXtwbk5dEuFT8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IInitialStateOfBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IInitialStateOfBehavior.html",
+          "hash": "kDshWB27FxMh3XxNiVzV3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IInitialstateOfChoiceSegmentPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IInitialstateOfChoiceSegmentPath.html",
+          "hash": "DfPn8iaheECzGz/eIB5EBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IInputPoolConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IInputPoolConstraint.html",
+          "hash": "UzmUQPqmazzFC9854qwDWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IInputPoolConstraintHandlingStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IInputPoolConstraintHandlingStrategy.html",
+          "hash": "V4kufrc//6i5jDE/DcJUdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IInteractionDescriptionComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IInteractionDescriptionComponent.html",
+          "hash": "WMITSXoff96EC7RqfeozSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IInterfaceSubject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IInterfaceSubject.html",
+          "hash": "U+1mvGViVAWqOQKioNV3Og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IJSONDataTypeDefintion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IJSONDataTypeDefintion.html",
+          "hash": "m74xqKrbluBfmoAHN51sug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IMacroBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IMacroBehavior.html",
+          "hash": "gnlTe3C4vO7TyujVaj7rIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IMacroState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IMacroState.html",
+          "hash": "b8pDDU0OE2n+jf+ldjs8pA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IMandatoryToEndChoiceSegmentPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IMandatoryToEndChoiceSegmentPath.html",
+          "hash": "6N6xev1aBb4395Xxk+7PyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IMandatoryToStartChoiceSegmentPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IMandatoryToStartChoiceSegmentPath.html",
+          "hash": "Xb3DoMMTqH8JQxwm4Tn5RA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IMessageExchange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IMessageExchange.html",
+          "hash": "P6dZPOoLhX76jPloUMiIuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IMessageExchangeCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IMessageExchangeCondition.html",
+          "hash": "yr2BBJukreFlqHWfm2W2KQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IMessageExchangeList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IMessageExchangeList.html",
+          "hash": "8jVSacFEmYqc15G2NUYrmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IMessageSenderTypeConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IMessageSenderTypeConstraint.html",
+          "hash": "/g8vcVwtnsRRZlLBWYxyDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IMessageSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IMessageSpecification.html",
+          "hash": "BFKtmfAlZHM1k4e1PsFH8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IMessageTypeConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IMessageTypeConstraint.html",
+          "hash": "JvnmEy08ixE5D6JLKBVjjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IModelBuiltInDataTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IModelBuiltInDataTypes.html",
+          "hash": "nv5Hrgij1VvMDUrQLh39qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IMultiSubject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IMultiSubject.html",
+          "hash": "RdRGU4/kHDrZze/j0j2ceA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IOWLDataTypeDefintion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IOWLDataTypeDefintion.html",
+          "hash": "wMgmgrnvNaFs9Feek+7Uxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IOptionalToEndChoiceSegmentPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IOptionalToEndChoiceSegmentPath.html",
+          "hash": "Mzsy0moNv3tpbYC82WNGew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IOptionalToStartChoiceSegmentPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IOptionalToStartChoiceSegmentPath.html",
+          "hash": "NnOim+ktI4JTgyQhii9qcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IOwlThing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IOwlThing.html",
+          "hash": "zL6i6SdZ3F8yTURm7tVagw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IPASSProcessModellElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IPASSProcessModellElement.html",
+          "hash": "uNpsMceNCuWbZQhhozWa+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IPassProcessModell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IPassProcessModell.html",
+          "hash": "kD6pm5U3iMXPwBVrZxWJWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IPayloadDataObjectDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IPayloadDataObjectDefinition.html",
+          "hash": "LTGu3qddN0HcQzLuZ+7Rjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IPayloadDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IPayloadDescription.html",
+          "hash": "i7WeGZE14kY9rANEYZtnkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IReceiveFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IReceiveFunction.html",
+          "hash": "vwKFiM3fuTPqzUeP2W1lUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IReceiveState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IReceiveState.html",
+          "hash": "Pa8h7dlX1n8WqNriuoBvaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IReceiveTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IReceiveTransition.html",
+          "hash": "AoxZZD2LY7kC62Vlsfry5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IReceiveTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IReceiveTransitionCondition.html",
+          "hash": "Vr+V2jCEUu96draVVRIjZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IReceiveType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IReceiveType.html",
+          "hash": "fx2RmzZDmcth84DaCXCnnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IReminderEventTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IReminderEventTransitionCondition.html",
+          "hash": "annNWHFGFDsFjFVmtsFB6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IReminderTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IReminderTransition.html",
+          "hash": "g9DNELVkqi5ys7Cu0CGE0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ISendFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ISendFunction.html",
+          "hash": "Jdi507aL0xgd74ciCnOmTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ISendState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ISendState.html",
+          "hash": "mcE73mGToj6Tf798oaRlCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ISendTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ISendTransition.html",
+          "hash": "h6RS5XwEvPngLVrM4D9kcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ISendTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ISendTransitionCondition.html",
+          "hash": "itK/mECRm2AGddbhOfaSzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ISendType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ISendType.html",
+          "hash": "tXltj64cVENwEyWtGC+oug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ISenderTypeConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ISenderTypeConstraint.html",
+          "hash": "1OH9RCF+zfopwJTCme6Q8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ISendingFailedCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ISendingFailedCondition.html",
+          "hash": "ECE2R7pud3P9Bxnl/j03sA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ISendingFailedTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ISendingFailedTransition.html",
+          "hash": "yMVbqwnFjcUkE2NZ9ONgqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ISingleSubject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ISingleSubject.html",
+          "hash": "9uzoVygJAVQ5kdBl9CDjCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IStandartPASSState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IStandartPASSState.html",
+          "hash": "Z68YLmyR4dsBPHn/1jKfsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IStartSubject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IStartSubject.html",
+          "hash": "59FlI5/4THGYK7y83aj7bA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IState.html",
+          "hash": "R6gMlmfP5V51qVJTm5DxaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IStateReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IStateReference.html",
+          "hash": "XArLO++FfW4AH41WryHwUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ISubject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ISubject.html",
+          "hash": "ufo7W7M33kwElTHcHymy0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ISubjectBaseBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ISubjectBaseBehavior.html",
+          "hash": "yz/yrnphqfR3zt975UIJPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ISubjectBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ISubjectBehavior.html",
+          "hash": "KA+FAvxkMxojrKjAGnKKvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ISubjectDataDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ISubjectDataDefinition.html",
+          "hash": "nsPG3/rdgWKhuPIiMqyEWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ITimeBasedReminderTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ITimeBasedReminderTransition.html",
+          "hash": "c4ne9UxXemlmvijDBDtiaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ITimeBasedReminderTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ITimeBasedReminderTransitionCondition.html",
+          "hash": "Am4J/X4U38Bfpof83DXe7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ITimeTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ITimeTransition.html",
+          "hash": "8x7MIwHuZqeZmpKMsMF77w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ITimeTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ITimeTransitionCondition.html",
+          "hash": "tTsDi4nbcmob6Y5axVrDdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ITimerTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ITimerTransition.html",
+          "hash": "OX4UR/mOwOvQIkAIsnNWEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ITimerTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ITimerTransitionCondition.html",
+          "hash": "b6Ko7rwJe3dQzC5yFsVgoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ITransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ITransition.html",
+          "hash": "sqJdW5LDdT6NJd7AWoMY7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ITransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ITransitionCondition.html",
+          "hash": "aR2s8IA1NnLiFsGZWMZQKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ITreeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ITreeNode.html",
+          "hash": "5473gP0F0a6tK3jhVP3waw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IUserCancelTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IUserCancelTransition.html",
+          "hash": "NBq3ingk56Z5X0E8AoYqvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IXSDDataTypeDefintion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IXSDDataTypeDefintion.html",
+          "hash": "c9JwY3ZHGoRnIluAN39+Iw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IYearMonthTimerTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IYearMonthTimerTransition.html",
+          "hash": "GXd/6qx7ekHaPyht8D9krg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.IYearMonthTimerTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.IYearMonthTimerTransitionCondition.html",
+          "hash": "2iXb+8y4hhK34mc3Mh8Rhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.InitialStateOfBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.InitialStateOfBehavior.html",
+          "hash": "3d2RyJ//43JWx74OeZDlnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.InitialStateOfChoiceSegmentPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.InitialStateOfChoiceSegmentPath.html",
+          "hash": "cDHETT7MWgfM2Ar3X6q62Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.InputPoolConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.InputPoolConstraint.html",
+          "hash": "5yVAlwkUXk+hJ4axBsl8rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.InputPoolConstraintHandlingStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.InputPoolConstraintHandlingStrategy.html",
+          "hash": "Cphx96HPpJE1zHSV9oDGJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.InteractionDescriptionComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.InteractionDescriptionComponent.html",
+          "hash": "QVjm2nBIMjJS9fn3fjh9Cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.InterfaceSubject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.InterfaceSubject.html",
+          "hash": "9WGo7OK6/+xJd8oW7S3kkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.JSONDataTypeDefintion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.JSONDataTypeDefintion.html",
+          "hash": "RtHfp0lqDCxehWbY08Ed8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.MacroBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.MacroBehavior.html",
+          "hash": "Tng7H3o/HY0MQ1m6VUHDtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.MacroState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.MacroState.html",
+          "hash": "GJzaYDu9xUQ6yB7laMZ0SA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.MandatoryToEndChoiceSegment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.MandatoryToEndChoiceSegment.html",
+          "hash": "WtJIH0NXfSWd6v1Ry5Pm0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.MandatoryToStartChoiceSegment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.MandatoryToStartChoiceSegment.html",
+          "hash": "4meriREbWBPeyHzsKiDWGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.MessageExchange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.MessageExchange.html",
+          "hash": "IkbLwSDlQdCwocJ6BwR5cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.MessageExchangeCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.MessageExchangeCondition.html",
+          "hash": "P5CnkWpN9abU/RHJGqlM+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.MessageExchangeList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.MessageExchangeList.html",
+          "hash": "Dm9cdlGDRFvGeTlLr6vwVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.MessageSenderTypeConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.MessageSenderTypeConstraint.html",
+          "hash": "8cnrHXoL832A9hVCMNrEMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.MessageSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.MessageSpecification.html",
+          "hash": "hIB4ivECp4KNnAG0lpi2dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.MessageTypeConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.MessageTypeConstraint.html",
+          "hash": "qGK8wYSZqP+txsvTNZnlTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ModelBuiltInDataTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ModelBuiltInDataTypes.html",
+          "hash": "VLDVpvmlVTszCysHHMDN4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.MultiSubject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.MultiSubject.html",
+          "hash": "51TfMGafSzRCPzGAhJe9IQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.OWLDataTypeDefintion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.OWLDataTypeDefintion.html",
+          "hash": "D+80nmtVJ06Ddk1pVVZNPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.OptionalToEndChoiceSegmentPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.OptionalToEndChoiceSegmentPath.html",
+          "hash": "e86oCVMB7hFv1jbVkOTX+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.OptionalToStartChoiceSegmentPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.OptionalToStartChoiceSegmentPath.html",
+          "hash": "LdVpwfC8Iy7AgTz0ivsD5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.OwlGraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.OwlGraph.html",
+          "hash": "3oHGeV4OGOBK6kuCEDaNlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.OwlThing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.OwlThing.html",
+          "hash": "WA4eCkWTrehhwnaS7TjmEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.PASSProcessModelElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.PASSProcessModelElement.html",
+          "hash": "XPUr1B9TwtkkDO7zA55uvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.PassProcessModell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.PassProcessModell.html",
+          "hash": "gNUt0clVUvyMBZ/PEQpzYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.PayloadDataObjectDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.PayloadDataObjectDefinition.html",
+          "hash": "Y/bwjuOK/5dL53irplzU+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.PayloadDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.PayloadDescription.html",
+          "hash": "0ND8HeRdSRw1AZTP8W8ddA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ReceiveFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ReceiveFunction.html",
+          "hash": "dU16w4dzYScLBN0/iw1iZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ReceiveState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ReceiveState.html",
+          "hash": "YkMAb3UGuabVnjyslsEIlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ReceiveTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ReceiveTransition.html",
+          "hash": "iKGfNpFmqkrj5gPfE8S5yQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ReceiveTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ReceiveTransitionCondition.html",
+          "hash": "lIuUcc1EaGIRp290WLQNzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ReceiveType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ReceiveType.html",
+          "hash": "32SAEzB4lMX+DpNbbezraA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ReminderEventTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ReminderEventTransitionCondition.html",
+          "hash": "MT0hQOWGajNm1HSLIjpu3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.ReminderTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.ReminderTransition.html",
+          "hash": "1Px64UPE/2/B3O4rbjGObg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.SendFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.SendFunction.html",
+          "hash": "C6MuysAoEQzFMYQmnZrucg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.SendState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.SendState.html",
+          "hash": "VYWSxmHa5rhEmmCZhp0avw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.SendTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.SendTransition.html",
+          "hash": "G4VjoJS7osnBu0QhJSpAFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.SendTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.SendTransitionCondition.html",
+          "hash": "MxiZDmXpFDbCOylqnb5gKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.SendType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.SendType.html",
+          "hash": "dTqgTwZ4TNF98gvY7ecJew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.SenderTypeConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.SenderTypeConstraint.html",
+          "hash": "24ztrnBhrVnEdlwSPhF+IQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.SendingFailedCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.SendingFailedCondition.html",
+          "hash": "ia/bP76qE24pu+5MK+D/Ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.SendingFailedTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.SendingFailedTransition.html",
+          "hash": "iUJwoJ9OgiUT5A9n1BGD/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.SimplePASSElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.SimplePASSElement.html",
+          "hash": "Mo4p7dgv/TRXEP1SVHcWQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.SingleSubject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.SingleSubject.html",
+          "hash": "CbYsqhvv50avmYJzdB2iaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.StandartPASSState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.StandartPASSState.html",
+          "hash": "Gnc6a1A1JCXoSszkWSX0JA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.StartSubject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.StartSubject.html",
+          "hash": "YOrsFJ71BlKwUqjzQIFVeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.State.html",
+          "hash": "x/vvHeabHmtddWf+JmheWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.StateReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.StateReference.html",
+          "hash": "bbaVlltjvBsU264nDbsqFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.Subject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.Subject.html",
+          "hash": "18nzARUJJcp6laiN/tkx9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.SubjectBaseBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.SubjectBaseBehavior.html",
+          "hash": "ClLkzQj+LLXgJloXREHw4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.SubjectBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.SubjectBehavior.html",
+          "hash": "i/xEdSxBUrIK4JCtYkRUPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.SubjectDataDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.SubjectDataDefinition.html",
+          "hash": "ztHI1104Tv3mPhcnMG5QOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.TimeBasedReminderTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.TimeBasedReminderTransition.html",
+          "hash": "30MH7j/bowWWdeKKCYO+eA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.TimeBasedReminderTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.TimeBasedReminderTransitionCondition.html",
+          "hash": "2k3WLZV9RhR0x3TcRy+ujw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.TimeTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.TimeTransition.html",
+          "hash": "gGf6wcAavUputF43CYG/1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.TimeTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.TimeTransitionCondition.html",
+          "hash": "IkXeSSWWLaBt8F5U07wcKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.TimerTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.TimerTransition.html",
+          "hash": "2JB9Ef4IfY34OVjh+CVpQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.TimerTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.TimerTransitionCondition.html",
+          "hash": "xENtzaeh+uUTijk+zI/LEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.Transition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.Transition.html",
+          "hash": "xdA9gfD0Xav8Zq0KddTUZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.TransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.TransitionCondition.html",
+          "hash": "qKBYlggJX3giXbA0o801Yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.TreeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.TreeNode.html",
+          "hash": "oBRusqQbIVoHwl+CR0uxMQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.UserCancelTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.UserCancelTransition.html",
+          "hash": "49S2mh9xP4xG0l/lHw2XgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.XSDDataTypeDefintion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.XSDDataTypeDefintion.html",
+          "hash": "KlP4crYZcq3LKTdMkmy+Dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.YearMonthTimerTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.YearMonthTimerTransition.html",
+          "hash": "jg7onamqYyqpZXVG2RM4pQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.YearMonthTimerTransitionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.YearMonthTimerTransitionCondition.html",
+          "hash": "7Kp8FrQSDIzjGtXZMw/HDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.abstracPass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.abstracPass.html",
+          "hash": "bTwySFP7OVOHGRtwoi46AQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/alps_.net_api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/alps_.net_api.html",
+          "hash": "A+pgtI/OiyjAUU+W2qEFYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "CLEK4gA2KUALTneNBtm4mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "G2AoE5T/2VarbHvzLEo4TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 190,
+          "skipped_file_count": 96
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

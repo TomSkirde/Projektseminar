@@ -1,0 +1,920 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="abstr" xml:space="preserve">
+    <value>abstract-pass-ont:</value>
+    <comment/>
+  </data>
+  <data name="abstrExtends" xml:space="preserve">
+    <value>extends</value>
+    <comment/>
+  </data>
+  <data name="abstrHas2DPageRatio" xml:space="preserve">
+    <value>has2DPageRatio</value>
+    <comment/>
+  </data>
+  <data name="abstrHasRelative2D_BeginX" xml:space="preserve">
+    <value>hasRelative2D_BeginX</value>
+    <comment>for elements that are visually represented by Lines</comment>
+  </data>
+  <data name="abstrHasRelative2D_BeginY" xml:space="preserve">
+    <value>abtsrHasRelative2D_BeginY</value>
+    <comment>for elements that are visually represented by Lines</comment>
+  </data>
+  <data name="abstrHasRelative2D_EndX" xml:space="preserve">
+    <value>hasRelative2D_EndX</value>
+    <comment>for elements that are visually represented by Lines</comment>
+  </data>
+  <data name="abstrHasRelative2D_EndY" xml:space="preserve">
+    <value>hasRelative2D_EndY</value>
+    <comment>for elements that are visually represented by Lines</comment>
+  </data>
+  <data name="abstrHasRelative2D_Height" xml:space="preserve">
+    <value>hasRelative2D_Height</value>
+    <comment>for elements that are visually represented by boxes</comment>
+  </data>
+  <data name="abstrHasRelative2D_PosX" xml:space="preserve">
+    <value>hasRelative2D_PosX</value>
+    <comment>for elements that are visually represented by boxes</comment>
+  </data>
+  <data name="abstrHasRelative2D_PosY" xml:space="preserve">
+    <value>hasRelative2D_PosY</value>
+    <comment>for elements that are visually represented by boxes</comment>
+  </data>
+  <data name="abstrHasRelative2D_Width" xml:space="preserve">
+    <value>hasRelative2D_Width</value>
+    <comment>for elements that are visually represented by boxes</comment>
+  </data>
+  <data name="abstrHasSimpleSimBilledWaitingTime" xml:space="preserve">
+    <value>hasSimpleSimBilledWaitingTime</value>
+    <comment>For ReceiveStates</comment>
+  </data>
+  <data name="abstrHasSimpleSimCostPerExecution" xml:space="preserve">
+    <value>hasSimpleSimCostPerExecution</value>
+    <comment>For States (Do  + Send)</comment>
+  </data>
+  <data name="abstrHasSimpleSimDurationDeviation" xml:space="preserve">
+    <value>hasSimpleSimDurationDeviation</value>
+    <comment>For Time Distributions</comment>
+  </data>
+  <data name="abstrHasSimpleSimDurationMaxValue" xml:space="preserve">
+    <value>hasSimpleSimDurationMaxValue</value>
+    <comment>For Time Distributions</comment>
+  </data>
+  <data name="abstrHasSimpleSimDurationMeanValue" xml:space="preserve">
+    <value>hasSimpleSimDurationMeanValue</value>
+    <comment>For Time Distributions</comment>
+  </data>
+  <data name="abstrHasSimpleSimDurationMinValue" xml:space="preserve">
+    <value>hasSimpleSimDurationMinValue</value>
+    <comment>For Time Distributions</comment>
+  </data>
+  <data name="abstrHasSimpleSimEndStayChance" xml:space="preserve">
+    <value>hasSimpleSimEndStayChance</value>
+    <comment>For Do states (that can be left again)</comment>
+  </data>
+  <data name="abstrHasSimpleSimExecutionCostPerHour" xml:space="preserve">
+    <value>hasExecutionCostPerHour</value>
+    <comment>For Subjects</comment>
+  </data>
+  <data name="abstrHasSimpleSimInterfaceSubjectResponseDefinition" xml:space="preserve">
+    <value>hasSimpleSimInterfaceSubjectResponseDefinition</value>
+    <comment/>
+  </data>
+  <data name="abstrHasSimpleSimiVSMProcessQuantity" xml:space="preserve">
+    <value>hasSimpleSimiVSMProcessQuantity</value>
+    <comment>For Subjects (Value Stream Mapping)</comment>
+  </data>
+  <data name="abstrHasSimpleSimiVSMQualityRate" xml:space="preserve">
+    <value>hasSimpleSimiVSMQualityRate</value>
+    <comment>For Subjects (Value Stream Mapping)</comment>
+  </data>
+  <data name="abstrHasSimpleSimTransitionChoiceChance" xml:space="preserve">
+    <value>hasSimpleSimChoiceChance</value>
+    <comment>For Do/Timer/User Cancel Transitions</comment>
+  </data>
+  <data name="abstrHasSimpleSimVSMAvailability" xml:space="preserve">
+    <value>hasSimpleSimVSMAvailability</value>
+    <comment>For Subjects (Value Stream Mapping)</comment>
+  </data>
+  <data name="abstrHasSimpleSimVSMMessageType" xml:space="preserve">
+    <value>hasSimpleSimVSMMessageType</value>
+    <comment>For Messages</comment>
+  </data>
+  <data name="abstrHasSimpleSimVSMSubjectType" xml:space="preserve">
+    <value>hasSimpleSimVSMSubjectType</value>
+    <comment>For Subjects (Value Stream Mapping)</comment>
+  </data>
+  <data name="abstrHasSimpleSimVSMTimeCategory" xml:space="preserve">
+    <value>hasSimpleSimVSMTimeCategory</value>
+    <comment>for States</comment>
+  </data>
+  <data name="abstrImplements" xml:space="preserve">
+    <value>abstract-pass-ont:implements</value>
+    <comment/>
+  </data>
+  <data name="belongsTo" xml:space="preserve">
+    <value>belongsTo</value>
+    <comment/>
+  </data>
+  <data name="BusinessDayTimerTransitionClassName" xml:space="preserve">
+    <value>BusinessDayTimerTransition</value>
+    <comment/>
+  </data>
+  <data name="BusinessDayTimerTransitionConditionClassName" xml:space="preserve">
+    <value>BusinessDayTimerTransitionCondition</value>
+    <comment/>
+  </data>
+  <data name="CalendarBasedReminderTransitionClassName" xml:space="preserve">
+    <value>CalendarBasedReminderTransition</value>
+    <comment/>
+  </data>
+  <data name="CalendarBasedReminderTransitionConditionClassName" xml:space="preserve">
+    <value>CalendarBasedReminderTransitionCondition</value>
+    <comment/>
+  </data>
+  <data name="contains" xml:space="preserve">
+    <value>contains</value>
+    <comment/>
+  </data>
+  <data name="containsBaseBehavior" xml:space="preserve">
+    <value>containsBaseBehavior</value>
+    <comment/>
+  </data>
+  <data name="containsBehavior" xml:space="preserve">
+    <value>containsBehavior</value>
+    <comment/>
+  </data>
+  <data name="containsPayloadDescription" xml:space="preserve">
+    <value>containsPayloadDescription</value>
+    <comment/>
+  </data>
+  <data name="DayTimeTimerTransitionClassName" xml:space="preserve">
+    <value>DayTimeTimerTransition</value>
+    <comment/>
+  </data>
+  <data name="DayTimeTimerTransitionConditionClassName" xml:space="preserve">
+    <value>DayTimeTimerTransitionCondition</value>
+    <comment/>
+  </data>
+  <data name="extends" xml:space="preserve">
+    <value>extends</value>
+    <comment/>
+  </data>
+  <data name="guardedBy" xml:space="preserve">
+    <value>guardedBy</value>
+    <comment/>
+  </data>
+  <data name="guards" xml:space="preserve">
+    <value>guards</value>
+    <comment/>
+  </data>
+  <data name="guardsBehavior" xml:space="preserve">
+    <value>guardsBehavior</value>
+    <comment/>
+  </data>
+  <data name="guardsState" xml:space="preserve">
+    <value>guardsState</value>
+    <comment/>
+  </data>
+  <data name="hasBusinessDayDurationTimeOutTime" xml:space="preserve">
+    <value>hasBusinessDayDurationTimeOutTime</value>
+    <comment/>
+  </data>
+  <data name="hasCalendarBasedFrequencyOrDate" xml:space="preserve">
+    <value>hasCalendarBasedFrequencyOrDate</value>
+    <comment/>
+  </data>
+  <data name="hasCorrespondent" xml:space="preserve">
+    <value>hasCorrespondent</value>
+    <comment/>
+  </data>
+  <data name="hasDataDefintion" xml:space="preserve">
+    <value>hasDataDefintion</value>
+    <comment/>
+  </data>
+  <data name="hasDataMappingFunction" xml:space="preserve">
+    <value>hasDataMappingFunction</value>
+    <comment/>
+  </data>
+  <data name="hasDataMappingString" xml:space="preserve">
+    <value>hasDataMappingString</value>
+    <comment/>
+  </data>
+  <data name="hasDataType" xml:space="preserve">
+    <value>hasDataType</value>
+    <comment/>
+  </data>
+  <data name="hasDayTimeDurationTimeOutTime" xml:space="preserve">
+    <value>hasDayTimeDurationTimeOutTime</value>
+    <comment/>
+  </data>
+  <data name="hasDurationTimeOutTime" xml:space="preserve">
+    <value>hasDurationTimeOutTime</value>
+    <comment/>
+  </data>
+  <data name="hasEndState" xml:space="preserve">
+    <value>hasEndState</value>
+    <comment/>
+  </data>
+  <data name="hasExecutionMappingDefinition" xml:space="preserve">
+    <value>hasExecutionMappingDefinition</value>
+    <comment>A direct String correctly attached to an "Execution Mapping" Object - could (incorrectly) also be attached to a subject. not to be confused with "hasSubjectExecutionMapping" </comment>
+  </data>
+  <data name="hasFeelExpressionAsDataMapping" xml:space="preserve">
+    <value>hasFeelExpressionAsDataMapping</value>
+    <comment/>
+  </data>
+  <data name="hasFunctionSpecification" xml:space="preserve">
+    <value>hasFunctionSpecification</value>
+    <comment/>
+  </data>
+  <data name="hasHandlingStrategy" xml:space="preserve">
+    <value>hasHandlingStrategy</value>
+    <comment/>
+  </data>
+  <data name="hasIncomingMessageExchange" xml:space="preserve">
+    <value>hasIncomingMessageExchange</value>
+    <comment/>
+  </data>
+  <data name="hasIncomingTransition" xml:space="preserve">
+    <value>hasIncomingTransition</value>
+    <comment/>
+  </data>
+  <data name="hasInitialState" xml:space="preserve">
+    <value>hasInitialState</value>
+    <comment/>
+  </data>
+  <data name="hasInitialStateOfBehavior" xml:space="preserve">
+    <value>hasInitialStateOfBehavior</value>
+    <comment/>
+  </data>
+  <data name="hasInputPoolConstraint" xml:space="preserve">
+    <value>hasInputPoolConstraint</value>
+    <comment/>
+  </data>
+  <data name="hasInstanceRestriction" xml:space="preserve">
+    <value>hasMaximumSubjectInstanceRestriction</value>
+    <comment/>
+  </data>
+  <data name="hasLimit" xml:space="preserve">
+    <value>hasLimit</value>
+    <comment/>
+  </data>
+  <data name="hasMessageType" xml:space="preserve">
+    <value>hasMessageType</value>
+    <comment/>
+  </data>
+  <data name="hasModelComponentID" xml:space="preserve">
+    <value>hasModelComponentID</value>
+    <comment/>
+  </data>
+  <data name="hasModelComponentLabel" xml:space="preserve">
+    <value>hasModelComponentLabel</value>
+    <comment/>
+  </data>
+  <data name="hasMultiReceiveLowerBound" xml:space="preserve">
+    <value>hasMultiReceiveLowerBound</value>
+    <comment/>
+  </data>
+  <data name="hasMultiReceiveUpperBound" xml:space="preserve">
+    <value>hasMultiReceiveUpperBound</value>
+    <comment/>
+  </data>
+  <data name="hasMultiSendLowerBound" xml:space="preserve">
+    <value>hasMultiSendLowerBound</value>
+    <comment/>
+  </data>
+  <data name="hasMultiSendUpperBound" xml:space="preserve">
+    <value>hasMultiSendUpperBound</value>
+    <comment/>
+  </data>
+  <data name="hasOutgoingMessageExchange" xml:space="preserve">
+    <value>hasOutgoingMessageExchange</value>
+    <comment/>
+  </data>
+  <data name="hasOutgoingTransition" xml:space="preserve">
+    <value>hasOutgoingTransition</value>
+    <comment/>
+  </data>
+  <data name="hasPriorityNumber" xml:space="preserve">
+    <value>hasPriorityNumber</value>
+    <comment/>
+  </data>
+  <data name="hasReceiver" xml:space="preserve">
+    <value>hasReceiver</value>
+    <comment/>
+  </data>
+  <data name="hasReceiveType" xml:space="preserve">
+    <value>hasReceiveType</value>
+    <comment/>
+  </data>
+  <data name="hasReoccuranceFrequenyOrDate" xml:space="preserve">
+    <value>hasReoccuranceFrequenyOrDate</value>
+    <comment/>
+  </data>
+  <data name="hasSender" xml:space="preserve">
+    <value>hasSender</value>
+    <comment/>
+  </data>
+  <data name="hasSendType" xml:space="preserve">
+    <value>hasSendType</value>
+    <comment/>
+  </data>
+  <data name="hasSourceState" xml:space="preserve">
+    <value>hasSourceState</value>
+    <comment/>
+  </data>
+  <data name="hasStartSubject" xml:space="preserve">
+    <value>hasStartSubject</value>
+    <comment/>
+  </data>
+  <data name="hasSubjectExecutionMapping" xml:space="preserve">
+    <value>hasSubjectExecutionMapping</value>
+    <comment>Linking Subjects to individual mapping objects containing a "hasExecutionMappingDefinition"</comment>
+  </data>
+  <data name="hasTargetState" xml:space="preserve">
+    <value>hasTargetState</value>
+    <comment/>
+  </data>
+  <data name="hasTimeBasedReoccuranceFrequencyOrDate" xml:space="preserve">
+    <value>hasTimeBasedReoccuranceFrequencyOrDate</value>
+    <comment/>
+  </data>
+  <data name="hasTimeValue" xml:space="preserve">
+    <value>hasTimeValue</value>
+    <comment/>
+  </data>
+  <data name="hasToolSpecificDefinition" xml:space="preserve">
+    <value>hasToolSpecificDefinition</value>
+    <comment/>
+  </data>
+  <data name="hasTransitionCondition" xml:space="preserve">
+    <value>hasTransitionCondition</value>
+    <comment/>
+  </data>
+  <data name="hasYearMonthDurationTimeOutTime" xml:space="preserve">
+    <value>hasYearMonthDurationTimeOutTime</value>
+    <comment/>
+  </data>
+  <data name="implements" xml:space="preserve">
+    <value>implements</value>
+    <comment/>
+  </data>
+  <data name="isOptionalToEndChoiceSegmentPath" xml:space="preserve">
+    <value>isOptionalToEndChoiceSegmentPath</value>
+    <comment/>
+  </data>
+  <data name="isOptionalToStartChoiceSegmentPath" xml:space="preserve">
+    <value>isOptionalToStartChoiceSegmentPath</value>
+    <comment/>
+  </data>
+  <data name="NamedIndividual" xml:space="preserve">
+    <value>NamedIndividual</value>
+    <comment/>
+  </data>
+  <data name="owlNamedIndividualFull" xml:space="preserve">
+    <value>http://www.w3.org/2002/07/owl#NamedIndividual</value>
+    <comment/>
+  </data>
+  <data name="rdfsComment" xml:space="preserve">
+    <value>rdfs:comment</value>
+    <comment/>
+  </data>
+  <data name="rdfType" xml:space="preserve">
+    <value>rdf:type</value>
+    <comment/>
+  </data>
+  <data name="rdfTypeFull" xml:space="preserve">
+    <value>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</value>
+    <comment/>
+  </data>
+  <data name="receiver" xml:space="preserve">
+    <value>receiver</value>
+    <comment/>
+  </data>
+  <data name="receiveTypeReceiveFromAll" xml:space="preserve">
+    <value>ReceiveTypeMultiReceiveFromAllKnown</value>
+    <comment/>
+  </data>
+  <data name="receiveTypeReceiveFromKnown" xml:space="preserve">
+    <value>ReceiveTypeMultiReceiveFromKnwon</value>
+    <comment/>
+  </data>
+  <data name="receiveTypeStandard" xml:space="preserve">
+    <value>ReceiveTypeStandard</value>
+    <comment/>
+  </data>
+  <data name="references" xml:space="preserve">
+    <value>references</value>
+    <comment/>
+  </data>
+  <data name="referencesMacroBehavior" xml:space="preserve">
+    <value>referencesMacroBehavior</value>
+    <comment/>
+  </data>
+  <data name="requiresMessageSentFrom" xml:space="preserve">
+    <value>requiresMessageSentFrom</value>
+    <comment/>
+  </data>
+  <data name="requiresMessageSentTo" xml:space="preserve">
+    <value>requiresMessageSentTo</value>
+    <comment/>
+  </data>
+  <data name="requiresPerformedMessageExchange" xml:space="preserve">
+    <value>requiresPerformedMessageExchange</value>
+    <comment/>
+  </data>
+  <data name="requiresReceptionOfMessage" xml:space="preserve">
+    <value>requiresReceptionOfMessage</value>
+    <comment/>
+  </data>
+  <data name="requiresSendingOfMessage" xml:space="preserve">
+    <value>requiresSendingOfMessage</value>
+    <comment/>
+  </data>
+  <data name="sender" xml:space="preserve">
+    <value>sender</value>
+    <comment/>
+  </data>
+  <data name="sendTypeSendToAll" xml:space="preserve">
+    <value>SendTypeMultiSendToAll</value>
+    <comment/>
+  </data>
+  <data name="sendTypeSendToKnown" xml:space="preserve">
+    <value>SendTypeMultiSendToKnown</value>
+    <comment/>
+  </data>
+  <data name="sendTypeSendToNew" xml:space="preserve">
+    <value>SendTypeMultiSendToNew</value>
+    <comment/>
+  </data>
+  <data name="sendTypeStandard" xml:space="preserve">
+    <value>SendTypeStandard</value>
+    <comment/>
+  </data>
+  <data name="std" xml:space="preserve">
+    <value>standard-pass-ont:</value>
+    <comment/>
+  </data>
+  <data name="stdBelongsTo" xml:space="preserve">
+    <value>standard-pass-ont:belongsTo</value>
+    <comment/>
+  </data>
+  <data name="stdContains" xml:space="preserve">
+    <value>standard-pass-ont:contains</value>
+    <comment/>
+  </data>
+  <data name="stdContainsBaseBehavior" xml:space="preserve">
+    <value>standard-pass-ont:containsBaseBehavior</value>
+    <comment/>
+  </data>
+  <data name="stdContainsBehavior" xml:space="preserve">
+    <value>standard-pass-ont:containsBehavior</value>
+    <comment/>
+  </data>
+  <data name="stdContainsPayloadDescription" xml:space="preserve">
+    <value>standard-pass-ont:containsPayloadDescription</value>
+    <comment/>
+  </data>
+  <data name="stdGuardedBy" xml:space="preserve">
+    <value>standard-pass-ont:guardedBy</value>
+    <comment/>
+  </data>
+  <data name="stdGuards" xml:space="preserve">
+    <value>standard-pass-ont:guards</value>
+    <comment/>
+  </data>
+  <data name="stdGuardsBehavior" xml:space="preserve">
+    <value>standard-pass-ont:guardsBehavior</value>
+    <comment/>
+  </data>
+  <data name="stdGuardsState" xml:space="preserve">
+    <value>standard-pass-ont:guardsState</value>
+    <comment/>
+  </data>
+  <data name="stdHasBusinessDayDurationTimeOutTime" xml:space="preserve">
+    <value>standard-pass-ont:hasBusinessDayDurationTimeOutTime</value>
+    <comment/>
+  </data>
+  <data name="stdHasCalendarBasedFrequencyOrDate" xml:space="preserve">
+    <value>standard-pass-ont:hasCalendarBasedFrequencyOrDate</value>
+    <comment/>
+  </data>
+  <data name="stdHasCorrespondent" xml:space="preserve">
+    <value>standard-pass-ont:hasCorrespondent</value>
+    <comment/>
+  </data>
+  <data name="stdHasDataDefintion" xml:space="preserve">
+    <value>standard-pass-ont:hasDataDefintion</value>
+    <comment/>
+  </data>
+  <data name="stdHasDataMappingFunction" xml:space="preserve">
+    <value>standard-pass-ont:hasDataMappingFunction</value>
+    <comment/>
+  </data>
+  <data name="stdHasDataMappingString" xml:space="preserve">
+    <value>standard-pass-ont:hasDataMappingString</value>
+    <comment/>
+  </data>
+  <data name="stdHasDataType" xml:space="preserve">
+    <value>standard-pass-ont:hasDataType</value>
+    <comment/>
+  </data>
+  <data name="stdHasDayTimeDurationTimeOutTime" xml:space="preserve">
+    <value>standard-pass-ont:hasDayTimeDurationTimeOutTime</value>
+    <comment/>
+  </data>
+  <data name="stdHasDurationTimeOutTime" xml:space="preserve">
+    <value>standard-pass-ont:hasDurationTimeOutTime</value>
+    <comment/>
+  </data>
+  <data name="stdHasEndState" xml:space="preserve">
+    <value>standard-pass-ont:hasEndState</value>
+    <comment/>
+  </data>
+  <data name="stdHasExecutionMappingDefinition" xml:space="preserve">
+    <value>standard-pass-ont:hasExecutionMappingDefinition</value>
+    <comment/>
+  </data>
+  <data name="stdHasFeelExpressionAsDataMapping" xml:space="preserve">
+    <value>standard-pass-ont:hasFeelExpressionAsDataMapping</value>
+    <comment/>
+  </data>
+  <data name="stdHasFunctionSpecification" xml:space="preserve">
+    <value>standard-pass-ont:hasFunctionSpecification</value>
+    <comment/>
+  </data>
+  <data name="stdHasHandlingStrategy" xml:space="preserve">
+    <value>standard-pass-ont:hasHandlingStrategy</value>
+    <comment/>
+  </data>
+  <data name="stdHasIncomingMessageExchange" xml:space="preserve">
+    <value>standard-pass-ont:hasIncomingMessageExchange</value>
+    <comment/>
+  </data>
+  <data name="stdHasIncomingTransition" xml:space="preserve">
+    <value>standard-pass-ont:hasIncomingTransition</value>
+    <comment/>
+  </data>
+  <data name="stdHasInitialState" xml:space="preserve">
+    <value>standard-pass-ont:hasInitialState</value>
+    <comment/>
+  </data>
+  <data name="stdHasInputPoolConstraint" xml:space="preserve">
+    <value>standard-pass-ont:hasInputPoolConstraint</value>
+    <comment/>
+  </data>
+  <data name="stdhasInstanceRestriction" xml:space="preserve">
+    <value>standard-pass-ont:hasMaximumSubjectInstanceRestriction</value>
+    <comment/>
+  </data>
+  <data name="stdHasLimit" xml:space="preserve">
+    <value>standard-pass-ont:hasLimit</value>
+    <comment/>
+  </data>
+  <data name="stdHasMessageType" xml:space="preserve">
+    <value>standard-pass-ont:hasMessageType</value>
+    <comment/>
+  </data>
+  <data name="stdHasModelComponentID" xml:space="preserve">
+    <value>standard-pass-ont:hasModelComponentID</value>
+    <comment/>
+  </data>
+  <data name="stdHasModelComponentLabel" xml:space="preserve">
+    <value>standard-pass-ont:hasModelComponentLabel</value>
+    <comment/>
+  </data>
+  <data name="stdHasMultiReceiveLowerBound" xml:space="preserve">
+    <value>standard-pass-ont:hasMultiReceiveLowerBound</value>
+    <comment/>
+  </data>
+  <data name="stdHasMultiReceiveUpperBound" xml:space="preserve">
+    <value>standard-pass-ont:hasMultiReceiveUpperBound</value>
+    <comment/>
+  </data>
+  <data name="stdHasMultiSendLowerBound" xml:space="preserve">
+    <value>standard-pass-ont:hasMultiSendLowerBound</value>
+    <comment/>
+  </data>
+  <data name="stdHasMultiSendUpperBound" xml:space="preserve">
+    <value>standard-pass-ont:hasMultiSendUpperBound</value>
+    <comment/>
+  </data>
+  <data name="stdHasOutgoingMessageExchange" xml:space="preserve">
+    <value>standard-pass-ont:hasOutgoingMessageExchange</value>
+    <comment/>
+  </data>
+  <data name="stdHasOutgoingTransition" xml:space="preserve">
+    <value>standard-pass-ont:hasOutgoingTransition</value>
+    <comment/>
+  </data>
+  <data name="stdHasPriorityNumber" xml:space="preserve">
+    <value>standard-pass-ont:hasPriorityNumber</value>
+    <comment/>
+  </data>
+  <data name="stdHasReceiver" xml:space="preserve">
+    <value>standard-pass-ont:hasReceiver</value>
+    <comment/>
+  </data>
+  <data name="stdHasReceiveType" xml:space="preserve">
+    <value>standard-pass-ont:hasReceiveType</value>
+    <comment/>
+  </data>
+  <data name="stdHasReoccuranceFrequenyOrDate" xml:space="preserve">
+    <value>standard-pass-ont:hasReoccuranceFrequenyOrDate</value>
+    <comment/>
+  </data>
+  <data name="stdHasSender" xml:space="preserve">
+    <value>standard-pass-ont:hasSender</value>
+    <comment/>
+  </data>
+  <data name="stdHasSendType" xml:space="preserve">
+    <value>standard-pass-ont:hasSendType</value>
+    <comment/>
+  </data>
+  <data name="stdHasSourceState" xml:space="preserve">
+    <value>standard-pass-ont:hasSourceState</value>
+    <comment/>
+  </data>
+  <data name="stdHasStartSubject" xml:space="preserve">
+    <value>standard-pass-ont:hasStartSubject</value>
+    <comment/>
+  </data>
+  <data name="stdHasTargetState" xml:space="preserve">
+    <value>standard-pass-ont:hasTargetState</value>
+    <comment/>
+  </data>
+  <data name="stdHasTimeBasedReoccuranceFrequencyOrDate" xml:space="preserve">
+    <value>standard-pass-ont:hasTimeBasedReoccuranceFrequencyOrDate</value>
+    <comment/>
+  </data>
+  <data name="stdHasTimeValue" xml:space="preserve">
+    <value>standard-pass-ont:hasTimeValue</value>
+    <comment/>
+  </data>
+  <data name="stdHasToolSpecificDefinition" xml:space="preserve">
+    <value>standard-pass-ont:hasToolSpecificDefinition</value>
+    <comment/>
+  </data>
+  <data name="stdHasTransitionCondition" xml:space="preserve">
+    <value>standard-pass-ont:hasTransitionCondition</value>
+    <comment/>
+  </data>
+  <data name="stdHasYearMonthDurationTimeOutTime" xml:space="preserve">
+    <value>standard-pass-ont:hasYearMonthDurationTimeOutTime</value>
+    <comment/>
+  </data>
+  <data name="stdIsOptionalToEndChoiceSegmentPath" xml:space="preserve">
+    <value>standard-pass-ont:isOptionalToEndChoiceSegmentPath</value>
+    <comment/>
+  </data>
+  <data name="stdIsOptionalToStartChoiceSegmentPath" xml:space="preserve">
+    <value>standard-pass-ont:isOptionalToStartChoiceSegmentPath</value>
+    <comment/>
+  </data>
+  <data name="stdNamedIndividual" xml:space="preserve">
+    <value>owl:NamedIndividual</value>
+    <comment/>
+  </data>
+  <data name="stdReceiver" xml:space="preserve">
+    <value>standard-pass-ont:receiver</value>
+    <comment/>
+  </data>
+  <data name="stdReceiveTypeReceiveFromAll" xml:space="preserve">
+    <value>standard-pass-ont:ReceiveTypeMultiReceiveFromAllKnown</value>
+    <comment/>
+  </data>
+  <data name="stdReceiveTypeReceiveFromKnown" xml:space="preserve">
+    <value>standard-pass-ont:ReceiveTypeMultiReceiveFromKnwon</value>
+    <comment/>
+  </data>
+  <data name="stdReceiveTypeStandard" xml:space="preserve">
+    <value>standard-pass-ont:ReceiveTypeStandard</value>
+    <comment/>
+  </data>
+  <data name="stdReferences" xml:space="preserve">
+    <value>standard-pass-ont:references</value>
+    <comment/>
+  </data>
+  <data name="stdReferencesMacroBehavior" xml:space="preserve">
+    <value>standard-pass-ont:referencesMacroBehavior</value>
+    <comment/>
+  </data>
+  <data name="stdRequiresMessageSentFrom" xml:space="preserve">
+    <value>standard-pass-ont:requiresMessageSentFrom</value>
+    <comment/>
+  </data>
+  <data name="stdRequiresMessageSentTo" xml:space="preserve">
+    <value>standard-pass-ont:requiresMessageSentTo</value>
+    <comment/>
+  </data>
+  <data name="stdRequiresPerformedMessageExchange" xml:space="preserve">
+    <value>standard-pass-ont:requiresPerformedMessageExchange</value>
+    <comment/>
+  </data>
+  <data name="stdRequiresReceptionOfMessage" xml:space="preserve">
+    <value>standard-pass-ont:requiresReceptionOfMessage</value>
+    <comment/>
+  </data>
+  <data name="stdRequiresSendingOfMessage" xml:space="preserve">
+    <value>standard-pass-ont:requiresSendingOfMessage</value>
+    <comment/>
+  </data>
+  <data name="stdSender" xml:space="preserve">
+    <value>standard-pass-ont:sender</value>
+    <comment/>
+  </data>
+  <data name="stdSendTypeSendToAll" xml:space="preserve">
+    <value>standard-pass-ont:SendTypeMultiSendToAll</value>
+    <comment/>
+  </data>
+  <data name="stdSendTypeSendToKnown" xml:space="preserve">
+    <value>standard-pass-ont:SendTypeMultiSendToKnown</value>
+    <comment/>
+  </data>
+  <data name="stdSendTypeSendToNew" xml:space="preserve">
+    <value>standard-pass-ont:SendTypeMultiSendToNew</value>
+    <comment/>
+  </data>
+  <data name="stdSendTypeStandard" xml:space="preserve">
+    <value>standard-pass-ont:SendTypeStandard</value>
+    <comment/>
+  </data>
+  <data name="stdStartSubject" xml:space="preserve">
+    <value>standard-pass-ont:StartSubject</value>
+    <comment/>
+  </data>
+  <data name="TimeBasedReminderTransitionClassName" xml:space="preserve">
+    <value>TimeBasedReminderTransition</value>
+    <comment/>
+  </data>
+  <data name="TimeBasedReminderTransitionConditionClassName" xml:space="preserve">
+    <value>TimeBasedReminderTransitionCondition</value>
+    <comment/>
+  </data>
+  <data name="type" xml:space="preserve">
+    <value>type</value>
+    <comment/>
+  </data>
+  <data name="xsdDataTypeNonNegativeInt" xml:space="preserve">
+    <value>xsd:nonNegativeInteger</value>
+    <comment/>
+  </data>
+  <data name="xsdDataTypePositiveInteger" xml:space="preserve">
+    <value>xsd:positiveInteger</value>
+    <comment/>
+  </data>
+  <data name="xsdDataTypeString" xml:space="preserve">
+    <value>xsd:string</value>
+    <comment/>
+  </data>
+  <data name="xsdDayTimeDuration" xml:space="preserve">
+    <value>xsd:dayTimeDuration</value>
+    <comment/>
+  </data>
+  <data name="xsdYearMonthDuration" xml:space="preserve">
+    <value>xsd:yearMonthDuration</value>
+    <comment/>
+  </data>
+  <data name="YearMonthTimerTransitionClassName" xml:space="preserve">
+    <value>YearMonthTimerTransition</value>
+    <comment/>
+  </data>
+  <data name="YearMonthTimerTransitionConditionClassName" xml:space="preserve">
+    <value>YearMonthTimerTransitionCondition</value>
+    <comment/>
+  </data>
+  <data name="TimerTransitionConditionClassName" xml:space="preserve">
+    <value>TimerTransitionCondition</value>
+    <comment/>
+  </data>
+  <data name="ReminderEventTransitionConditionClassName" xml:space="preserve">
+    <value>ReminderEventTransitionCondition</value>
+    <comment/>
+  </data>
+  <data name="TimeTransitionConditionClassName" xml:space="preserve">
+    <value>TimeTransitionCondition</value>
+    <comment/>
+  </data>
+  <data name="xsdDuration" xml:space="preserve">
+    <value>xsd:duration</value>
+    <comment/>
+  </data>
+</root>

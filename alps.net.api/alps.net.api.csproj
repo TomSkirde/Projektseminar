@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFrameworks>netcoreapp7.0;net48</TargetFrameworks>
+		<LangVersion>latest</LangVersion>
+		<RootNamespace>alps.net.api</RootNamespace>
+		<PackageId>alps.net.api</PackageId>
+		<Version>0.9.1.7</Version>
+		<Authors>Lukas Gnad, Matthes Elstermann</Authors>
+		<Company>I2PM</Company>
+		<PackageTags>pass, ontology, modeling, subject-oriented, s-bpm</PackageTags>
+		<Product>alps.net.api</Product>
+		<Copyright>MIT License</Copyright>
+		<Description>A library to handle subject-oriented PASS or Abstract Layered PASS models. It allow to handle such models in memory as well es im- and export them from and to the OWL exchange format for these languages.</Description>
+		<PackageProjectUrl>https://github.com/I2PM/alps.net.api</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/I2PM/alps.net.api</RepositoryUrl>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="dotNetRDF"><Version>2.7.5</Version></PackageReference>
+		<PackageReference Include="Neo4j.Driver" Version="5.13.0" />
+		<PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+		<PackageReference Include="Serilog"><Version>2.11.0</Version></PackageReference>
+		<PackageReference Include="Serilog.Sinks.Console"><Version>4.0.1</Version></PackageReference>
+		<PackageReference Include="Serilog.Sinks.File"><Version>5.0.0</Version></PackageReference>
+	</ItemGroup>
+	<ItemGroup>
+	  <Compile Update="Properties\Resources.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>Resources.resx</DependentUpon>
+	  </Compile>
+	  <Compile Update="src\OWLTags.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>OWLTags.resx</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+	<ItemGroup>
+	  <EmbeddedResource Update="Properties\Resources.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="src\OWLTags.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>OWLTags.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	</ItemGroup>
+</Project>
