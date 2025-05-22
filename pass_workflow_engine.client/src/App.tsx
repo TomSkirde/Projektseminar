@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import FileUploadButton from './components/FileUploadButton';
 import GetJsonsButton from './components/GetJsonsButton';
 import DragAndDrop from './components/DragAndDrop';
+import ParseModelButton from './components/ParseModelButton';
 
 const App: React.FC = () => {
 
@@ -10,9 +11,9 @@ const App: React.FC = () => {
 
     return (
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-            
             <GetJsonsButton />
-            <DragAndDrop/>
+            <DragAndDrop />
+            <ParseModelButton />
         </div>
 
     );

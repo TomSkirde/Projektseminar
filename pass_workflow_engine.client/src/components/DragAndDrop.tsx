@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState } from 'react';
 
 const FileUploadButton: React.FC = () => {
    const [uploadStatus, setUploadStatus] = useState<string | null>(null);
@@ -25,12 +25,12 @@ const FileUploadButton: React.FC = () => {
        }
    };
 
-   const handleDrop = useCallback((event: React.DragEvent<HTMLDivElement>) => {
+   const handleDrop = (event: React.DragEvent<HTMLDivElement>) => {
        event.preventDefault();
        event.stopPropagation();
        const file = event.dataTransfer.files[0];
        if (file) handleFileUpload(file);
-   }, []);
+   };
 
    const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
        const file = event.target.files?.[0];

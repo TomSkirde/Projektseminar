@@ -12,7 +12,6 @@ namespace PASS_Workflow_Engine.Server.Controllers
     [ApiController]
     public class MainController : ControllerBase
     {
-
         [HttpPost]
         public IActionResult UploadFile(IFormFile owlfile)
         {
@@ -24,11 +23,14 @@ namespace PASS_Workflow_Engine.Server.Controllers
         {
             return Ok(new UploadFolderHandler().GetJsonsOfModels());
         }
-        
+
+        // TODO: Überlegen, ob man objekte in Controller nutzen kann, um einmal ALPSApi Reader zu
+        // initialisieren und später eine LoadModel Methode zu nutzen.
         [HttpPost]
-        public IActionResult LoadModel()
+        public IActionResult LoadModel(string OwlPath)
         {
-            return Ok(new AlpsApi());
+            AlpsParser.GetAlpsParser().ParseModels(OwlPath);
+            return Ok(AlpsParser.GetAlpsParser());
         }
     }
 }

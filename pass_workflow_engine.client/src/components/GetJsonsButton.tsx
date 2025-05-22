@@ -22,7 +22,14 @@ const GetJsonsButton: React.FC = () => {
                 headers: { Accept: 'application/json' }
             });
 
-            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            if (!res.ok) {
+                throw new Error(`HTTP ${res.status}`);
+            }
+                
+            else {
+                console.log('Request Successful');
+            }
+                
 
             // 1.erstes JSON‑Parsing (liefert String)
             const payload = await res.json() as unknown;
