@@ -22,39 +22,27 @@ export function WorkflowProvider({ children }: { children: ReactNode }) {
   const [selectedModel, setSelectedModel] = useState<FileInfo | null>(null);
   const [models, setModels] = useState<FileInfo[] | null>(null);
 
-  const handleFileUpload = async (file: File) => {
-    try {
-      if (!file.name.endsWith('.json')) {
-        setUploadStatus('Error: Please upload a JSON file');
-        return;
-      }
+    const handleFileUpload = async (file: File) => {
+        const formData = new FormData();
+        formData.append('owlfile', file);
 
-      const formData = new FormData();
-      formData.append('file', file);
+        try {
+            const response = await fetch('/api/Main/UploadFile', {
+                method: 'POST',
+                body: formData,
+            });
 
-      const response = await fetch('http://localhost:8080/upload', {
-        method: 'POST',
-        body: formData,
-      });
-
-      if (!response.ok) {
-        throw new Error('Upload failed');
-      }
-
-      const result = await response.json();
-      setUploadStatus('File uploaded successfully');
-      
-      // Refresh the models list after successful upload
-      const modelsResponse = await fetch('http://localhost:8080/models');
-      if (modelsResponse.ok) {
-        const modelsData = await modelsResponse.json();
-        setModels(modelsData);
-      }
-    } catch (error) {
-      setUploadStatus('Error uploading file');
-      console.error('Upload error:', error);
-    }
-  };
+            if (response.ok) {
+                const result = await response.text();
+                setUploadStatus(`File uploaded successfully: ${result}`);
+            } else {
+                setUploadStatus('Failed to upload file.');
+            }
+        } catch (error) {
+            console.error('Error uploading file:', error);
+            setUploadStatus('An error occurred while uploading the file.');
+        }
+    };
 
   const value = {
     uploadStatus,

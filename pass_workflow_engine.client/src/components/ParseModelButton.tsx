@@ -13,7 +13,20 @@ const ParseModelButton: React.FC = () => {
             const response = await fetch('/api/Main/LoadModel', {
                 method: "POST",
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    '
                 },
                 body: JSON.stringify({ OwlPath: selectedModel.Path })
             });

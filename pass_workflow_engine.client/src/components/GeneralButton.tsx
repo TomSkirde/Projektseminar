@@ -215,7 +215,7 @@ export const GeneralButton: React.FC<GeneralButtonProps> = ({
               type="file"
               onChange={handleFileSelect}
               style={styles.hiddenInput}
-              accept=".json"
+              accept=".owl"
             />
             {uploadStatus && (
               <p style={{
